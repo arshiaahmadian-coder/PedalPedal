@@ -42,10 +42,10 @@ public class PlayerController : MonoBehaviour
         direction.Normalize();
         float currentSpeedInDirection = Vector2.Dot(rb.linearVelocity, direction);
 
-        if (currentSpeedInDirection < 0)
-        {
-            rb.linearVelocity -= direction * currentSpeedInDirection;
-        }
+        // if (currentSpeedInDirection < 0)
+        // {
+        //     rb.linearVelocity -= direction * currentSpeedInDirection;
+        // }
 
         rb.AddForce(direction * force, ForceMode2D.Impulse);
 
