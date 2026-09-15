@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 8cbe7bfa9fff4a7448b66a419dd5f357
+guid: 2878fe2bcb571f042b609bd937aef564
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2182124076254010665
-    second: rock_0
-  - first:
-      213: 2115267796186251350
-    second: rock_1
+      213: -1837720154168442607
+    second: boat trail_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -142,23 +139,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rock_1
+      name: boat trail_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 132
-        width: 583
-        height: 300
+        x: 280
+        y: 262
+        width: 416
+        height: 406
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 650418c7ad0fa5d10800000000000000
-      internalID: 2115267796186251350
+      spriteID: 111c636a14b1f76e0800000000000000
+      internalID: -1837720154168442607
       vertices: []
       indices: 
       edges: []
@@ -167,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 12edee25b0e842249aa4bcc59d3af757
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -177,8 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      rock_0: -2182124076254010665
-      rock_1: 2115267796186251350
+      boat trail_0: -1837720154168442607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

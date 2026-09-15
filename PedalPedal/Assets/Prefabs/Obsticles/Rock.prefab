@@ -80,7 +80,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1106191659
-  m_SortingLayer: -2
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2115267796186251350, guid: 8cbe7bfa9fff4a7448b66a419dd5f357, type: 3}
@@ -127,17 +127,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0078549385, y: -0.15709233}
+  m_Offset: {x: 0.0078549385, y: -0.13755417}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.166, y: 0.754}
+    oldSize: {x: 1.166, y: 0.6}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.0298529, y: 0.36650515}
+  m_Size: {x: 1.0298529, y: 0.32742882}
   m_EdgeRadius: 0
 --- !u!58 &7442458698637800540
 CircleCollider2D:
@@ -173,5 +173,5 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.013091207, y: 0.035}
-  m_Radius: 0.30023372
+  m_Offset: {x: 0, y: -0.03000027}
+  m_Radius: 0.26506478
