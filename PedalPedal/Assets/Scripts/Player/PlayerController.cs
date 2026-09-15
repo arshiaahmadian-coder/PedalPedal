@@ -11,6 +11,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float paddleForceSide;
     [SerializeField] private float maxSpeed;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip[] PedalClips;
+
     public bool canPaddle = true;
 
     public void PaddleNE() {
@@ -50,16 +54,15 @@ public class PlayerController : MonoBehaviour
         direction.Normalize();
         float currentSpeedInDirection = Vector2.Dot(rb.linearVelocity, direction);
 
-        // if (currentSpeedInDirection < 0)
-        // {
-        //     rb.linearVelocity -= direction * currentSpeedInDirection;
-        // }
-
+        // limitting speed
         rb.AddForce(direction * force, ForceMode2D.Impulse);
 
         if (rb.linearVelocity.magnitude > maxSpeed)
         {
             rb.linearVelocity = rb.linearVelocity.normalized * maxSpeed;
         }
+
+        // sound effect
+        SoundManager.instance.PlaySoundEffect(audioSource, PedalClips[Random.Range(0, PedalClips.Length)]);
     }
 }
