@@ -294,6 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomButton
   OnButtonDown: 1
+  animator: {fileID: 558966560}
   onClick:
     m_PersistentCalls:
       m_Calls:
@@ -309,7 +310,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  animator: {fileID: 558966560}
 --- !u!222 &9016740
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -721,6 +721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomButton
   OnButtonDown: 1
+  animator: {fileID: 443685383}
   onClick:
     m_PersistentCalls:
       m_Calls:
@@ -736,7 +737,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  animator: {fileID: 443685383}
 --- !u!222 &16864584
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9385,6 +9385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomButton
   OnButtonDown: 1
+  animator: {fileID: 1615726131}
   onClick:
     m_PersistentCalls:
       m_Calls:
@@ -9400,7 +9401,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  animator: {fileID: 1615726131}
 --- !u!222 &363784204
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9584,6 +9584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomButton
   OnButtonDown: 1
+  animator: {fileID: 1891116178}
   onClick:
     m_PersistentCalls:
       m_Calls:
@@ -9599,7 +9600,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  animator: {fileID: 1891116178}
 --- !u!222 &369568213
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15015,6 +15015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomButton
   OnButtonDown: 1
+  animator: {fileID: 1051052130}
   onClick:
     m_PersistentCalls:
       m_Calls:
@@ -15030,7 +15031,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  animator: {fileID: 1051052130}
 --- !u!222 &609534591
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17061,6 +17061,7 @@ MonoBehaviour:
   screenShake: {fileID: 410481023}
   impactClip: {fileID: 8300000, guid: 627be42fad0d39541ab2d36528782c4c, type: 3}
   rb: {fileID: 689836097}
+  cinemachineCamera: {fileID: 0}
 --- !u!70 &689836101
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -17603,6 +17604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomButton
   OnButtonDown: 1
+  animator: {fileID: 1788870676}
   onClick:
     m_PersistentCalls:
       m_Calls:
@@ -17618,7 +17620,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  animator: {fileID: 1788870676}
 --- !u!222 &701436060
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -5,8 +5,8 @@ using UnityEngine.EventSystems;
 public class CustomButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     [SerializeField] private bool OnButtonDown;
-    [SerializeField] private UnityEvent onClick;
     [SerializeField] private Animator animator;
+    public UnityEvent onClick;
 
     public void OnPointerDown(PointerEventData eventData)
     {
