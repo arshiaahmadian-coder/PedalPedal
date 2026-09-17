@@ -197,7 +197,7 @@ GameObject:
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -228,7 +228,7 @@ SortingGroup:
   m_GameObject: {fileID: 2004850522663755555}
   m_Enabled: 1
   m_SortingLayerID: 1106191659
-  m_SortingLayer: -2
+  m_SortingLayer: 2
   m_SortingOrder: 15
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
