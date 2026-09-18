@@ -4,24 +4,16 @@ using UnityEngine;
 public class DialogManager : MonoBehaviour
 {
     [SerializeField] private Animator animator;
-    [SerializeField] private GameObject Controllers;
-    [SerializeField] private GameObject touchArea;
+    public GameObject touchArea;
     [SerializeField] private TMP_Text dialogText;
     [SerializeField] private AudioSource audioSource;
 
     [Header("dialog settings")]
     
     [SerializeField] private float startDelay;
-    [SerializeField] private DialogData dialogData;
+    public DialogData dialogData;
 
-    private int dialogIndex = 0;
-
-    private void Start()
-    {
-        Controllers.SetActive(false);
-        touchArea.SetActive(false);
-        Invoke(nameof(StartDialogCycle), startDelay);
-    }
+    public int dialogIndex = 0;
 
     public void StartDialogCycle()
     {
@@ -34,6 +26,7 @@ public class DialogManager : MonoBehaviour
     {
         touchArea.SetActive(false);
         animator.SetTrigger("Down");
+        LevelManager.instance.EndOfDialogCycle();
     }
 
     public void NextDialog()
@@ -50,7 +43,7 @@ public class DialogManager : MonoBehaviour
 
     public void EnableControllers()
     {
-        Controllers.SetActive(true);
+        
     }
 
     public void OnNextClick()
