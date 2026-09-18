@@ -3,6 +3,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DialogData", menuName = "Scriptable Objects/DialogData")]
 public class DialogData : ScriptableObject
 {
+    public bool zoomCamera = false;
+    public float zoomAmount;
     public bool multySprites = false;
     public bool multyVoiceLines = false;
     public Sprite[] dialogCharacterList;

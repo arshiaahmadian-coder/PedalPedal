@@ -17,11 +17,11 @@ public class LevelManager : MonoBehaviour
     [SerializeField]  Transform RoodabehLetterPos;
     [SerializeField]  Transform PlayerLetterPos;
     [SerializeField]  LetterThrower letterThrower;
-    [SerializeField]  Characters letterHolder;
     [SerializeField]  GameObject ZaalLatterObject;
     [SerializeField]  GameObject RoodabehLatterObject;
 
     [Header("Dialog settings")]
+    [SerializeField] CinemachineSmoothZoom cinemachineSmoothZoom;
     [SerializeField] DialogManager dialogManager;
     [SerializeField] bool hasStartDialog = false;
     [SerializeField] private DialogData StarterDialogData;
@@ -31,13 +31,13 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private float endDialogDelay = 0f;
 
     private int gameStage = 0;
+    private bool playerHasLatter = false;
     public static LevelManager instance;
     private void Awake() { instance = this; }
 
     private void Start()
     {
-        letterHolder = letterSenderCharacter;
-        if (letterHolder == Characters.Zaal)
+        if (letterSenderCharacter == Characters.Zaal)
         {
             letterThrower.spriteRenderer = ZaalLatterObject.GetComponent<SpriteRenderer>();
         } else
@@ -47,6 +47,10 @@ public class LevelManager : MonoBehaviour
 
         if (hasStartDialog)
         {
+            if (dialogManager.dialogData.zoomCamera) {
+                cinemachineSmoothZoom.ZoomBy(dialogManager.dialogData.zoomAmount);
+            }
+
             Controllers.SetActive(false);
             dialogManager.touchArea.SetActive(false);
             dialogManager.dialogData = StarterDialogData;
@@ -87,18 +91,24 @@ public class LevelManager : MonoBehaviour
 
     public void ThrowLetter()
     {
-        // set end pos
         Vector2 endPos = PlayerLetterPos.position;
-        if (letterHolder == Characters.Player)
-            endPos = (letterSenderCharacter == Characters.Zaal) 
-            ? RoodabehLetterPos.position 
-            : ZaalLetterPos.position;
+        Vector2 startPos = PlayerLetterPos.position;
 
-        // set start pos
-        Vector2 startPos;
-        if (letterHolder == Characters.Roodabeh) startPos = RoodabehLetterPos.position;
-        else if (letterHolder == Characters.Zaal) startPos = ZaalLetterPos.position;
-        else startPos = PlayerLetterPos.position;
+        if (playerHasLatter)
+        {
+            if (letterSenderCharacter == Characters.Zaal)
+                endPos = RoodabehLetterPos.position;
+            else
+                endPos = ZaalLetterPos.position;
+        } else
+        {
+            if (letterSenderCharacter == Characters.Zaal) 
+                startPos = ZaalLetterPos.position;
+            else 
+                startPos = RoodabehLetterPos.position;
+        }
+
+        playerHasLatter = !playerHasLatter;
 
         // set values
         letterThrower.ThrowLetter(
@@ -108,24 +118,20 @@ public class LevelManager : MonoBehaviour
             startPos, endPos,
             LetterOnMidPoint, LetterOnComplete
         );
-
-        // reset "letterHolder"
-        if (endPos == new Vector2(PlayerLetterPos.position.x, PlayerLetterPos.position.y))
-            letterHolder = Characters.Player;
-        else if (endPos == new Vector2(ZaalLetterPos.position.x, ZaalLetterPos.position.y))
-            letterHolder = Characters.Zaal;
-        else if (endPos == new Vector2(RoodabehLetterPos.position.x, RoodabehLetterPos.position.y))
-            letterHolder = Characters.Roodabeh;
-        else print("ERR 1254");
     }
 
     private void LetterOnMidPoint() {
-        letterThrower.spriteRenderer.sortingOrder = (letterHolder == Characters.Player) ? 20 : 10;
+        letterThrower.spriteRenderer.sortingOrder = playerHasLatter ? 8 : 20;
     }
 
     private void LetterOnComplete() {
-        if (letterHolder == Characters.Player)
+        if (playerHasLatter)
+        {
             Controllers.SetActive(true);
+            if (dialogManager.dialogData.zoomCamera) {
+                cinemachineSmoothZoom.ZoomBy(-dialogManager.dialogData.zoomAmount);
+            }
+        }
         else
         {
             // letter recived to Roodabeh/Zaal

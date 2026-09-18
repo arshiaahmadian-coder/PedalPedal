@@ -1490,7 +1490,6 @@ MonoBehaviour:
   touchArea: {fileID: 745364745}
   dialogText: {fileID: 1924718731}
   audioSource: {fileID: 29840972}
-  startDelay: 1
   dialogData: {fileID: 11400000, guid: aea3acd9fb45f124e8fbd5374f11fcdc, type: 2}
   dialogIndex: 0
 --- !u!82 &29840972
@@ -12909,6 +12908,7 @@ GameObject:
   - component: {fileID: 410481019}
   - component: {fileID: 410481022}
   - component: {fileID: 410481023}
+  - component: {fileID: 410481024}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -13023,6 +13023,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScreenShake
   virtualCam: {fileID: 410481020}
+--- !u!114 &410481024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410481018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d54438e78e7144b98460f44e026658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CinemachineSmoothZoom
+  virtualCamera: {fileID: 410481020}
+  targetOrthoSize: 7.5
+  zoomSpeed: 7
 --- !u!1001 &411502406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18595,13 +18610,13 @@ MonoBehaviour:
   RoodabehLetterPos: {fileID: 1363335296}
   PlayerLetterPos: {fileID: 873186682}
   letterThrower: {fileID: 1977712437}
-  letterHolder: 0
   ZaalLatterObject: {fileID: 940945832}
   RoodabehLatterObject: {fileID: 1726356183}
+  cinemachineSmoothZoom: {fileID: 410481024}
   dialogManager: {fileID: 29840971}
   hasStartDialog: 1
   StarterDialogData: {fileID: 11400000, guid: aea3acd9fb45f124e8fbd5374f11fcdc, type: 2}
-  startDialogDelay: 1
+  startDialogDelay: 0.5
   hasEndDialog: 0
   endingDialogData: {fileID: 0}
   endDialogDelay: 0
@@ -28638,9 +28653,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1868926059
+  m_SortingLayer: 3
+  m_SortingOrder: 20
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4166547581983238525, guid: b2b5c7b820f2f55449009692df5f5409, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -53573,9 +53588,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1868926059
+  m_SortingLayer: 3
+  m_SortingOrder: 20
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4855845719144054731, guid: b2b5c7b820f2f55449009692df5f5409, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -60818,7 +60833,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1977712436}
-  - component: {fileID: 1977712435}
   - component: {fileID: 1977712437}
   m_Layer: 0
   m_Name: Love Latter
@@ -60827,19 +60841,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!210 &1977712435
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977712434}
-  m_Enabled: 1
-  m_SortingLayerID: -1868926059
-  m_SortingLayer: 3
-  m_SortingOrder: 21
-  m_SortAtRoot: 0
-  m_Sort3DAs2D: 0
 --- !u!4 &1977712436
 Transform:
   m_ObjectHideFlags: 0

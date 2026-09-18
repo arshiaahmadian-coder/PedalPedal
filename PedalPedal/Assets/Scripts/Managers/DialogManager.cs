@@ -9,8 +9,6 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
 
     [Header("dialog settings")]
-    
-    [SerializeField] private float startDelay;
     public DialogData dialogData;
 
     public int dialogIndex = 0;
