@@ -1,0 +1,688 @@
+fileFormatVersion: 2
+guid: d34d56139236e4041bc74e78dc4d8241
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -747738870015031276
+    second: circle Buttons low detail_0
+  - first:
+      213: 6872416416680225174
+    second: circle Buttons low detail_1
+  - first:
+      213: -8625341975723292315
+    second: circle Buttons low detail_2
+  - first:
+      213: -8493375738712337168
+    second: circle Buttons low detail_3
+  - first:
+      213: -6647193927900861225
+    second: circle Buttons low detail_4
+  - first:
+      213: -6905447822766280563
+    second: circle Buttons low detail_5
+  - first:
+      213: 3128197942678910218
+    second: circle Buttons low detail_6
+  - first:
+      213: 5576737870301238333
+    second: circle Buttons low detail_7
+  - first:
+      213: -712130505458559808
+    second: circle Buttons low detail_8
+  - first:
+      213: -3293076671438575381
+    second: circle Buttons low detail_9
+  - first:
+      213: 3895744468918819298
+    second: circle Buttons low detail_10
+  - first:
+      213: -1911823902631432079
+    second: circle Buttons low detail_11
+  - first:
+      213: 6692474477558391911
+    second: circle Buttons low detail_12
+  - first:
+      213: 7634949190987723623
+    second: circle Buttons low detail_13
+  - first:
+      213: -2374902762149191368
+    second: circle Buttons low detail_14
+  - first:
+      213: 8216834753646319205
+    second: circle Buttons low detail_15
+  - first:
+      213: 8183040690000239486
+    second: circle Buttons low detail_16
+  - first:
+      213: -6836947024615908240
+    second: circle Buttons low detail_17
+  - first:
+      213: 4408216232828024165
+    second: circle Buttons low detail_18
+  - first:
+      213: 255126582869578119
+    second: circle Buttons low detail_19
+  - first:
+      213: 8407750185675614033
+    second: circle Buttons low detail_20
+  - first:
+      213: 9087009273348173288
+    second: circle Buttons low detail_21
+  - first:
+      213: 1831003708766260037
+    second: circle Buttons low detail_22
+  - first:
+      213: 765210812525115976
+    second: circle Buttons low detail_23
+  - first:
+      213: -3397208501121020013
+    second: circle Buttons low detail_24
+  - first:
+      213: 233278838557856406
+    second: circle Buttons low detail_25
+  - first:
+      213: 1713087574462571765
+    second: circle Buttons low detail_26
+  - first:
+      213: -2795544853012010388
+    second: circle Buttons low detail_27
+  - first:
+      213: -7297655251378108743
+    second: circle Buttons low detail_28
+  - first:
+      213: -8482676814187126396
+    second: circle Buttons low detail_29
+  - first:
+      213: 7982996936070234181
+    second: circle Buttons low detail_30
+  - first:
+      213: 7276944299133025073
+    second: circle Buttons low detail_31
+  - first:
+      213: -5074491864726325837
+    second: circle Buttons low detail_32
+  - first:
+      213: -3162494758593134168
+    second: circle Buttons low detail_33
+  - first:
+      213: -1499332298640229086
+    second: circle Buttons low detail_34
+  - first:
+      213: 3362518720493458626
+    second: circle Buttons low detail_35
+  - first:
+      213: 4426898013606269215
+    second: circle Buttons low detail_36
+  - first:
+      213: -2595060391846325630
+    second: circle Buttons low detail_37
+  - first:
+      213: 3576708745161991829
+    second: circle Buttons low detail_38
+  - first:
+      213: 8469307493761610229
+    second: circle Buttons low detail_39
+  - first:
+      213: -3855930821099588254
+    second: circle Buttons low detail_40
+  - first:
+      213: -6735009751710928228
+    second: circle Buttons low detail_41
+  - first:
+      213: -6371096860051301716
+    second: circle Buttons low detail_42
+  - first:
+      213: 8037193721446402763
+    second: circle Buttons low detail_43
+  - first:
+      213: -6082410666758736936
+    second: circle Buttons low detail_44
+  - first:
+      213: -2629060297829825678
+    second: circle Buttons low detail_45
+  - first:
+      213: -7509041607123222916
+    second: circle Buttons low detail_46
+  - first:
+      213: 6917980784365997104
+    second: circle Buttons low detail_47
+  - first:
+      213: 5797432338347095626
+    second: circle Buttons low detail_48
+  - first:
+      213: 5395709290602753389
+    second: circle Buttons low detail_49
+  - first:
+      213: 4521876572089235019
+    second: circle Buttons low detail_50
+  - first:
+      213: -6667984606675317607
+    second: circle Buttons low detail_51
+  - first:
+      213: -7681868841348065115
+    second: circle Buttons low detail_52
+  - first:
+      213: 107163436926961306
+    second: circle Buttons low detail_53
+  - first:
+      213: 848250624618789321
+    second: circle Buttons low detail_54
+  - first:
+      213: 3856533910780475433
+    second: circle Buttons low detail_55
+  - first:
+      213: -628338305519016648
+    second: circle Buttons low detail_56
+  - first:
+      213: 5895126974158377789
+    second: circle Buttons low detail_57
+  - first:
+      213: 2081956573234392784
+    second: circle Buttons low detail_58
+  - first:
+      213: 2506007606506028753
+    second: circle Buttons low detail_59
+  - first:
+      213: -5791176535455063996
+    second: circle Buttons low detail_60
+  - first:
+      213: 4195059963104434540
+    second: circle Buttons low detail_61
+  - first:
+      213: 5780554310690924499
+    second: circle Buttons low detail_62
+  - first:
+      213: -7118021081610277767
+    second: circle Buttons low detail_63
+  - first:
+      213: 3985262172697073574
+    second: circle Buttons low detail_64
+  - first:
+      213: 8272713680390344427
+    second: circle Buttons low detail_65
+  - first:
+      213: 3675646163256074796
+    second: circle Buttons low detail_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: circle Buttons low detail_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 679
+        width: 273
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418800c957f7f95f0800000000000000
+      internalID: -747738870015031276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle Buttons low detail_5
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 677
+        width: 273
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d807505bacbea20a0800000000000000
+      internalID: -6905447822766280563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle Buttons low detail_13
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 675
+        width: 275
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763baf666d9c4f960800000000000000
+      internalID: 7634949190987723623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle Buttons low detail_22
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 676
+        width: 271
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b8f6b0c28096910800000000000000
+      internalID: 1831003708766260037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle Buttons low detail_25
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 376
+        width: 275
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6925bd12ed5cc3300800000000000000
+      internalID: 233278838557856406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle Buttons low detail_26
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 376
+        width: 274
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f42af8921c16c710800000000000000
+      internalID: 1713087574462571765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle Buttons low detail_28
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 374
+        width: 275
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b60858a63589ba90800000000000000
+      internalID: -7297655251378108743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle Buttons low detail_29
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 375
+        width: 274
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4812fe1716a774a80800000000000000
+      internalID: -8482676814187126396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle Buttons low detail_37
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 69
+        width: 275
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2825055a25e7cfbd0800000000000000
+      internalID: -2595060391846325630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle Buttons low detail_39
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 69
+        width: 275
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1f6331b46098570800000000000000
+      internalID: 8469307493761610229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle Buttons low detail_41
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 71
+        width: 275
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c927a7e70507882a0800000000000000
+      internalID: -6735009751710928228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle Buttons low detail_42
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 70
+        width: 271
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa190b49215597a0800000000000000
+      internalID: -6371096860051301716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ec1f5d590616c3f479151c157887614e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      circle Buttons low detail_0: -747738870015031276
+      circle Buttons low detail_1: 6872416416680225174
+      circle Buttons low detail_10: 3895744468918819298
+      circle Buttons low detail_11: -1911823902631432079
+      circle Buttons low detail_12: 6692474477558391911
+      circle Buttons low detail_13: 7634949190987723623
+      circle Buttons low detail_14: -2374902762149191368
+      circle Buttons low detail_15: 8216834753646319205
+      circle Buttons low detail_16: 8183040690000239486
+      circle Buttons low detail_17: -6836947024615908240
+      circle Buttons low detail_18: 4408216232828024165
+      circle Buttons low detail_19: 255126582869578119
+      circle Buttons low detail_2: -8625341975723292315
+      circle Buttons low detail_20: 8407750185675614033
+      circle Buttons low detail_21: 9087009273348173288
+      circle Buttons low detail_22: 1831003708766260037
+      circle Buttons low detail_23: 765210812525115976
+      circle Buttons low detail_24: -3397208501121020013
+      circle Buttons low detail_25: 233278838557856406
+      circle Buttons low detail_26: 1713087574462571765
+      circle Buttons low detail_27: -2795544853012010388
+      circle Buttons low detail_28: -7297655251378108743
+      circle Buttons low detail_29: -8482676814187126396
+      circle Buttons low detail_3: -8493375738712337168
+      circle Buttons low detail_30: 7982996936070234181
+      circle Buttons low detail_31: 7276944299133025073
+      circle Buttons low detail_32: -5074491864726325837
+      circle Buttons low detail_33: -3162494758593134168
+      circle Buttons low detail_34: -1499332298640229086
+      circle Buttons low detail_35: 3362518720493458626
+      circle Buttons low detail_36: 4426898013606269215
+      circle Buttons low detail_37: -2595060391846325630
+      circle Buttons low detail_38: 3576708745161991829
+      circle Buttons low detail_39: 8469307493761610229
+      circle Buttons low detail_4: -6647193927900861225
+      circle Buttons low detail_40: -3855930821099588254
+      circle Buttons low detail_41: -6735009751710928228
+      circle Buttons low detail_42: -6371096860051301716
+      circle Buttons low detail_43: 8037193721446402763
+      circle Buttons low detail_44: -6082410666758736936
+      circle Buttons low detail_45: -2629060297829825678
+      circle Buttons low detail_46: -7509041607123222916
+      circle Buttons low detail_47: 6917980784365997104
+      circle Buttons low detail_48: 5797432338347095626
+      circle Buttons low detail_49: 5395709290602753389
+      circle Buttons low detail_5: -6905447822766280563
+      circle Buttons low detail_50: 4521876572089235019
+      circle Buttons low detail_51: -6667984606675317607
+      circle Buttons low detail_52: -7681868841348065115
+      circle Buttons low detail_53: 107163436926961306
+      circle Buttons low detail_54: 848250624618789321
+      circle Buttons low detail_55: 3856533910780475433
+      circle Buttons low detail_56: -628338305519016648
+      circle Buttons low detail_57: 5895126974158377789
+      circle Buttons low detail_58: 2081956573234392784
+      circle Buttons low detail_59: 2506007606506028753
+      circle Buttons low detail_6: 3128197942678910218
+      circle Buttons low detail_60: -5791176535455063996
+      circle Buttons low detail_61: 4195059963104434540
+      circle Buttons low detail_62: 5780554310690924499
+      circle Buttons low detail_63: -7118021081610277767
+      circle Buttons low detail_64: 3985262172697073574
+      circle Buttons low detail_65: 8272713680390344427
+      circle Buttons low detail_66: 3675646163256074796
+      circle Buttons low detail_7: 5576737870301238333
+      circle Buttons low detail_8: -712130505458559808
+      circle Buttons low detail_9: -3293076671438575381
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

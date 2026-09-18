@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3d13d18f943e63045b12daee16b56a8c
+guid: f9a2cc0cf6195994d85d3e5258fd3afe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4104299807747537530
-    second: Paddle Button 2_0
+      213: -2965804828057870771
+    second: circle Buttons_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,23 +139,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Paddle Button_0
+      name: circle Buttons_0
       rect:
         serializedVersion: 2
-        x: 355
-        y: 95
-        width: 830
-        height: 831
+        x: 1150
+        y: 678
+        width: 299
+        height: 303
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ed87ee83857d6d0800000000000000
+      internalID: -2965804828057870771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle Buttons_1
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 366
+        width: 302
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84b028a116ffff04e89ff5cffbb2c930
-      internalID: 1171480512
+      spriteID: 1afdf47cc143ef54597af10f60db4118
+      internalID: 1385442766
       vertices: []
       indices: 
       edges: []
@@ -164,7 +186,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 87593a04b60b9224eb57882d17497448
+    spriteID: 3f62d76b22acda0438fd2ebf0112dfa3
     internalID: 0
     vertices: []
     indices: 
@@ -172,11 +194,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Paddle Button_0: 1171480512
+      circle Buttons_0: -2965804828057870771
+      circle Buttons_1: 1385442766
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

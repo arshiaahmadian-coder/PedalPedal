@@ -1,10 +1,88 @@
 fileFormatVersion: 2
-guid: 3d13d18f943e63045b12daee16b56a8c
+guid: aa05e932fc293964ea65e7a3085fb43b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4104299807747537530
-    second: Paddle Button 2_0
+      213: 2530564911472380330
+    second: button_0
+  - first:
+      213: 1763989116612304091
+    second: button_1
+  - first:
+      213: -5033884579438549468
+    second: button_2
+  - first:
+      213: 1120241560109220500
+    second: button_3
+  - first:
+      213: -8506607990533810358
+    second: button_4
+  - first:
+      213: 4832351623212807583
+    second: button_5
+  - first:
+      213: -2485853453045848371
+    second: button_6
+  - first:
+      213: -2868591522439195930
+    second: button_7
+  - first:
+      213: 6826453141057583826
+    second: button_8
+  - first:
+      213: 3232991429008628876
+    second: button_9
+  - first:
+      213: 1104483176855393214
+    second: button_10
+  - first:
+      213: -1722769315080537714
+    second: button_11
+  - first:
+      213: -2860856553790538114
+    second: button_12
+  - first:
+      213: 702685496787354900
+    second: button_13
+  - first:
+      213: -6071555661108042985
+    second: button_14
+  - first:
+      213: -1689105498445127830
+    second: button_15
+  - first:
+      213: -4281808967473951206
+    second: button_16
+  - first:
+      213: 7933198646461868295
+    second: button_17
+  - first:
+      213: 7215528416610097181
+    second: button_18
+  - first:
+      213: 5502135417155760406
+    second: button_19
+  - first:
+      213: -3197998284132093886
+    second: button_20
+  - first:
+      213: 983148594795117285
+    second: button_21
+  - first:
+      213: 8596288194677034812
+    second: button_22
+  - first:
+      213: 6537627312518913459
+    second: button_23
+  - first:
+      213: 8715570275596425439
+    second: button_24
+  - first:
+      213: -804602230577186493
+    second: button_25
+  - first:
+      213: -3281365960629188926
+    second: button_26
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,23 +217,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Paddle Button_0
+      name: button_0
       rect:
         serializedVersion: 2
-        x: 355
-        y: 95
-        width: 830
-        height: 831
+        x: 189
+        y: 65
+        width: 763
+        height: 775
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 84b028a116ffff04e89ff5cffbb2c930
-      internalID: 1171480512
+      spriteID: aa90165216f5e1320800000000000000
+      internalID: 2530564911472380330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_2
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 37
+        width: 487
+        height: 766
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426af3a45ac042ab0800000000000000
+      internalID: -5033884579438549468
       vertices: []
       indices: 
       edges: []
@@ -164,7 +264,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 87593a04b60b9224eb57882d17497448
+    spriteID: 83c7facbde673fa4bbd612cadfaff142
     internalID: 0
     vertices: []
     indices: 
@@ -172,11 +272,35 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Paddle Button_0: 1171480512
+      button_0: 2530564911472380330
+      button_1: 1763989116612304091
+      button_10: 1104483176855393214
+      button_11: -1722769315080537714
+      button_12: -2860856553790538114
+      button_13: 702685496787354900
+      button_14: -6071555661108042985
+      button_15: -1689105498445127830
+      button_16: -4281808967473951206
+      button_17: 7933198646461868295
+      button_18: 7215528416610097181
+      button_19: 5502135417155760406
+      button_2: -5033884579438549468
+      button_20: -3197998284132093886
+      button_21: 983148594795117285
+      button_22: 8596288194677034812
+      button_23: 6537627312518913459
+      button_24: 8715570275596425439
+      button_25: -804602230577186493
+      button_26: -3281365960629188926
+      button_3: 1120241560109220500
+      button_4: -8506607990533810358
+      button_5: 4832351623212807583
+      button_6: -2485853453045848371
+      button_7: -2868591522439195930
+      button_8: 6826453141057583826
+      button_9: 3232991429008628876
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

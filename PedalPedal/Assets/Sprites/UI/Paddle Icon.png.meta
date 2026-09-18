@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: 5c690b44f8c252a4a8239404a1b64f78
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -840534435558201070
+    second: Paddle Icon_0
+  - first:
+      213: -4446206642452488585
+    second: Paddle Icon_1
+  - first:
+      213: 8492737181132183190
+    second: Paddle Icon_2
+  - first:
+      213: -8121637814767482652
+    second: Paddle Icon_3
+  - first:
+      213: 4207722084095551270
+    second: Paddle Icon_4
+  - first:
+      213: -4419287931438636583
+    second: Paddle Icon_5
+  - first:
+      213: 4777248104200332960
+    second: Paddle Icon_6
+  - first:
+      213: 2703121747049918984
+    second: Paddle Icon_7
+  - first:
+      213: -7491937845093413536
+    second: Paddle Icon_8
+  - first:
+      213: -1899894658988695587
+    second: Paddle Icon_9
+  - first:
+      213: -131358878204953077
+    second: Paddle Icon_10
+  - first:
+      213: 934051243423401678
+    second: Paddle Icon_11
+  - first:
+      213: -7640420107288065965
+    second: Paddle Icon_12
+  - first:
+      213: 4051791928874599221
+    second: Paddle Icon_13
+  - first:
+      213: 7865032786901779884
+    second: Paddle Icon_14
+  - first:
+      213: 7124315047115460256
+    second: Paddle Icon_15
+  - first:
+      213: -4945430590938032301
+    second: Paddle Icon_16
+  - first:
+      213: -1346775976128846661
+    second: Paddle Icon_17
+  - first:
+      213: 5590843571587221287
+    second: Paddle Icon_18
+  - first:
+      213: -6929556243519361200
+    second: Paddle Icon_19
+  - first:
+      213: -6968107334228114932
+    second: Paddle Icon_20
+  - first:
+      213: 7862282899837210192
+    second: Paddle Icon_21
+  - first:
+      213: -4308298351578463039
+    second: Paddle Icon_22
+  - first:
+      213: -819196215509783864
+    second: Paddle Icon_23
+  - first:
+      213: -7012198001786671792
+    second: Paddle Icon_24
+  - first:
+      213: -9072224104008010781
+    second: Paddle Icon_25
+  - first:
+      213: 5355099891001448459
+    second: Paddle Icon_26
+  - first:
+      213: -5120067744188951321
+    second: Paddle Icon_27
+  - first:
+      213: 5526685765532397388
+    second: Paddle Icon_28
+  - first:
+      213: -1760445127245966074
+    second: Paddle Icon_29
+  - first:
+      213: 6353417543382200896
+    second: Paddle Icon_30
+  - first:
+      213: -8277314629133834865
+    second: Paddle Icon_31
+  - first:
+      213: 2437799087497232950
+    second: Paddle Icon_32
+  - first:
+      213: -1463813675041152863
+    second: Paddle Icon_33
+  - first:
+      213: 2805174098884843338
+    second: Paddle Icon_34
+  - first:
+      213: -8206969019882576640
+    second: Paddle Icon_35
+  - first:
+      213: 1932554207012798482
+    second: Paddle Icon_36
+  - first:
+      213: 2294813678077823490
+    second: Paddle Icon_37
+  - first:
+      213: -540832904471047343
+    second: Paddle Icon_38
+  - first:
+      213: 6783479964219103785
+    second: Paddle Icon_39
+  - first:
+      213: -3014469199093225919
+    second: Paddle Icon_40
+  - first:
+      213: -6077790273653288383
+    second: Paddle Icon_41
+  - first:
+      213: 4379102807104044427
+    second: Paddle Icon_42
+  - first:
+      213: 51644617586636646
+    second: Paddle Icon_43
+  - first:
+      213: 3924682157708159711
+    second: Paddle Icon_44
+  - first:
+      213: 992798237568544026
+    second: Paddle Icon_45
+  - first:
+      213: -809480970055999370
+    second: Paddle Icon_46
+  - first:
+      213: -687186741290001984
+    second: Paddle Icon_47
+  - first:
+      213: -8341898243442698838
+    second: Paddle Icon_48
+  - first:
+      213: 4472333251391505493
+    second: Paddle Icon_49
+  - first:
+      213: -230566563322306219
+    second: Paddle Icon_50
+  - first:
+      213: 4348687893133348972
+    second: Paddle Icon_51
+  - first:
+      213: -7550585572847135087
+    second: Paddle Icon_52
+  - first:
+      213: 2175322706534104128
+    second: Paddle Icon_53
+  - first:
+      213: -3094964898062377912
+    second: Paddle Icon_54
+  - first:
+      213: -1401995395985274699
+    second: Paddle Icon_55
+  - first:
+      213: 8863817697213369026
+    second: Paddle Icon_56
+  - first:
+      213: 5420720267484422469
+    second: Paddle Icon_57
+  - first:
+      213: 5740064738452121236
+    second: Paddle Icon_58
+  - first:
+      213: -9015200887519394157
+    second: Paddle Icon_59
+  - first:
+      213: -3656533178515014064
+    second: Paddle Icon_60
+  - first:
+      213: -6193771545448283347
+    second: Paddle Icon_61
+  - first:
+      213: -8310144925482552000
+    second: Paddle Icon_62
+  - first:
+      213: -2975484941484160972
+    second: Paddle Icon_63
+  - first:
+      213: -5221618234205855151
+    second: Paddle Icon_64
+  - first:
+      213: 1227068029625453272
+    second: Paddle Icon_65
+  - first:
+      213: 7541601112928831215
+    second: Paddle Icon_66
+  - first:
+      213: -7531582391913099278
+    second: Paddle Icon_67
+  - first:
+      213: 7454470268988078758
+    second: Paddle Icon_68
+  - first:
+      213: -3005549830431701616
+    second: Paddle Icon_69
+  - first:
+      213: 4770886407169811855
+    second: Paddle Icon_70
+  - first:
+      213: 5078021902657854104
+    second: Paddle Icon_71
+  - first:
+      213: -4542377611757439964
+    second: Paddle Icon_72
+  - first:
+      213: 1170086984633804864
+    second: Paddle Icon_73
+  - first:
+      213: 1871936609359094600
+    second: Paddle Icon_74
+  - first:
+      213: -2953214837072322266
+    second: Paddle Icon_75
+  - first:
+      213: 5512251443280708400
+    second: Paddle Icon_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Paddle Icon_0
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 694
+        width: 150
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219e11b5262d554f0800000000000000
+      internalID: -840534435558201070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Icon_1
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 687
+        width: 381
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e13ae9d96eb42c0800000000000000
+      internalID: -4446206642452488585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Icon_2
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 687
+        width: 381
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696d22448734cd570800000000000000
+      internalID: 8492737181132183190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Icon_3
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 687
+        width: 381
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8876010752a4f80800000000000000
+      internalID: -8121637814767482652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Icon_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 381
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627e41821f4d46a30800000000000000
+      internalID: 4207722084095551270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Icon_5
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 350
+        width: 381
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1ed6e6a098ba2c0800000000000000
+      internalID: -4419287931438636583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Icon_6
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 350
+        width: 381
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6e4cef6d13c4240800000000000000
+      internalID: 4777248104200332960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Icon_7
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 350
+        width: 381
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8023b8d38ea638520800000000000000
+      internalID: 2703121747049918984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Icon_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 381
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06dc6ef493a470890800000000000000
+      internalID: -7491937845093413536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Icon_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 13
+        width: 381
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf115cafd732a5e0800000000000000
+      internalID: -1899894658988695587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Icon_10
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 13
+        width: 381
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0eff76dbc15d2ef0800000000000000
+      internalID: -131358878204953077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paddle Icon_11
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 13
+        width: 381
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6834638aa66fc00800000000000000
+      internalID: 934051243423401678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0d02fcba260ad9340ac40516c61e1835
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":381.0,"y":337.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Paddle Icon_0: -840534435558201070
+      Paddle Icon_1: -4446206642452488585
+      Paddle Icon_10: -131358878204953077
+      Paddle Icon_11: 934051243423401678
+      Paddle Icon_2: 8492737181132183190
+      Paddle Icon_3: -8121637814767482652
+      Paddle Icon_4: 4207722084095551270
+      Paddle Icon_5: -4419287931438636583
+      Paddle Icon_6: 4777248104200332960
+      Paddle Icon_7: 2703121747049918984
+      Paddle Icon_8: -7491937845093413536
+      Paddle Icon_9: -1899894658988695587
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
