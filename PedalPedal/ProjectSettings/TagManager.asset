@@ -45,9 +45,6 @@ TagManager:
   - name: OnWater
     uniqueID: 3864927149
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Ground
     uniqueID: 2728843903
     locked: 0
@@ -56,6 +53,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2426041237
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   m_RenderingLayers:
   - Default
