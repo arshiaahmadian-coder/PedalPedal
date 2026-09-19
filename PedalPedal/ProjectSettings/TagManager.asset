@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Rock
   layers:
   - Default
   - TransparentFX
@@ -40,6 +41,9 @@ TagManager:
   m_SortingLayers:
   - name: Water
     uniqueID: 3422448801
+    locked: 0
+  - name: OnWater
+    uniqueID: 3864927149
     locked: 0
   - name: Default
     uniqueID: 0
