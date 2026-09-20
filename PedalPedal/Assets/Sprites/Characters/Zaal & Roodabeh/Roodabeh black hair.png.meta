@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 4986946ff0c6f0c44a4e839bdf841c25
+guid: 3c07a6805a3fef1468d0061b9a1e783c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3099118509182144628
-    second: castle flag_0
+      213: 4742516784152387858
+    second: Roodabeh black hair_0
+  - first:
+      213: -8755864605495553657
+    second: Roodabeh black hair_1
+  - first:
+      213: 7303527423455370519
+    second: Roodabeh black hair_2
+  - first:
+      213: 5951043056100654022
+    second: Roodabeh black hair_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 240
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,23 +148,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: castle flag_1
+      name: Roodabeh black hair_0
       rect:
         serializedVersion: 2
-        x: 507
-        y: 1028
-        width: 234
-        height: 121
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+        x: 206
+        y: 0
+        width: 672
+        height: 1534
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 11f99170c90be3c48978fa76fff732a1
-      internalID: -342004050
+      spriteID: 2112bb463edc0d140800000000000000
+      internalID: 4742516784152387858
       vertices: []
       indices: 
       edges: []
@@ -164,7 +173,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c48634c80c465394b9fe7d817f7d5133
+    spriteID: 89138bb866abf6d418bf4b42b8aaf386
     internalID: 0
     vertices: []
     indices: 
@@ -172,10 +181,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      castle flag_0: -3099118509182144628
-      castle flag_1: -342004050
+      Roodabeh black hair_0: 4742516784152387858
+      Roodabeh black hair_1: -8755864605495553657
+      Roodabeh black hair_2: 7303527423455370519
+      Roodabeh black hair_3: 5951043056100654022
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

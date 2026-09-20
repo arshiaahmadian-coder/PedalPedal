@@ -1,0 +1,766 @@
+fileFormatVersion: 2
+guid: 2e8e0ba96ff0d884e808a0bca6a8752f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5082594819341666547
+    second: jungle props_0
+  - first:
+      213: 833838076592656491
+    second: jungle props_1
+  - first:
+      213: 1525156711765633326
+    second: jungle props_2
+  - first:
+      213: -2468864631496290174
+    second: jungle props_3
+  - first:
+      213: -1966461213368831162
+    second: jungle props_4
+  - first:
+      213: -7560578471407793576
+    second: jungle props_5
+  - first:
+      213: 6701615834058613608
+    second: jungle props_6
+  - first:
+      213: 5197019848383397246
+    second: jungle props_7
+  - first:
+      213: 5693814887650656129
+    second: jungle props_8
+  - first:
+      213: 8525874859711612492
+    second: jungle props_9
+  - first:
+      213: 6021302772053235372
+    second: jungle props_10
+  - first:
+      213: 1866150770034647630
+    second: jungle props_11
+  - first:
+      213: -6680604096212785313
+    second: jungle props_12
+  - first:
+      213: 5437547794323560342
+    second: jungle props_13
+  - first:
+      213: 2458275534080520966
+    second: jungle props_14
+  - first:
+      213: 5963972637015116873
+    second: jungle props_15
+  - first:
+      213: 7520416966971010621
+    second: jungle props_16
+  - first:
+      213: 8852303391684308870
+    second: jungle props_17
+  - first:
+      213: -5360280513559076423
+    second: jungle props_18
+  - first:
+      213: -5402095129447217713
+    second: jungle props_19
+  - first:
+      213: -307405471379633696
+    second: jungle props_20
+  - first:
+      213: 5816958005993619605
+    second: jungle props_21
+  - first:
+      213: 1188266005853043793
+    second: jungle props_22
+  - first:
+      213: 4746071146446012741
+    second: jungle props_23
+  - first:
+      213: -1723723744576883026
+    second: jungle props_24
+  - first:
+      213: -1676901951983735568
+    second: jungle props_25
+  - first:
+      213: -5282272826574154687
+    second: jungle props_26
+  - first:
+      213: -6070882064815214086
+    second: jungle props_27
+  - first:
+      213: 1644707496256448681
+    second: jungle props_28
+  - first:
+      213: -6493094116080277986
+    second: jungle props_29
+  - first:
+      213: -4277417882163671024
+    second: jungle props_30
+  - first:
+      213: -8454923285621936661
+    second: jungle props_31
+  - first:
+      213: -7146353125458644461
+    second: jungle props_32
+  - first:
+      213: -8342909319146845599
+    second: jungle props_33
+  - first:
+      213: 1781960403348092664
+    second: jungle props_34
+  - first:
+      213: -1666026270701596482
+    second: jungle props_35
+  - first:
+      213: 6683423623286838260
+    second: jungle props_36
+  - first:
+      213: 2653480636812653359
+    second: jungle props_37
+  - first:
+      213: 3275354264824711122
+    second: jungle props_38
+  - first:
+      213: -1427957143200720698
+    second: jungle props_39
+  - first:
+      213: 4541956236641706691
+    second: jungle props_40
+  - first:
+      213: 406005622827060132
+    second: jungle props_41
+  - first:
+      213: 4247549290106270216
+    second: jungle props_42
+  - first:
+      213: 4738363273547900812
+    second: jungle props_43
+  - first:
+      213: 6058975778228082147
+    second: jungle props_44
+  - first:
+      213: 6624298235256211862
+    second: jungle props_45
+  - first:
+      213: 2438619253965242292
+    second: jungle props_46
+  - first:
+      213: 3316047890323185727
+    second: jungle props_47
+  - first:
+      213: 8051107512407167554
+    second: jungle props_48
+  - first:
+      213: -5312705808554142996
+    second: jungle props_49
+  - first:
+      213: -4116452295511189127
+    second: jungle props_50
+  - first:
+      213: 615357958966389970
+    second: jungle props_51
+  - first:
+      213: -4921389230848492956
+    second: jungle props_52
+  - first:
+      213: -4820405763064619945
+    second: jungle props_53
+  - first:
+      213: -3163042982884613195
+    second: jungle props_54
+  - first:
+      213: 1423917269637304768
+    second: jungle props_55
+  - first:
+      213: -8848055255642719246
+    second: jungle props_56
+  - first:
+      213: 6657298813848392399
+    second: jungle props_57
+  - first:
+      213: -2165984572177971962
+    second: jungle props_58
+  - first:
+      213: -2312570167307854525
+    second: jungle props_59
+  - first:
+      213: -8631420778773201803
+    second: jungle props_60
+  - first:
+      213: -4810813853343799920
+    second: jungle props_61
+  - first:
+      213: -558010493135832457
+    second: jungle props_62
+  - first:
+      213: -5393920818161659228
+    second: jungle props_63
+  - first:
+      213: 3292137082824801435
+    second: jungle props_64
+  - first:
+      213: -4712653075257860698
+    second: jungle props_65
+  - first:
+      213: 390636334211907626
+    second: jungle props_66
+  - first:
+      213: 7042230551344478329
+    second: jungle props_67
+  - first:
+      213: -4831213460076109794
+    second: jungle props_68
+  - first:
+      213: -6589022719913593133
+    second: jungle props_69
+  - first:
+      213: -636198381253786652
+    second: jungle props_70
+  - first:
+      213: 3105591992081344015
+    second: jungle props_71
+  - first:
+      213: -6820741345626073386
+    second: jungle props_72
+  - first:
+      213: -8102080183811074004
+    second: jungle props_73
+  - first:
+      213: 2003513248081060740
+    second: jungle props_74
+  - first:
+      213: 8285261975422729348
+    second: jungle props_75
+  - first:
+      213: -1317194995079451640
+    second: jungle props_76
+  - first:
+      213: -8136516783474149852
+    second: jungle props_77
+  - first:
+      213: -724453171461403240
+    second: jungle props_78
+  - first:
+      213: -3598747426537259690
+    second: jungle props_79
+  - first:
+      213: -7030980227950799213
+    second: jungle props_80
+  - first:
+      213: -5961715567922623130
+    second: jungle props_81
+  - first:
+      213: -3584553976236920752
+    second: jungle props_82
+  - first:
+      213: 8185315068902427464
+    second: jungle props_83
+  - first:
+      213: 5699478360755412266
+    second: jungle props_84
+  - first:
+      213: -7380430400940840719
+    second: jungle props_85
+  - first:
+      213: 1341021045700573373
+    second: jungle props_86
+  - first:
+      213: -9165516067693615137
+    second: jungle props_87
+  - first:
+      213: 485719051867428547
+    second: jungle props_88
+  - first:
+      213: -709054331669067654
+    second: jungle props_89
+  - first:
+      213: 8777367930317357065
+    second: jungle props_90
+  - first:
+      213: -6881952325028259444
+    second: jungle props_91
+  - first:
+      213: -8630761972086583542
+    second: jungle props_92
+  - first:
+      213: -1738368323166255727
+    second: jungle props_93
+  - first:
+      213: -8700025128166574745
+    second: jungle props_94
+  - first:
+      213: -3393033917222861543
+    second: jungle props_95
+  - first:
+      213: -5091936940877576052
+    second: jungle props_96
+  - first:
+      213: 1981183357329795627
+    second: jungle props_97
+  - first:
+      213: -5827866372414881087
+    second: jungle props_98
+  - first:
+      213: 7530293968297137001
+    second: jungle props_99
+  - first:
+      213: -8260703571610738843
+    second: jungle props_100
+  - first:
+      213: -7860026489190694092
+    second: jungle props_101
+  - first:
+      213: -6244610924420721717
+    second: jungle props_102
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jungle props_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 33
+        width: 262
+        height: 280
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8c9183f01098640800000000000000
+      internalID: 5082594819341666547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle props_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 335
+        width: 160
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6010831053629b00800000000000000
+      internalID: 833838076592656491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle props_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 326
+        width: 165
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29e79fd2f17a2510800000000000000
+      internalID: 1525156711765633326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle props_3
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 326
+        width: 141
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2805321c2b4dcbdd0800000000000000
+      internalID: -2468864631496290174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle props_4
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 321
+        width: 137
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6433198f1f9b5b4e0800000000000000
+      internalID: -1966461213368831162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle props_5
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 313
+        width: 201
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ac54b10fd631790800000000000000
+      internalID: -7560578471407793576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle props_6
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 317
+        width: 156
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863623a281ce00d50800000000000000
+      internalID: 6701615834058613608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle props_7
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 652
+        width: 121
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7dfb8164068f1840800000000000000
+      internalID: 5197019848383397246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jungle props_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 647
+        width: 142
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f7f33297e740f40800000000000000
+      internalID: 5693814887650656129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8f0ac97234b34984f86ea00a16202a03
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jungle props_0: 5082594819341666547
+      jungle props_1: 833838076592656491
+      jungle props_10: 6021302772053235372
+      jungle props_100: -8260703571610738843
+      jungle props_101: -7860026489190694092
+      jungle props_102: -6244610924420721717
+      jungle props_11: 1866150770034647630
+      jungle props_12: -6680604096212785313
+      jungle props_13: 5437547794323560342
+      jungle props_14: 2458275534080520966
+      jungle props_15: 5963972637015116873
+      jungle props_16: 7520416966971010621
+      jungle props_17: 8852303391684308870
+      jungle props_18: -5360280513559076423
+      jungle props_19: -5402095129447217713
+      jungle props_2: 1525156711765633326
+      jungle props_20: -307405471379633696
+      jungle props_21: 5816958005993619605
+      jungle props_22: 1188266005853043793
+      jungle props_23: 4746071146446012741
+      jungle props_24: -1723723744576883026
+      jungle props_25: -1676901951983735568
+      jungle props_26: -5282272826574154687
+      jungle props_27: -6070882064815214086
+      jungle props_28: 1644707496256448681
+      jungle props_29: -6493094116080277986
+      jungle props_3: -2468864631496290174
+      jungle props_30: -4277417882163671024
+      jungle props_31: -8454923285621936661
+      jungle props_32: -7146353125458644461
+      jungle props_33: -8342909319146845599
+      jungle props_34: 1781960403348092664
+      jungle props_35: -1666026270701596482
+      jungle props_36: 6683423623286838260
+      jungle props_37: 2653480636812653359
+      jungle props_38: 3275354264824711122
+      jungle props_39: -1427957143200720698
+      jungle props_4: -1966461213368831162
+      jungle props_40: 4541956236641706691
+      jungle props_41: 406005622827060132
+      jungle props_42: 4247549290106270216
+      jungle props_43: 4738363273547900812
+      jungle props_44: 6058975778228082147
+      jungle props_45: 6624298235256211862
+      jungle props_46: 2438619253965242292
+      jungle props_47: 3316047890323185727
+      jungle props_48: 8051107512407167554
+      jungle props_49: -5312705808554142996
+      jungle props_5: -7560578471407793576
+      jungle props_50: -4116452295511189127
+      jungle props_51: 615357958966389970
+      jungle props_52: -4921389230848492956
+      jungle props_53: -4820405763064619945
+      jungle props_54: -3163042982884613195
+      jungle props_55: 1423917269637304768
+      jungle props_56: -8848055255642719246
+      jungle props_57: 6657298813848392399
+      jungle props_58: -2165984572177971962
+      jungle props_59: -2312570167307854525
+      jungle props_6: 6701615834058613608
+      jungle props_60: -8631420778773201803
+      jungle props_61: -4810813853343799920
+      jungle props_62: -558010493135832457
+      jungle props_63: -5393920818161659228
+      jungle props_64: 3292137082824801435
+      jungle props_65: -4712653075257860698
+      jungle props_66: 390636334211907626
+      jungle props_67: 7042230551344478329
+      jungle props_68: -4831213460076109794
+      jungle props_69: -6589022719913593133
+      jungle props_7: 5197019848383397246
+      jungle props_70: -636198381253786652
+      jungle props_71: 3105591992081344015
+      jungle props_72: -6820741345626073386
+      jungle props_73: -8102080183811074004
+      jungle props_74: 2003513248081060740
+      jungle props_75: 8285261975422729348
+      jungle props_76: -1317194995079451640
+      jungle props_77: -8136516783474149852
+      jungle props_78: -724453171461403240
+      jungle props_79: -3598747426537259690
+      jungle props_8: 5693814887650656129
+      jungle props_80: -7030980227950799213
+      jungle props_81: -5961715567922623130
+      jungle props_82: -3584553976236920752
+      jungle props_83: 8185315068902427464
+      jungle props_84: 5699478360755412266
+      jungle props_85: -7380430400940840719
+      jungle props_86: 1341021045700573373
+      jungle props_87: -9165516067693615137
+      jungle props_88: 485719051867428547
+      jungle props_89: -709054331669067654
+      jungle props_9: 8525874859711612492
+      jungle props_90: 8777367930317357065
+      jungle props_91: -6881952325028259444
+      jungle props_92: -8630761972086583542
+      jungle props_93: -1738368323166255727
+      jungle props_94: -8700025128166574745
+      jungle props_95: -3393033917222861543
+      jungle props_96: -5091936940877576052
+      jungle props_97: 1981183357329795627
+      jungle props_98: -5827866372414881087
+      jungle props_99: 7530293968297137001
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

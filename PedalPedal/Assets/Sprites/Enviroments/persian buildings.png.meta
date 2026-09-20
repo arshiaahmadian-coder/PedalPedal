@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 06fb9f0f5b780a74cbff9e50e06df5e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2569157393204841484
+    second: persian buildings_0
+  - first:
+      213: -4475281144765651271
+    second: persian buildings_1
+  - first:
+      213: -7535256228184541074
+    second: persian buildings_2
+  - first:
+      213: 7454104450667455750
+    second: persian buildings_3
+  - first:
+      213: -1365391940417164850
+    second: persian buildings_4
+  - first:
+      213: -6243961099605288882
+    second: persian buildings_5
+  - first:
+      213: 2780337667158262783
+    second: persian buildings_6
+  - first:
+      213: -3292817257410076745
+    second: persian buildings_7
+  - first:
+      213: -4872457394774958495
+    second: persian buildings_8
+  - first:
+      213: -1899811286777770577
+    second: persian buildings_9
+  - first:
+      213: -6341954403259613439
+    second: persian buildings_10
+  - first:
+      213: -2562571036264266893
+    second: persian buildings_11
+  - first:
+      213: 7708473768035681406
+    second: persian buildings_12
+  - first:
+      213: -3511716704491308049
+    second: persian buildings_13
+  - first:
+      213: 6811698323255917018
+    second: persian buildings_14
+  - first:
+      213: -4479034363445591611
+    second: persian buildings_15
+  - first:
+      213: 6172054776872095256
+    second: persian buildings_16
+  - first:
+      213: 8038104367443540937
+    second: persian buildings_17
+  - first:
+      213: 5651536525697558548
+    second: persian buildings_18
+  - first:
+      213: -7965163155121527897
+    second: persian buildings_19
+  - first:
+      213: 4069371826674981531
+    second: persian buildings_20
+  - first:
+      213: -5265461486866077996
+    second: persian buildings_21
+  - first:
+      213: -5331085757116696721
+    second: persian buildings_22
+  - first:
+      213: -7563284211407767749
+    second: persian buildings_23
+  - first:
+      213: 1541204586707536817
+    second: persian buildings_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: persian buildings_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 590
+        width: 219
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c0b02890b77a320800000000000000
+      internalID: 2569157393204841484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 588
+        width: 177
+        height: 361
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b66d38828b94e1c0800000000000000
+      internalID: -4475281144765651271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_2
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 577
+        width: 143
+        height: 355
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68b28b42646d6790800000000000000
+      internalID: -7535256228184541074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_4
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 587
+        width: 118
+        height: 340
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9e04ca3472d0de0800000000000000
+      internalID: -1365391940417164850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_5
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 589
+        width: 359
+        height: 321
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e485baa367ef859a0800000000000000
+      internalID: -6243961099605288882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_6
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 586
+        width: 145
+        height: 307
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff34b9e906eb59620800000000000000
+      internalID: 2780337667158262783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 317
+        width: 231
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f7cf3421adcf7a0800000000000000
+      internalID: -6341954403259613439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 318
+        width: 336
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb7dfc5340e34fc0800000000000000
+      internalID: -3511716704491308049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 46
+        width: 183
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ec6bd5e1b87a550800000000000000
+      internalID: 6172054776872095256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_17
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 317
+        width: 246
+        height: 214
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbfcf0a5551d8f60800000000000000
+      internalID: 8038104367443540937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_18
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 49
+        width: 360
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4182959e68a4e6e40800000000000000
+      internalID: 5651536525697558548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_22
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 316
+        width: 348
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f673aebcfbd2406b0800000000000000
+      internalID: -5331085757116696721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_23
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 49
+        width: 227
+        height: 212
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3738bbe411d90790800000000000000
+      internalID: -7563284211407767749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: persian buildings_24
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 50
+        width: 138
+        height: 208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbc7ece765736510800000000000000
+      internalID: 1541204586707536817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8ae0226b2e50ca241b0f11fe3f72dbd4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      persian buildings_0: 2569157393204841484
+      persian buildings_1: -4475281144765651271
+      persian buildings_10: -6341954403259613439
+      persian buildings_11: -2562571036264266893
+      persian buildings_12: 7708473768035681406
+      persian buildings_13: -3511716704491308049
+      persian buildings_14: 6811698323255917018
+      persian buildings_15: -4479034363445591611
+      persian buildings_16: 6172054776872095256
+      persian buildings_17: 8038104367443540937
+      persian buildings_18: 5651536525697558548
+      persian buildings_19: -7965163155121527897
+      persian buildings_2: -7535256228184541074
+      persian buildings_20: 4069371826674981531
+      persian buildings_21: -5265461486866077996
+      persian buildings_22: -5331085757116696721
+      persian buildings_23: -7563284211407767749
+      persian buildings_24: 1541204586707536817
+      persian buildings_3: 7454104450667455750
+      persian buildings_4: -1365391940417164850
+      persian buildings_5: -6243961099605288882
+      persian buildings_6: 2780337667158262783
+      persian buildings_7: -3292817257410076745
+      persian buildings_8: -4872457394774958495
+      persian buildings_9: -1899811286777770577
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
