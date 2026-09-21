@@ -1,8 +1,10 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour
 {
+    [SerializeField] private Image dialogImage;
     [SerializeField] private Animator animator;
     public GameObject touchArea;
     [SerializeField] private TMP_Text dialogText;
@@ -16,7 +18,7 @@ public class DialogManager : MonoBehaviour
     public void StartDialogCycle()
     {
         touchArea.SetActive(true);
-        ChangeTextAndSound();
+        ChangeAnimationData();
         animator.SetTrigger("Up");
     }
 
@@ -36,7 +38,7 @@ public class DialogManager : MonoBehaviour
     // call in animator
     public void ChangeDialogText()
     {
-        ChangeTextAndSound();
+        ChangeAnimationData();
     }
 
     public void EnableControllers()
@@ -52,13 +54,21 @@ public class DialogManager : MonoBehaviour
             StopDialogCycle();
     }
 
-    private void ChangeTextAndSound()
+    private void ChangeAnimationData()
     {
+        // text
         dialogText.text = dialogData.dialogTextList[dialogIndex];
+
+        // sound
         if (dialogData.multyVoiceLines)
-        
             audioSource.PlayOneShot(dialogData.dialogVoiceList[dialogIndex]);
         else 
             audioSource.PlayOneShot(dialogData.dialogVoiceList[0]);
+
+        // sprite
+        if (dialogData.multySprites)
+            dialogImage.sprite = dialogData.dialogCharacterList[dialogIndex];
+        else 
+            dialogImage.sprite = dialogData.dialogCharacterList[0];
     }
 }
