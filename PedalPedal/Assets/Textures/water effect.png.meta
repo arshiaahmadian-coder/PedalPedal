@@ -1,31 +1,22 @@
 fileFormatVersion: 2
-guid: 25cc5aad2499ac94689ac28dff50ec09
+guid: 67fd5037e0843374486957ff39f5fea4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8648683276869084103
-    second: rocks lower details 2_0
+      213: 2822932550367799568
+    second: water effect_0
   - first:
-      213: 7982790195306486066
-    second: rocks lower details 2_1
+      213: -3394744362932741558
+    second: water effect_1
   - first:
-      213: 2733282180304962620
-    second: rocks lower details 2_2
+      213: -1163937896214769468
+    second: water effect_2
   - first:
-      213: -745799200653003741
-    second: rocks lower details 2_3
+      213: 3236218790424294353
+    second: water effect_3
   - first:
-      213: -2793924612011279343
-    second: rocks lower details 2_4
-  - first:
-      213: -2641083590121992873
-    second: rocks lower details 2_5
-  - first:
-      213: -6960697606145772354
-    second: rocks lower details 2_6
-  - first:
-      213: 405539247218102049
-    second: rocks lower details 2_7
+      213: 3668827088033108542
+    second: water effect_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -160,177 +151,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rock 1
+      name: water effect_0
       rect:
         serializedVersion: 2
-        x: 380
-        y: 574
-        width: 151
-        height: 111
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 38
+        y: 671
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93c5b53e164b9f780800000000000000
-      internalID: -8648683276869084103
+      spriteID: 0196f81b2321d2720800000000000000
+      internalID: 2822932550367799568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock 2
+      name: water effect_1
       rect:
         serializedVersion: 2
-        x: 588
-        y: 568
-        width: 159
-        height: 89
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 29
+        y: 614
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 239d6b3536198ce60800000000000000
-      internalID: 7982790195306486066
+      spriteID: a4a5220fcf173e0d0800000000000000
+      internalID: -3394744362932741558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock 3
+      name: water effect_2
       rect:
         serializedVersion: 2
-        x: 817
-        y: 569
-        width: 94
-        height: 70
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 26
+        y: 554
+        width: 67
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c348bf359a19ee520800000000000000
-      internalID: 2733282180304962620
+      spriteID: 4c0d08376acd8dfe0800000000000000
+      internalID: -1163937896214769468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock 4
+      name: water effect_3
       rect:
         serializedVersion: 2
-        x: 1003
-        y: 560
-        width: 145
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 334
+        y: 548
+        width: 148
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 324be43149366a5f0800000000000000
-      internalID: -745799200653003741
+      spriteID: 1d33faaf7db59ec20800000000000000
+      internalID: 3236218790424294353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharp rock 1
+      name: water effect_4
       rect:
         serializedVersion: 2
-        x: 387
+        x: 26
+        y: 480
+        width: 74
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e325b8c5cca4ae230800000000000000
+      internalID: 3668827088033108542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water effect_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 420
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8555b69084f313f4db308acd370bbf6b
+      internalID: 1278495898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water effect_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 332
+        width: 84
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a130dad91525fe84c821ed81c16c3df3
+      internalID: -313482317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water effect_7
+      rect:
+        serializedVersion: 2
+        x: 248
         y: 340
-        width: 131
-        height: 193
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 295
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 11cb8d34e5cf939d0800000000000000
-      internalID: -2793924612011279343
+      spriteID: bc788bcaae74f894bb61b2bebf7c1214
+      internalID: -846756631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharp rock 2
+      name: water effect_8
       rect:
         serializedVersion: 2
-        x: 597
-        y: 340
-        width: 132
-        height: 196
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 447
+        y: 186
+        width: 178
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 75d4aa4c77cf85bd0800000000000000
-      internalID: -2641083590121992873
+      spriteID: 516d4aca65f00d040a70d25b01575fe6
+      internalID: -474698641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharp rock 3
+      name: water effect_11
       rect:
         serializedVersion: 2
-        x: 798
-        y: 340
-        width: 125
-        height: 188
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 186
+        y: 140
+        width: 192
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb4f4c41862a66f90800000000000000
-      internalID: -6960697606145772354
+      spriteID: 9edacbbd745580841a6ee8d37f80af2a
+      internalID: -1207931720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sharp rock 4
+      name: water effect_12
       rect:
         serializedVersion: 2
-        x: 1019
-        y: 337
-        width: 126
-        height: 187
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 48
+        y: 29
+        width: 160
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 12f0ae4fbc3c0a500800000000000000
-      internalID: 405539247218102049
+      spriteID: e5dfd40733c87d14db6f91cfa4fbe9bd
+      internalID: 965310358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water effect_13
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 56
+        width: 138
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6a7ccc5f1a80d4685c4da741fffa01
+      internalID: -1589023571
       vertices: []
       indices: 
       edges: []
@@ -339,7 +418,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 51a151d5aa153a049969437c73a3316b
+    spriteID: cc778cf8a98674a4e82fedc3287a7e00
     internalID: 0
     vertices: []
     indices: 
@@ -347,16 +426,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      rock 1: -8648683276869084103
-      rock 2: 7982790195306486066
-      rock 3: 2733282180304962620
-      rock 4: -745799200653003741
-      sharp rock 1: -2793924612011279343
-      sharp rock 2: -2641083590121992873
-      sharp rock 3: -6960697606145772354
-      sharp rock 4: 405539247218102049
+      water effect_0: 2822932550367799568
+      water effect_1: -3394744362932741558
+      water effect_10: 1793864196
+      water effect_11: -1207931720
+      water effect_12: 965310358
+      water effect_13: -1589023571
+      water effect_2: -1163937896214769468
+      water effect_3: 3236218790424294353
+      water effect_4: 3668827088033108542
+      water effect_5: 1278495898
+      water effect_6: -313482317
+      water effect_7: -846756631
+      water effect_8: -474698641
+      water effect_9: -644810996
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

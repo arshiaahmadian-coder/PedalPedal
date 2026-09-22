@@ -1,31 +1,103 @@
 fileFormatVersion: 2
-guid: 25cc5aad2499ac94689ac28dff50ec09
+guid: 8d6012f7a7d12714294146df336f4575
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8648683276869084103
-    second: rocks lower details 2_0
+      213: 3152534582702715588
+    second: jungle props 2_0
   - first:
-      213: 7982790195306486066
-    second: rocks lower details 2_1
+      213: -1125764430679946713
+    second: jungle props 2_1
   - first:
-      213: 2733282180304962620
-    second: rocks lower details 2_2
+      213: 7995676840579251252
+    second: jungle props 2_2
   - first:
-      213: -745799200653003741
-    second: rocks lower details 2_3
+      213: -6036311362473179088
+    second: jungle props 2_3
   - first:
-      213: -2793924612011279343
-    second: rocks lower details 2_4
+      213: -6856716189686447226
+    second: jungle props 2_4
   - first:
-      213: -2641083590121992873
-    second: rocks lower details 2_5
+      213: -946501006780791867
+    second: jungle props 2_5
   - first:
-      213: -6960697606145772354
-    second: rocks lower details 2_6
+      213: 1482373203317803538
+    second: jungle props 2_6
   - first:
-      213: 405539247218102049
-    second: rocks lower details 2_7
+      213: -8361695031316455334
+    second: jungle props 2_7
+  - first:
+      213: 8765924693560940204
+    second: jungle props 2_8
+  - first:
+      213: 2529312505266902613
+    second: jungle props 2_9
+  - first:
+      213: 6984685098092782681
+    second: jungle props 2_10
+  - first:
+      213: 801172387119792205
+    second: jungle props 2_11
+  - first:
+      213: -2351990809308298270
+    second: jungle props 2_12
+  - first:
+      213: -2624702881137995786
+    second: jungle props 2_13
+  - first:
+      213: -5364452445160459149
+    second: jungle props 2_14
+  - first:
+      213: -502674621708270084
+    second: jungle props 2_15
+  - first:
+      213: -4375641999196943516
+    second: jungle props 2_16
+  - first:
+      213: -8844958416060155938
+    second: jungle props 2_17
+  - first:
+      213: 5866921282861973595
+    second: jungle props 2_18
+  - first:
+      213: 3716374309476854035
+    second: jungle props 2_19
+  - first:
+      213: 4464055037149724650
+    second: jungle props 2_20
+  - first:
+      213: -63702978510936005
+    second: jungle props 2_21
+  - first:
+      213: 3159053550201315847
+    second: jungle props 2_22
+  - first:
+      213: -6447432302915508621
+    second: jungle props 2_23
+  - first:
+      213: 2378934089871844761
+    second: jungle props 2_24
+  - first:
+      213: 5594801647819329814
+    second: jungle props 2_25
+  - first:
+      213: -4619442136570066439
+    second: jungle props 2_26
+  - first:
+      213: 444419911108390640
+    second: jungle props 2_27
+  - first:
+      213: -5944540742771562701
+    second: jungle props 2_28
+  - first:
+      213: 6115931467897320594
+    second: jungle props 2_29
+  - first:
+      213: -6727082290388004146
+    second: jungle props 2_30
+  - first:
+      213: 7051441975077537866
+    second: jungle props 2_31
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -160,13 +232,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rock 1
+      name: grass 1
       rect:
         serializedVersion: 2
-        x: 380
-        y: 574
-        width: 151
-        height: 111
+        x: 599
+        y: 523
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93c5b53e164b9f780800000000000000
-      internalID: -8648683276869084103
+      spriteID: 4c23128008d00cb20800000000000000
+      internalID: 3152534582702715588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock 2
+      name: grass 3
       rect:
         serializedVersion: 2
-        x: 588
-        y: 568
-        width: 159
-        height: 89
+        x: 869
+        y: 512
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,140 +269,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 239d6b3536198ce60800000000000000
-      internalID: 7982790195306486066
+      spriteID: 43c3b8d39b956fe60800000000000000
+      internalID: 7995676840579251252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock 3
+      name: grass 2
       rect:
         serializedVersion: 2
-        x: 817
-        y: 569
-        width: 94
-        height: 70
+        x: 740
+        y: 516
+        width: 70
+        height: 40
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c348bf359a19ee520800000000000000
-      internalID: 2733282180304962620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rock 4
-      rect:
-        serializedVersion: 2
-        x: 1003
-        y: 560
-        width: 145
-        height: 91
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 324be43149366a5f0800000000000000
-      internalID: -745799200653003741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sharp rock 1
-      rect:
-        serializedVersion: 2
-        x: 387
-        y: 340
-        width: 131
-        height: 193
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 11cb8d34e5cf939d0800000000000000
-      internalID: -2793924612011279343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sharp rock 2
-      rect:
-        serializedVersion: 2
-        x: 597
-        y: 340
-        width: 132
-        height: 196
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 75d4aa4c77cf85bd0800000000000000
-      internalID: -2641083590121992873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sharp rock 3
-      rect:
-        serializedVersion: 2
-        x: 798
-        y: 340
-        width: 125
-        height: 188
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb4f4c41862a66f90800000000000000
-      internalID: -6960697606145772354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sharp rock 4
-      rect:
-        serializedVersion: 2
-        x: 1019
-        y: 337
-        width: 126
-        height: 187
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12f0ae4fbc3c0a500800000000000000
-      internalID: 405539247218102049
+      spriteID: 44d3df0f28454cb48a0205f76df906bc
+      internalID: -1125764430679946713
       vertices: []
       indices: 
       edges: []
@@ -339,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 51a151d5aa153a049969437c73a3316b
+    spriteID: ddefdcd41ddc6fa40a2b5bdb070a2e4a
     internalID: 0
     vertices: []
     indices: 
@@ -347,16 +309,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      rock 1: -8648683276869084103
-      rock 2: 7982790195306486066
-      rock 3: 2733282180304962620
-      rock 4: -745799200653003741
-      sharp rock 1: -2793924612011279343
-      sharp rock 2: -2641083590121992873
-      sharp rock 3: -6960697606145772354
-      sharp rock 4: 405539247218102049
+      grass 1: 3152534582702715588
+      grass 2: -1125764430679946713
+      grass 3: 7995676840579251252
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

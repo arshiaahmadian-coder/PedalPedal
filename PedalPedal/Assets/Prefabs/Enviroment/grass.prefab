@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6543540876620136695
+--- !u!1 &1625255862608593442
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3210325016281096914}
-  - component: {fileID: 6198507544266346551}
-  - component: {fileID: 7859196927772568062}
-  - component: {fileID: 5485939625575647882}
+  - component: {fileID: 835973598807670713}
+  - component: {fileID: 8137421930044263180}
+  - component: {fileID: 7157007033461982430}
+  - component: {fileID: 2592447854544866702}
   m_Layer: 0
-  m_Name: Rock (random)
+  m_Name: grass
   m_TagString: Untagged
-  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3210325016281096914
+--- !u!4 &835973598807670713
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6543540876620136695}
+  m_GameObject: {fileID: 1625255862608593442}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.9, y: -4.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6198507544266346551
+--- !u!212 &8137421930044263180
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6543540876620136695}
+  m_GameObject: {fileID: 1625255862608593442}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -83,45 +83,44 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8648683276869084103, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
+  m_Sprite: {fileID: 7995676840579251252, guid: 8d6012f7a7d12714294146df336f4575, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.81333333, y: 0.36666667}
+  m_Size: {x: 0.7, y: 0.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &7859196927772568062
+--- !u!114 &7157007033461982430
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6543540876620136695}
+  m_GameObject: {fileID: 1625255862608593442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23bad75910efe14abaf3e9f02d18456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomSpriteSelect
+  spriteRenderer: {fileID: 8137421930044263180}
+  spriteList:
+  - {fileID: 3152534582702715588, guid: 8d6012f7a7d12714294146df336f4575, type: 3}
+  - {fileID: -1125764430679946713, guid: 8d6012f7a7d12714294146df336f4575, type: 3}
+  - {fileID: 7995676840579251252, guid: 8d6012f7a7d12714294146df336f4575, type: 3}
+--- !u!114 &2592447854544866702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625255862608593442}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d7766363cf2ff440a6d1b18faf0845e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StaticYSorter
   sortingGroup: {fileID: 0}
-  spriteRenderer: {fileID: 6198507544266346551}
---- !u!114 &5485939625575647882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6543540876620136695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b23bad75910efe14abaf3e9f02d18456, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RandomSpriteSelect
-  spriteRenderer: {fileID: 6198507544266346551}
-  spriteList:
-  - {fileID: -8648683276869084103, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
-  - {fileID: 7982790195306486066, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
-  - {fileID: 2733282180304962620, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
-  - {fileID: -745799200653003741, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
+  spriteRenderer: {fileID: 8137421930044263180}
