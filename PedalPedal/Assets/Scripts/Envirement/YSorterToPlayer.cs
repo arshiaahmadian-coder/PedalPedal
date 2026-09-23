@@ -1,20 +1,17 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class YSorterToPlayer : MonoBehaviour
 {
-    private PlayerController playerController;
-    private SpriteRenderer spriteRenderer;
-
-    private void Start()
-    {
-        playerController = FindFirstObjectByType<PlayerController>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
+    public SortingGroup sortingGroup;
+    public GameObject pivote;
+    // public SpriteRenderer spriteRenderer;
     
     private void LateUpdate()
     {
-        if (transform.position.y > playerController.transform.position.y) 
-            spriteRenderer.sortingOrder = -1;
-        else spriteRenderer.sortingOrder = 20;
+        print(PlayerController.instance.transform.position.y);
+        if (pivote.transform.position.y > PlayerController.instance.transform.position.y) 
+            sortingGroup.sortingOrder = -1;
+        else sortingGroup.sortingOrder = 20;
     }
 }

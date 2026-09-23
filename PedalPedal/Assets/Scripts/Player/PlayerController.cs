@@ -17,6 +17,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioClip[] PedalClips;
 
     public bool canPaddle = true;
+    public static PlayerController instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     public void PaddleNE() {
         Paddle(new Vector2(1, 1).normalized, paddleForce);

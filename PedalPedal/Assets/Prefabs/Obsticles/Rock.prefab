@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &821726338749432569
+--- !u!1 &1271330264043391720
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2556949213098775361}
-  - component: {fileID: 2485832736422298824}
+  - component: {fileID: 6763881001083575129}
+  - component: {fileID: 2335371895471731570}
   m_Layer: 0
   m_Name: water effect_3
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2556949213098775361
+--- !u!4 &6763881001083575129
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821726338749432569}
+  m_GameObject: {fileID: 1271330264043391720}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.008000135, y: -0.013553619, z: 0}
@@ -32,14 +32,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8987898631236213944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2485832736422298824
+--- !u!212 &2335371895471731570
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821726338749432569}
+  m_GameObject: {fileID: 1271330264043391720}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -77,8 +77,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -430040147
+  m_SortingLayer: -4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 3236218790424294353, guid: 67fd5037e0843374486957ff39f5fea4, type: 3}
@@ -100,9 +100,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8987898631236213944}
-  - component: {fileID: 6558479013327458602}
-  - component: {fileID: 4727262961453531099}
-  - component: {fileID: 1754576269022527613}
+  - component: {fileID: 569222940069389579}
+  - component: {fileID: 4300140500177933811}
   m_Layer: 3
   m_Name: Rock
   m_TagString: Rock
@@ -123,17 +122,79 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2556949213098775361}
+  - {fileID: 6763881001083575129}
+  - {fileID: 8518604435648598026}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6558479013327458602
+--- !u!210 &569222940069389579
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2512515565821714658}
+  m_Enabled: 1
+  m_SortingLayerID: -430040147
+  m_SortingLayer: -4
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
+  m_Sort3DAs2D: 0
+--- !u!114 &4300140500177933811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2512515565821714658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4beaee8033d08b74cae7e67e2355501a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::YSorterToPlayer
+  sortingGroup: {fileID: 569222940069389579}
+  pivote: {fileID: 6153881980056232363}
+--- !u!1 &6153881980056232363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8518604435648598026}
+  - component: {fileID: 3079051004211601622}
+  - component: {fileID: 1158605176270804428}
+  - component: {fileID: 1382590699775766857}
+  m_Layer: 3
+  m_Name: Rock sprite
+  m_TagString: Rock
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8518604435648598026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6153881980056232363}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8987898631236213944}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3079051004211601622
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2512515565821714658}
+  m_GameObject: {fileID: 6153881980056232363}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -185,31 +246,31 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &4727262961453531099
+--- !u!114 &1158605176270804428
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2512515565821714658}
+  m_GameObject: {fileID: 6153881980056232363}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b23bad75910efe14abaf3e9f02d18456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RandomSpriteSelect
-  spriteRenderer: {fileID: 6558479013327458602}
+  spriteRenderer: {fileID: 3079051004211601622}
   spriteList:
   - {fileID: -2793924612011279343, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
   - {fileID: -2641083590121992873, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
   - {fileID: -6960697606145772354, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
   - {fileID: 405539247218102049, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
---- !u!68 &1754576269022527613
+--- !u!68 &1382590699775766857
 EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2512515565821714658}
+  m_GameObject: {fileID: 6153881980056232363}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
