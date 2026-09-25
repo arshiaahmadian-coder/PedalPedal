@@ -10,6 +10,8 @@ public enum Characters
 public class LevelManager : MonoBehaviour
 {
     public GameObject Controllers;
+    public LevelTimer levelTimer;
+    public ColideDetection playerColideDetection; // for colide number data 
 
     [Header("Letter Settings")]
     [SerializeField]  Characters letterSenderCharacter;
@@ -60,6 +62,7 @@ public class LevelManager : MonoBehaviour
 
     public void PlayerReachedEndPoint()
     {
+        levelTimer.StopTimer();
         Controllers.SetActive(false);
         // throw letter to reciver
         Invoke(nameof(ThrowLetter), 0.8f);
@@ -131,6 +134,7 @@ public class LevelManager : MonoBehaviour
             if (dialogManager.dialogData.zoomCamera) {
                 cinemachineSmoothZoom.ZoomBy(-dialogManager.dialogData.zoomAmount);
             }
+            levelTimer.StartTimer();
         }
         else
         {

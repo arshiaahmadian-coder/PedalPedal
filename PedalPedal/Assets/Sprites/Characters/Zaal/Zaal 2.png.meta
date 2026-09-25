@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2eaee7236a88daa499a971be89289f16
+guid: b9362fd0e78fdba4aa21bb84f5af76b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 439595211513997647
-    second: Water Pallet_0
+      213: 1633939942675175542
+    second: Zaal 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Water Pallet_0
+      name: Zaal 2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1759
-        width: 160
-        height: 241
+        x: 96
+        y: 0
+        width: 1105
+        height: 1216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f49214b0481c91600800000000000000
-      internalID: 439595211513997647
+      spriteID: 678d97b88bbeca610800000000000000
+      internalID: 1633939942675175542
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Water Pallet_0: 439595211513997647
+      Zaal 2_0: 1633939942675175542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

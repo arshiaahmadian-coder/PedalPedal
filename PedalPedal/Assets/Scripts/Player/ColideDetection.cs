@@ -10,6 +10,8 @@ public class ColideDetection : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private CinemachineCamera cinemachineCamera;
 
+    public int colideAmount;
+
     private Vector3 playerStartPos;
 
     private void Start()
@@ -27,6 +29,7 @@ public class ColideDetection : MonoBehaviour
             animator.SetTrigger("Crack");
             rb.linearVelocity = Vector2.zero;
             Invoke("RestartLevel", 2);
+            colideAmount += 1;
         }
     }
 
@@ -37,5 +40,6 @@ public class ColideDetection : MonoBehaviour
         playerController.canPaddle = true;
         // reposition player position
         playerController.transform.position = playerStartPos;
+        LevelManager.instance.levelTimer.ResetTimer();
     }
 }
