@@ -236,7 +236,7 @@ SpriteRenderer:
   m_SortingLayer: -4
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 405539247218102049, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
+  m_Sprite: {fileID: 5618000101936168721, guid: 76ce29a31ef75214482f10155b359ece, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -260,10 +260,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandomSpriteSelect
   spriteRenderer: {fileID: 3079051004211601622}
   spriteList:
-  - {fileID: -2793924612011279343, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
-  - {fileID: -2641083590121992873, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
-  - {fileID: -6960697606145772354, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
-  - {fileID: 405539247218102049, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
+  - {fileID: 5618000101936168721, guid: 76ce29a31ef75214482f10155b359ece, type: 3}
+  - {fileID: -5369452329608476640, guid: 76ce29a31ef75214482f10155b359ece, type: 3}
+  - {fileID: -6305492505211837727, guid: 76ce29a31ef75214482f10155b359ece, type: 3}
 --- !u!68 &1382590699775766857
 EdgeCollider2D:
   m_ObjectHideFlags: 0

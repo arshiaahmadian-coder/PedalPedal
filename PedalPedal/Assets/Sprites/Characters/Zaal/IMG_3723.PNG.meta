@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b9362fd0e78fdba4aa21bb84f5af76b8
+guid: ce2998a043029fc4ea877b675582b42f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1633939942675175542
-    second: Zaal 2_0
+      213: -5069039914795838397
+    second: IMG_3723_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 820
+  spritePixelsToUnits: 600
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Zaal 2_0
+      name: IMG_3723_0
       rect:
         serializedVersion: 2
-        x: 96
+        x: 0
         y: 0
-        width: 1105
-        height: 1216
+        width: 476
+        height: 814
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 678d97b88bbeca610800000000000000
-      internalID: 1633939942675175542
+      spriteID: 344515eed0727a9b0800000000000000
+      internalID: -5069039914795838397
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Zaal 2_0: 1633939942675175542
+      IMG_3723_0: -5069039914795838397
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

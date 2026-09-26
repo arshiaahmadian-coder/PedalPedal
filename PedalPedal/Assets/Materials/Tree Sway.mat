@@ -47,7 +47,7 @@ Material:
     - _SecondaryStrength: 0.25
     - _WindDirection: 1
     - _WindFrequency: 3
-    - _WindSpeed: 1.5
+    - _WindSpeed: 1
     - _WindStrength: 0.09
     - _WorldInfluence: 0.8
     - _ZWrite: 0

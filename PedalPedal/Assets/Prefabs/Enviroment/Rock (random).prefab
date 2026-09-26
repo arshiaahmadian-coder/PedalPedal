@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8648683276869084103, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
+  m_Sprite: {fileID: -8689035635190686027, guid: 76ce29a31ef75214482f10155b359ece, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -121,7 +121,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandomSpriteSelect
   spriteRenderer: {fileID: 6198507544266346551}
   spriteList:
-  - {fileID: -8648683276869084103, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
-  - {fileID: 7982790195306486066, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
-  - {fileID: 2733282180304962620, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
-  - {fileID: -745799200653003741, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
+  - {fileID: -8689035635190686027, guid: 76ce29a31ef75214482f10155b359ece, type: 3}
+  - {fileID: -7340963149319210717, guid: 76ce29a31ef75214482f10155b359ece, type: 3}
+  - {fileID: -2011216184659823745, guid: 76ce29a31ef75214482f10155b359ece, type: 3}
