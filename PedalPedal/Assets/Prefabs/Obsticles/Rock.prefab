@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 8518604435648598026}
   - component: {fileID: 3079051004211601622}
   - component: {fileID: 1158605176270804428}
-  - component: {fileID: 1382590699775766857}
+  - component: {fileID: 6108954564559119713}
   m_Layer: 3
   m_Name: Rock sprite
   m_TagString: Rock
@@ -236,12 +236,12 @@ SpriteRenderer:
   m_SortingLayer: -4
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 5618000101936168721, guid: 76ce29a31ef75214482f10155b359ece, type: 3}
+  m_Sprite: {fileID: -2793924612011279343, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.1875, y: 0.78125}
+  m_Size: {x: 0.655, y: 0.965}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -260,11 +260,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RandomSpriteSelect
   spriteRenderer: {fileID: 3079051004211601622}
   spriteList:
-  - {fileID: 5618000101936168721, guid: 76ce29a31ef75214482f10155b359ece, type: 3}
-  - {fileID: -5369452329608476640, guid: 76ce29a31ef75214482f10155b359ece, type: 3}
-  - {fileID: -6305492505211837727, guid: 76ce29a31ef75214482f10155b359ece, type: 3}
---- !u!68 &1382590699775766857
-EdgeCollider2D:
+  - {fileID: -2793924612011279343, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
+  - {fileID: -2641083590121992873, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
+  - {fileID: -6960697606145772354, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
+  - {fileID: 405539247218102049, guid: 25cc5aad2499ac94689ac28dff50ec09, type: 3}
+--- !u!61 &6108954564559119713
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -297,17 +298,15 @@ EdgeCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.008955598, y: 0.47694084}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.655, y: 0.965}
+    newSize: {x: 0.655, y: 0.965}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.6844723, y: 0.90611833}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.28011835, y: 0.089910895}
-  - {x: -0.017561197, y: 0.028288841}
-  - {x: 0.2667265, y: 0.08832383}
-  - {x: 0.13355851, y: 0.7625718}
-  - {x: -0.047891855, y: 0.92804813}
-  - {x: -0.18980646, y: 0.7476568}
-  - {x: -0.27943408, y: 0.10796034}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0

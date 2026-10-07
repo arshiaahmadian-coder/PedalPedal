@@ -1,3 +1,4 @@
+using System;
 using Unity.Cinemachine;
 using UnityEngine;
 
@@ -10,6 +11,7 @@ public class ColideDetection : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private CinemachineCamera cinemachineCamera;
 
+    public event Action OnCollide;
     public int colideAmount;
 
     private Vector3 playerStartPos;
@@ -23,6 +25,7 @@ public class ColideDetection : MonoBehaviour
     {
         if (other.gameObject.layer == 3 && playerController.canPaddle)
         {
+            OnCollide();
             playerController.canPaddle = false;
             screenShake.Shake(1.2f, 1.2f, 0.2f);
             SoundManager.instance.PlaySoundEffect(impactClip, 0);
