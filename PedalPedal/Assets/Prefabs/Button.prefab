@@ -85,7 +85,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271652245467899298}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 8de9e818380fe044a972c2908213982e, type: 2}
   m_CullingMode: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomButton
   OnButtonDown: 0
-  animator: {fileID: 6750732229674319706}
+  animator: {fileID: 0}
   onClick:
     m_PersistentCalls:
       m_Calls: []
