@@ -15,16 +15,16 @@ public class MainMenuModel : MonoBehaviour
     }
 
     public void GoToShop() {
-        SceneManager.LoadScene("Shop");
+        NavigationAnimator.Instance.TransparentToDart("Shop");
     }
 
     public void GoToStoryMenu() {
-        SceneManager.LoadScene("StoryLevelMenu");
+        NavigationAnimator.Instance.TransparentToDart("StoryLevelMenu");
     }
 
     public void GoToEndlessLevel() {
-        // SceneManager.LoadScene("EndlessLevel");
-        SceneManager.LoadScene("SampleScene");
+        // NavigationAnimator.Instance.TransparentToDart("EndlessLevel");
+        NavigationAnimator.Instance.TransparentToDart("SampleScene");
     }
 
     public void OpenSettingsDialog()

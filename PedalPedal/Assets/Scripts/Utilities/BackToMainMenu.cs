@@ -5,6 +5,6 @@ public class BackToMainMenu : MonoBehaviour
 {
     public void GoToMainMenu()
     {
-        SceneManager.LoadScene(0);
+        NavigationAnimator.Instance.TransparentToDart("MainMenu");
     }
 }
