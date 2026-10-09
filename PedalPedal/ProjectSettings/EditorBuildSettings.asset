@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: bf49993499e88fa488c1c55780f488e8
   - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 20717df3760bca64ebdf277215c1974c
+  - enabled: 1
+    path: Assets/Scenes/StoryLevelMenu.unity
+    guid: 82fc388bd2b4f664da78e579a22b303f
+  - enabled: 1
+    path: Assets/Scenes/Levels/EndlessLevel.unity
+    guid: aa9c5d1d13fc5bd44a8d27eb452fcc28
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
