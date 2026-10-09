@@ -23,7 +23,8 @@ public class MainMenuModel : MonoBehaviour
     }
 
     public void GoToEndlessLevel() {
-        SceneManager.LoadScene("EndlessLevel");
+        // SceneManager.LoadScene("EndlessLevel");
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void OpenSettingsDialog()

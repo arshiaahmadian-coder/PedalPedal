@@ -1,4 +1,4 @@
-using TMPro;
+using ArabicTextSupport;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,7 +7,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private Image dialogImage;
     [SerializeField] private Animator animator;
     public GameObject touchArea;
-    [SerializeField] private TMP_Text dialogText;
+    [SerializeField] private ArabicUIText dialogText;
     [SerializeField] private AudioSource audioSource;
 
     [Header("dialog settings")]
@@ -57,7 +57,7 @@ public class DialogManager : MonoBehaviour
     private void ChangeAnimationData()
     {
         // text
-        dialogText.text = dialogData.dialogTextList[dialogIndex];
+        dialogText.Text = dialogData.dialogTextList[dialogIndex];
 
         // sound
         if (dialogData.multyVoiceLines)
