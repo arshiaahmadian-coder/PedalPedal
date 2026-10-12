@@ -519,11 +519,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4613220489032777353, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GoToMainMenu
+      value: OnClick
       objectReference: {fileID: 0}
     - target: {fileID: 4613220489032777353, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BackToMainMenu, Assembly-CSharp
+      value: ChangeScene, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4613220489032777353, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -636,9 +636,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2090658102}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc9e5809d056201469335fc791bb0909, type: 3}
+  m_Script: {fileID: 11500000, guid: f7b8054a9a6a1ec47b9fd8567dc2c9fc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BackToMainMenu
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
+  sceneMane: MainMenu
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
