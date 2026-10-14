@@ -36,4 +36,10 @@ public class CinemachineSmoothZoom : MonoBehaviour
         targetOrthoSize += amount;
         targetOrthoSize = Mathf.Clamp(targetOrthoSize, 2f, 15f);
     }
+
+    public void ForceZoom(float amount)
+    {
+        virtualCamera.Lens.OrthographicSize = virtualCamera.Lens.OrthographicSize + amount;
+        targetOrthoSize = currentSize = virtualCamera.Lens.OrthographicSize;
+    }
 }

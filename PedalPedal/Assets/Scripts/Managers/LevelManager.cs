@@ -1,4 +1,6 @@
+using ArabicTextSupport;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum Characters
 {
@@ -9,6 +11,7 @@ public enum Characters
 
 public class LevelManager : MonoBehaviour
 {
+    public LevelData levelData;
     public GameObject Controllers;
     public LevelTimer levelTimer;
     public ColideDetection playerColideDetection; // for colide number data 
@@ -25,12 +28,15 @@ public class LevelManager : MonoBehaviour
     [Header("Dialog settings")]
     [SerializeField] CinemachineSmoothZoom cinemachineSmoothZoom;
     [SerializeField] DialogManager dialogManager;
-    [SerializeField] bool hasStartDialog = false;
-    [SerializeField] private DialogData StarterDialogData;
-    [SerializeField] private float startDialogDelay = 1f;
-    [SerializeField] bool hasEndDialog = false;
-    [SerializeField] private DialogData endingDialogData;
-    [SerializeField] private float endDialogDelay = 0f;
+
+    [Header("Win Window")]
+    [SerializeField] GameObject winCanv;
+    [SerializeField] ArabicUIText letterMesageTxt;
+    [SerializeField] ArabicUIText timerTxt;
+    [SerializeField] ArabicUIText deathCountTxt;
+    [SerializeField] Image[] StarImageList;
+    [SerializeField] Sprite falseStar;
+    [SerializeField] Sprite trueStar;
 
     private int gameStage = 0;
     private bool playerHasLatter = false;
@@ -39,6 +45,9 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
+        Controllers.SetActive(false);
+        dialogManager.touchArea.SetActive(false);
+
         if (letterSenderCharacter == Characters.Zaal)
         {
             letterThrower.spriteRenderer = ZaalLatterObject.GetComponent<SpriteRenderer>();
@@ -47,17 +56,16 @@ public class LevelManager : MonoBehaviour
             letterThrower.spriteRenderer = RoodabehLatterObject.GetComponent<SpriteRenderer>();
         }
 
-        if (hasStartDialog)
+        if (levelData.hasStartDialog)
         {
-            if (dialogManager.dialogData.zoomCamera) {
-                cinemachineSmoothZoom.ZoomBy(dialogManager.dialogData.zoomAmount);
-            }
-
-            Controllers.SetActive(false);
-            dialogManager.touchArea.SetActive(false);
-            dialogManager.dialogData = StarterDialogData;
-            Invoke(nameof(StartDialog), startDialogDelay);
-        }   
+            cinemachineSmoothZoom.ZoomBy(-2.5f);
+            dialogManager.dialogData = levelData.dialogData;
+            Invoke(nameof(StartDialog), levelData.dialogData.startDialogDelay);
+        } else
+        {
+            Invoke(nameof(ThrowLetter), 0.2f);
+            cinemachineSmoothZoom.ForceZoom(-2.5f);
+        }
     }
 
     public void PlayerReachedEndPoint()
@@ -70,12 +78,12 @@ public class LevelManager : MonoBehaviour
 
     private void LetterRecived()
     {
-        if (hasEndDialog)
+        if (false)
         {
-            // play ending dialog
+            // TODO: play ending dialog
         } else
         {
-            print("Game Over, you win !");
+            GameOver();
         }
     }
 
@@ -88,7 +96,7 @@ public class LevelManager : MonoBehaviour
             ThrowLetter();
         } else if (gameStage == 2) // after second dialog
         {
-            // end game
+            GameOver();
         }
     }
 
@@ -131,9 +139,7 @@ public class LevelManager : MonoBehaviour
         if (playerHasLatter)
         {
             Controllers.SetActive(true);
-            if (dialogManager.dialogData.zoomCamera) {
-                cinemachineSmoothZoom.ZoomBy(-dialogManager.dialogData.zoomAmount);
-            }
+            cinemachineSmoothZoom.ZoomBy(2.5f);
             levelTimer.StartTimer();
         }
         else
@@ -149,4 +155,37 @@ public class LevelManager : MonoBehaviour
     {
         dialogManager.StartDialogCycle();
     }
+
+    private void GameOver()
+    {
+        levelTimer.StopTimer();
+        winCanv.SetActive(true);
+        int starNumber = 1;
+        if (levelTimer.seconds <= levelData.threeStarTime) starNumber = 3;
+        else if (levelTimer.seconds <= levelData.TwoStarTime) starNumber = 2;
+        print(starNumber);
+
+        // update ui
+        letterMesageTxt.Text = levelData.latterMessage;
+        timerTxt.Text = levelTimer.timeStr;
+        deathCountTxt.Text = FindFirstObjectByType<ColideDetection>().colideAmount.ToString();
+
+        // save data
+        Database playerData = new Database();
+        if (SaveLoadManager.CheckFileExists(SaveLoadManager.instance.DataFileName))
+            SaveLoadManager.instance.Load(playerData, SaveLoadManager.instance.DataFileName);
+
+        if (playerData.lastUnlockedLevelID == levelData.levelID) 
+            playerData.lastUnlockedLevelID = levelData.levelID + 1; // new level unlocked
+        
+        do
+        {
+            playerData.levelData.Add(0);
+        } while (playerData.levelData.Count < levelData.levelID);
+        
+        playerData.levelData[levelData.levelID] = starNumber;
+
+        SaveLoadManager.instance.Save(playerData, SaveLoadManager.instance.DataFileName);
+    }
+    // back to level menu - restart - nextlevel
 }

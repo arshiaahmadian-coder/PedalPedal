@@ -10,4 +10,5 @@ public class DialogData : ScriptableObject
     public Sprite[] dialogCharacterList;
     public string[] dialogTextList;
     public AudioClip[] dialogVoiceList;
+    public float startDialogDelay = 1f;
 }

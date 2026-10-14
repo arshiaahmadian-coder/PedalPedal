@@ -1232,6 +1232,7 @@ GameObject:
   - component: {fileID: 1708389108}
   - component: {fileID: 1708389107}
   - component: {fileID: 1708389106}
+  - component: {fileID: 1708389109}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -1477,6 +1478,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SettingsManager
   soundFxVolume: 1
   musicSoundVolume: 1
+--- !u!114 &1708389109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708389103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13bf2784197bb264a8534d6cd3d60c56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SaveLoadManager
+  DataFileName: data.json
 --- !u!1 &1737513265
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,6 +5,7 @@ public class LevelTimer : MonoBehaviour
 {
     [SerializeField] private TMP_Text timerTxt;
     public int seconds; // for data saving and record
+    public string timeStr;
 
     private bool isStoped = true;
     private float timer;
@@ -13,7 +14,6 @@ public class LevelTimer : MonoBehaviour
 
     private string secStr;
     private string minStr;
-    private string timeStr;
 
     private void FixedUpdate() 
     {

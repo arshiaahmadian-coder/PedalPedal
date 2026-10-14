@@ -9,7 +9,6 @@ public class ColideDetection : MonoBehaviour
     [SerializeField] private ScreenShake screenShake;
     [SerializeField] private AudioClip impactClip;
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private CinemachineCamera cinemachineCamera;
 
     public event Action OnCollide;
     public int colideAmount;
