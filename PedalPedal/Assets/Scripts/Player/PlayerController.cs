@@ -70,6 +70,6 @@ public class PlayerController : MonoBehaviour
         }
 
         // sound effect
-        SoundManager.instance.PlaySoundEffect(audioSource, PedalClips[Random.Range(0, PedalClips.Length)]);
+        SoundManager.GetInstnce().PlaySoundEffect(audioSource, PedalClips[Random.Range(0, PedalClips.Length)]);
     }
 }

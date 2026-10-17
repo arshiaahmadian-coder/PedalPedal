@@ -5,8 +5,13 @@ public class SaveLoadManager : MonoBehaviour
 {
     public string DataFileName = "data.json";
 
-    public static SaveLoadManager instance;
-    private void Awake() { instance = this; }  
+    private static SaveLoadManager instance;
+
+    public static SaveLoadManager GetInstnce()
+    {
+        if (instance == null) instance = FindFirstObjectByType<SaveLoadManager>();
+        return instance;
+    }
 
     public void Save<T>(T data, string fileName, string folderName = "Data")
     {

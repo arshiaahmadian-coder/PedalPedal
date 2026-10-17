@@ -15,10 +15,10 @@ public class StoryLevelMenu : MonoBehaviour
 
     private void Start()
     {
-        if (SaveLoadManager.CheckFileExists(SaveLoadManager.instance.DataFileName))
-            SaveLoadManager.instance.Load(playerData, SaveLoadManager.instance.DataFileName);
+        if (SaveLoadManager.CheckFileExists(SaveLoadManager.GetInstnce().DataFileName))
+            SaveLoadManager.GetInstnce().Load(playerData, SaveLoadManager.GetInstnce().DataFileName);
         else 
-            SaveLoadManager.instance.Save(playerData, SaveLoadManager.instance.DataFileName);
+            SaveLoadManager.GetInstnce().Save(playerData, SaveLoadManager.GetInstnce().DataFileName);
 
         OnPageChanged();
     }

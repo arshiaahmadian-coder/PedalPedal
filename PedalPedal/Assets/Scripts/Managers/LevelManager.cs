@@ -172,8 +172,8 @@ public class LevelManager : MonoBehaviour
 
         // save data
         Database playerData = new Database();
-        if (SaveLoadManager.CheckFileExists(SaveLoadManager.instance.DataFileName))
-            SaveLoadManager.instance.Load(playerData, SaveLoadManager.instance.DataFileName);
+        if (SaveLoadManager.CheckFileExists(SaveLoadManager.GetInstnce().DataFileName))
+            SaveLoadManager.GetInstnce().Load(playerData, SaveLoadManager.GetInstnce().DataFileName);
 
         if (playerData.lastUnlockedLevelID == levelData.levelID) 
             playerData.lastUnlockedLevelID = levelData.levelID + 1; // new level unlocked
@@ -185,7 +185,7 @@ public class LevelManager : MonoBehaviour
         
         playerData.levelData[levelData.levelID] = starNumber;
 
-        SaveLoadManager.instance.Save(playerData, SaveLoadManager.instance.DataFileName);
+        SaveLoadManager.GetInstnce().Save(playerData, SaveLoadManager.GetInstnce().DataFileName);
     }
     // back to level menu - restart - nextlevel
 }

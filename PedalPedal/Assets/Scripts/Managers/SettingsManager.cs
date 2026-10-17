@@ -22,6 +22,6 @@ public class SettingsManager : MonoBehaviour
 
     private void Start()
     {
-        SoundManager.instance.UpdateSoundVolume();
+        SoundManager.GetInstnce().UpdateSoundVolume();
     }
 }

@@ -1,7 +1,5 @@
 using ArabicTextSupport;
 using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class LevelButton : MonoBehaviour
@@ -34,7 +32,7 @@ public class LevelButton : MonoBehaviour
 
     private int GetLevelID()
     {
-        return ID * storyLevelMenu.currentPage;
+        return ID + ((storyLevelMenu.currentPage - 1) * 5);
     }
 
     public void StartLevel()
@@ -47,6 +45,8 @@ public class LevelButton : MonoBehaviour
     private void UpdateUI()
     {
         locked = false;
+
+        levelNumber.Text = GetLevelID().ToString();
 
         if (storyLevelMenu.playerData.lastUnlockedLevelID < GetLevelID()) // locked
         {

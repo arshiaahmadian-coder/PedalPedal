@@ -7,8 +7,13 @@ public class SoundManager : MonoBehaviour
     [SerializeField] AudioSource musicAudioSource;
     [SerializeField] AudioClip clickSound;
 
-    public static SoundManager instance;
-    private void Awake() { instance = this; }
+    private static SoundManager instance;
+
+    public static SoundManager GetInstnce()
+    {
+        if (instance == null) instance = FindFirstObjectByType<SoundManager>();
+        return instance;
+    }
 
     private IEnumerator Start()
     {
@@ -23,6 +28,11 @@ public class SoundManager : MonoBehaviour
 
     public void PlaySoundEffect(AudioSource audioSource, AudioClip clip, float pitchChangeRatio = 0.05f)
     {
+        if (audioSource == null)
+        {
+            print("Audio Source Not Found");
+            return;
+        }
         audioSource.volume = SettingsManager.Instance.soundFxVolume;
         audioSource.pitch = Random.Range(1 - pitchChangeRatio, 1 + pitchChangeRatio);
         audioSource.PlayOneShot(clip);
@@ -30,6 +40,8 @@ public class SoundManager : MonoBehaviour
 
     public void PlaySoundEffect(AudioClip clip, float pitchChangeRatio = 0.05f)
     {
+        if (effectsAudioSource == null) GetComponent<AudioSource>();
+
         effectsAudioSource.volume = SettingsManager.Instance.soundFxVolume;
         effectsAudioSource.pitch = Random.Range(1 - pitchChangeRatio, 1 + pitchChangeRatio);
         effectsAudioSource.PlayOneShot(clip);

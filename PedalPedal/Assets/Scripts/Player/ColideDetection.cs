@@ -27,7 +27,7 @@ public class ColideDetection : MonoBehaviour
             OnCollide();
             playerController.canPaddle = false;
             screenShake.Shake(1.2f, 1.2f, 0.2f);
-            SoundManager.instance.PlaySoundEffect(impactClip, 0);
+            SoundManager.GetInstnce().PlaySoundEffect(impactClip, 0);
             animator.SetTrigger("Crack");
             rb.linearVelocity = Vector2.zero;
             Invoke("RestartLevel", 2);
