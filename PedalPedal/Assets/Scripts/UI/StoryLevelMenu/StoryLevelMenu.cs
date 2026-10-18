@@ -3,9 +3,7 @@ using UnityEngine;
 
 public class StoryLevelMenu : MonoBehaviour
 {
-    [SerializeField] GameObject PrevBtn;
-    [SerializeField] GameObject NextBtn;
-
+    [SerializeField] Animator animator;
     public int currentPage = 1;
     public int maxPage;
 
@@ -25,21 +23,33 @@ public class StoryLevelMenu : MonoBehaviour
 
     public void OnNextPage() 
     {
-        currentPage += 1;
+        if (currentPage == maxPage)
+        {
+            return;
+            // currentPage = 1;
+        } else
+        {
+            currentPage += 1;
+        }
 
         OnPageChanged();
-        PrevBtn.SetActive(true);
 
-        if (currentPage == maxPage) NextBtn.SetActive(false);
+        animator.SetTrigger("NextPage");
     }
 
     public void OnPrevPage()
     {
-        currentPage -= 1;
+        if (currentPage == 1)
+        {
+            return;
+            // currentPage = maxPage;
+        } else
+        {
+            currentPage -= 1;
+        }
 
         OnPageChanged();
-        NextBtn.SetActive(true);
 
-        if (currentPage == 1) PrevBtn.SetActive(false);
+        animator.SetTrigger("NextPage");
     }
 }
