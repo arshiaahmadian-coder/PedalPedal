@@ -4,8 +4,7 @@ using UnityEngine.SceneManagement;
 public class MainMenuModel : MonoBehaviour
 {
     [SerializeField] private GameObject settingsDialog;
-    [SerializeField] private GameObject MainMenuPannel;
-    [SerializeField] private GameObject modeSelectDialog;
+    [SerializeField] private Animator modeMenuAnimator;
 
     public bool IsSettingDialogActive() => settingsDialog.activeSelf;
 
@@ -30,25 +29,21 @@ public class MainMenuModel : MonoBehaviour
     public void OpenSettingsDialog()
     {
         settingsDialog.SetActive(true);
-        MainMenuPannel.SetActive(false);
     }
-    
+
     public void CloseSettingsDialog()
     {
         settingsDialog.SetActive(false);
-        MainMenuPannel.SetActive(true);
     }
 
     public void OpenModeSelectDialog()
     {
-        modeSelectDialog.SetActive(true);
-        MainMenuPannel.SetActive(false);
+        modeMenuAnimator.SetBool("IsUp", true);
     }
-    
+
     public void CloseModeSelectDialog()
     {
-        modeSelectDialog.SetActive(false);
-        MainMenuPannel.SetActive(true);
+        modeMenuAnimator.SetBool("IsUp", false);
     }
 
     public void GoToOtherGames()

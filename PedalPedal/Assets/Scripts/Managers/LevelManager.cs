@@ -163,7 +163,6 @@ public class LevelManager : MonoBehaviour
         int starNumber = 1;
         if (levelTimer.seconds <= levelData.threeStarTime) starNumber = 3;
         else if (levelTimer.seconds <= levelData.TwoStarTime) starNumber = 2;
-        print(starNumber);
 
         // update ui
         letterMesageTxt.Text = levelData.latterMessage;

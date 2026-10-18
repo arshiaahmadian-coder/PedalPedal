@@ -46,12 +46,23 @@ public class LevelButton : MonoBehaviour
     {
         locked = false;
 
+        int starNumber = storyLevelMenu.playerData.levelData[GetLevelID()];
+        StarImageList[0].sprite = starNumber >= 1 ? trueStar : falseStar;
+        StarImageList[1].sprite = starNumber >= 2 ? trueStar : falseStar;
+        StarImageList[2].sprite = starNumber >= 3 ? trueStar : falseStar;
+        StarImageList[0].gameObject.SetActive(true);
+        StarImageList[1].gameObject.SetActive(true);
+        StarImageList[2].gameObject.SetActive(true);
+
         levelNumber.Text = GetLevelID().ToString();
 
         if (storyLevelMenu.playerData.lastUnlockedLevelID < GetLevelID()) // locked
         {
             locked = true;
             levelBtnBackground.sprite = lockedLevelBG;
+            StarImageList[0].gameObject.SetActive(false);
+            StarImageList[1].gameObject.SetActive(false);
+            StarImageList[2].gameObject.SetActive(false);
             // disable stars object
         } else if (storyLevelMenu.playerData.lastUnlockedLevelID == GetLevelID()) // curent level
         {
@@ -59,6 +70,7 @@ public class LevelButton : MonoBehaviour
         } else // passed
         {
             levelBtnBackground.sprite = passedLevelBG;
+            
         }
     }
 }
