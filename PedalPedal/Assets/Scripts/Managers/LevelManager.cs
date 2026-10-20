@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] GameObject winCanv;
     [SerializeField] ArabicUIText letterMesageTxt;
     [SerializeField] ArabicUIText timerTxt;
-    [SerializeField] ArabicUIText deathCountTxt;
+    [SerializeField] ArabicUIText coinCountTxt;
     [SerializeField] Image[] StarImageList;
     [SerializeField] Sprite falseStar;
     [SerializeField] Sprite trueStar;
@@ -156,18 +156,32 @@ public class LevelManager : MonoBehaviour
         dialogManager.StartDialogCycle();
     }
 
+    public void OnRestartClicked()
+    {
+        NavigationAnimator.Instance.TransparentToDart("Level " + levelData.levelID);
+    }
+
+    public void OnNextLevelClicked()
+    {
+        NavigationAnimator.Instance.TransparentToDart("Level " + (levelData.levelID + 1));
+    }
+
     private void GameOver()
     {
         levelTimer.StopTimer();
         winCanv.SetActive(true);
         int starNumber = 1;
+        int coinCount = 10 * starNumber;
         if (levelTimer.seconds <= levelData.threeStarTime) starNumber = 3;
         else if (levelTimer.seconds <= levelData.TwoStarTime) starNumber = 2;
 
         // update ui
         letterMesageTxt.Text = levelData.latterMessage;
         timerTxt.Text = levelTimer.timeStr;
-        deathCountTxt.Text = FindFirstObjectByType<ColideDetection>().colideAmount.ToString();
+        coinCountTxt.Text = coinCount.ToString();
+        if (starNumber == 1) StarImageList[0].sprite = trueStar;
+        if (starNumber == 2) StarImageList[1].sprite = trueStar;
+        if (starNumber == 3) StarImageList[2].sprite = trueStar;
 
         // save data
         Database playerData = new Database();

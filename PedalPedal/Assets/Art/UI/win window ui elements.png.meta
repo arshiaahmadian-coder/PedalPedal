@@ -1,0 +1,449 @@
+fileFormatVersion: 2
+guid: 898adde5a1c9bae47b79c545ffdb3a51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5581979046563550845
+    second: win window ui elements_0
+  - first:
+      213: 2930385814248479618
+    second: win window ui elements_1
+  - first:
+      213: 60020999318656352
+    second: win window ui elements_2
+  - first:
+      213: -6249622188346687319
+    second: win window ui elements_3
+  - first:
+      213: -1688339142542647572
+    second: win window ui elements_4
+  - first:
+      213: 640700294947443451
+    second: win window ui elements_5
+  - first:
+      213: 2763185695607483957
+    second: win window ui elements_6
+  - first:
+      213: -6437104563459869193
+    second: win window ui elements_7
+  - first:
+      213: 8196584881171644624
+    second: win window ui elements_8
+  - first:
+      213: 4365516463089829975
+    second: win window ui elements_9
+  - first:
+      213: -1015320187420032516
+    second: win window ui elements_10
+  - first:
+      213: -4805832762662814462
+    second: win window ui elements_11
+  - first:
+      213: 2404446270019902778
+    second: win window ui elements_12
+  - first:
+      213: -1866409127579722609
+    second: win window ui elements_13
+  - first:
+      213: -5740488574588273023
+    second: win window ui elements_14
+  - first:
+      213: -3214857442955582286
+    second: win window ui elements_15
+  - first:
+      213: -6860354797102519521
+    second: win window ui elements_16
+  - first:
+      213: 7102167617396981635
+    second: win window ui elements_17
+  - first:
+      213: -5095351622340563852
+    second: win window ui elements_18
+  - first:
+      213: 4860736659232954341
+    second: win window ui elements_19
+  - first:
+      213: -6689099556074123724
+    second: win window ui elements_20
+  - first:
+      213: -8232715181249278593
+    second: win window ui elements_21
+  - first:
+      213: -2126321186589587185
+    second: win window ui elements_22
+  - first:
+      213: -787718356065698926
+    second: win window ui elements_23
+  - first:
+      213: -6196880349355607314
+    second: win window ui elements_24
+  - first:
+      213: -7356258810342538965
+    second: win window ui elements_25
+  - first:
+      213: -9143180695662305240
+    second: win window ui elements_26
+  - first:
+      213: -4085484937970349844
+    second: win window ui elements_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Start 1
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 478
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389e7e9b1a3d882b0800000000000000
+      internalID: -5581979046563550845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star 0
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 478
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bdf194f52daa820800000000000000
+      internalID: 2930385814248479618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: win window ui elements_5
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 709
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf294df068934e800800000000000000
+      internalID: 640700294947443451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Home Btn
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 283
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395ea9b5660165a4cb5e71e59c35ece3
+      internalID: 134508708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Restart Btn
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 283
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17675398889c3d342a8bcdf23156c61d
+      internalID: 971818084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Level Btn
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 282
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569d760070a79db4ea31cb247383fe40
+      internalID: 725121271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Icon
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 453
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9a8739370d53f458fbc817e049b99d
+      internalID: -984963176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin Icon
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 458
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daeeefb90bfa5d74b8ef44bd441ce7a6
+      internalID: -169435246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dfe3bea56175631418433c09e7dff801
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Coin Icon: -169435246
+      Home Btn: 134508708
+      Next Level Btn: 725121271
+      Restart Btn: 971818084
+      Star 0: 2930385814248479618
+      Start 1: -5581979046563550845
+      Time Icon: -984963176
+      win window ui elements_10: -1015320187420032516
+      win window ui elements_11: -4805832762662814462
+      win window ui elements_12: 2404446270019902778
+      win window ui elements_13: -1866409127579722609
+      win window ui elements_14: -5740488574588273023
+      win window ui elements_15: -3214857442955582286
+      win window ui elements_16: -6860354797102519521
+      win window ui elements_17: 7102167617396981635
+      win window ui elements_18: -5095351622340563852
+      win window ui elements_19: 4860736659232954341
+      win window ui elements_2: 60020999318656352
+      win window ui elements_20: -6689099556074123724
+      win window ui elements_21: -8232715181249278593
+      win window ui elements_22: -2126321186589587185
+      win window ui elements_23: -787718356065698926
+      win window ui elements_24: -6196880349355607314
+      win window ui elements_25: -7356258810342538965
+      win window ui elements_26: -9143180695662305240
+      win window ui elements_27: -4085484937970349844
+      win window ui elements_3: -6249622188346687319
+      win window ui elements_4: -1688339142542647572
+      win window ui elements_5: 640700294947443451
+      win window ui elements_6: 2763185695607483957
+      win window ui elements_7: -6437104563459869193
+      win window ui elements_8: 8196584881171644624
+      win window ui elements_9: 4365516463089829975
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

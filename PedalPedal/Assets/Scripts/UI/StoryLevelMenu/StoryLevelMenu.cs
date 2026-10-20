@@ -8,11 +8,11 @@ public class StoryLevelMenu : MonoBehaviour
     public int maxPage;
 
     public event Action OnPageChanged;
-    [HideInInspector]
-    public Database playerData = new Database();
+    public Database playerData;
 
     private void Start()
     {
+        playerData = new Database();
         if (SaveLoadManager.CheckFileExists(SaveLoadManager.GetInstnce().DataFileName))
             SaveLoadManager.GetInstnce().Load(playerData, SaveLoadManager.GetInstnce().DataFileName);
         else 
