@@ -171,16 +171,16 @@ public class LevelManager : MonoBehaviour
         levelTimer.StopTimer();
         winCanv.SetActive(true);
         int starNumber = 1;
-        int coinCount = 10 * starNumber;
         if (levelTimer.seconds <= levelData.threeStarTime) starNumber = 3;
         else if (levelTimer.seconds <= levelData.TwoStarTime) starNumber = 2;
+        int coinCount = 10 * starNumber;
 
         // update ui
         letterMesageTxt.Text = levelData.latterMessage;
         timerTxt.Text = levelTimer.timeStr;
         coinCountTxt.Text = coinCount.ToString();
-        if (starNumber == 1) StarImageList[0].sprite = trueStar;
-        if (starNumber == 2) StarImageList[1].sprite = trueStar;
+        if (starNumber >= 1) StarImageList[0].sprite = trueStar;
+        if (starNumber >= 2) StarImageList[1].sprite = trueStar;
         if (starNumber == 3) StarImageList[2].sprite = trueStar;
 
         // save data

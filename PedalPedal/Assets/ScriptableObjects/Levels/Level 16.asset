@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Level 16
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
   levelID: 16
-  threeStarTime: 10
-  TwoStarTime: 15
+  threeStarTime: 15
+  TwoStarTime: 25
   latterMessage: level message 16
   hasStartDialog: 0
   dialogData: {fileID: 0}
