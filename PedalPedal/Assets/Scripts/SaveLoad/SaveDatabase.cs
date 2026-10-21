@@ -8,6 +8,7 @@ public class Database
     public int highestScore;
     public int selectedSkinID;
     public int lastUnlockedLevelID;
+    public bool hasFollowed;
 
     public List<int> ownedSkins;
     public List<int> levelData; // [2, 1, 3, 3, 3, 1, 2] -> [0]: level 1 passed with 2 stars
@@ -20,6 +21,7 @@ public class Database
         highestScore = 0;
         selectedSkinID = 0;
         lastUnlockedLevelID = 1;
+        
 
         ownedSkins = new List<int>
         {

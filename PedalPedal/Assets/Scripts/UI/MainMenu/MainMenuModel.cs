@@ -63,4 +63,36 @@ public class MainMenuModel : MonoBehaviour
     {
         print("GoToOtherGames");
     }
+
+    public void GoToInstagram()
+    {
+        Database playerData = new Database();
+        if (SaveLoadManager.CheckFileExists(SaveLoadManager.GetInstnce().DataFileName))
+            SaveLoadManager.GetInstnce().Load(playerData, SaveLoadManager.GetInstnce().DataFileName);
+
+        Application.OpenURL("https://www.instagram.com/arshia.ahmadian.dev?cplk=cnU1aGZienNsMzI2");
+        CloseSettingsDialog();
+
+        if (playerData.hasFollowed == false)
+        {
+            playerData.hasFollowed = true;
+            playerData.coinAmount += 100;
+            coinText.Text = playerData.coinAmount.ToString();
+            SaveLoadManager.GetInstnce().Save(playerData, SaveLoadManager.GetInstnce().DataFileName);
+            Invoke("OpenNotif", 1);
+        }
+    }
+
+    private void OpenNotif()
+    {
+        NotificationManager.GetInstance().ShowSmallNotification("شما 100 سکه دریافت کردید");
+    }
+
+    public void OrderRegistration() {
+        CloseSettingsDialog();
+
+        // TODO: Open OrderRegistration help tab
+
+        Application.OpenURL("https://www.instagram.com/arshia.ahmadian.dev?cplk=cnU1aGZienNsMzI2");
+    }
 }

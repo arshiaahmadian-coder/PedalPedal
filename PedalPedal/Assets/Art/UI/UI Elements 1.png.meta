@@ -931,6 +931,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Bannner Btn
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 807
+        width: 607
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1bfe2d1d3936948b4bb26bc8e43252
+      internalID: -395283036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -946,6 +968,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Banner: -1749070628
+      Bannner Btn: -395283036
       Level Btn: 1317091744074478568
       Main Menu Section Btn: 1824872424
       Next Icon: 1306346531
