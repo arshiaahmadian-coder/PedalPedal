@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuModel : MonoBehaviour
 {
+    [SerializeField] private GameObject InstagramCoinMessage;
     [SerializeField] private GameObject settingsDialog;
     [SerializeField] private Animator modeMenuAnimator;
     [SerializeField] private ArabicUIText coinText;
@@ -17,6 +18,7 @@ public class MainMenuModel : MonoBehaviour
             SaveLoadManager.GetInstnce().Save(playerData, SaveLoadManager.GetInstnce().DataFileName);
 
         coinText.Text = playerData.coinAmount.ToString();
+        if (playerData.hasFollowed) InstagramCoinMessage.SetActive(false);
     }
 
     public bool IsSettingDialogActive() => settingsDialog.activeSelf;
@@ -46,6 +48,7 @@ public class MainMenuModel : MonoBehaviour
 
     public void CloseSettingsDialog()
     {
+        SettingsManager.GetInstance().SaveData();
         settingsDialog.SetActive(false);
     }
 
@@ -66,6 +69,7 @@ public class MainMenuModel : MonoBehaviour
 
     public void GoToInstagram()
     {
+        InstagramCoinMessage.SetActive(false);
         Database playerData = new Database();
         if (SaveLoadManager.CheckFileExists(SaveLoadManager.GetInstnce().DataFileName))
             SaveLoadManager.GetInstnce().Load(playerData, SaveLoadManager.GetInstnce().DataFileName);
@@ -88,11 +92,9 @@ public class MainMenuModel : MonoBehaviour
         NotificationManager.GetInstance().ShowSmallNotification("شما 100 سکه دریافت کردید");
     }
 
-    public void OrderRegistration() {
+    public void OtherGames() {
         CloseSettingsDialog();
 
-        // TODO: Open OrderRegistration help tab
-
-        Application.OpenURL("https://www.instagram.com/arshia.ahmadian.dev?cplk=cnU1aGZienNsMzI2");
+        Application.OpenURL("https://cafebazaar.ir/developer/837019198109");
     }
 }

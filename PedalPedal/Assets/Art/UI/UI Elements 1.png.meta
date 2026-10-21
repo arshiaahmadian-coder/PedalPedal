@@ -940,7 +940,7 @@ TextureImporter:
         width: 607
         height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -949,6 +949,28 @@ TextureImporter:
       bones: []
       spriteID: 5a1bfe2d1d3936948b4bb26bc8e43252
       internalID: -395283036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 806
+        width: 471
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8572751fff61d8e4eaf540b2ea3dd62d
+      internalID: -859584673
       vertices: []
       indices: 
       edges: []
@@ -969,6 +991,7 @@ TextureImporter:
     nameFileIdTable:
       Banner: -1749070628
       Bannner Btn: -395283036
+      Button: -859584673
       Level Btn: 1317091744074478568
       Main Menu Section Btn: 1824872424
       Next Icon: 1306346531

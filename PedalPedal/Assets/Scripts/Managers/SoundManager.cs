@@ -18,12 +18,12 @@ public class SoundManager : MonoBehaviour
     private IEnumerator Start()
     {
         yield return null; 
-        musicAudioSource.volume = SettingsManager.Instance.musicSoundVolume;
+        musicAudioSource.volume = SettingsManager.GetInstance().volumeMaster;
     }
 
     public void UpdateSoundVolume()
     {
-        musicAudioSource.volume = SettingsManager.Instance.musicSoundVolume;
+        musicAudioSource.volume = SettingsManager.GetInstance().volumeMaster;
     }
 
     public void PlaySoundEffect(AudioSource audioSource, AudioClip clip, float pitchChangeRatio = 0.05f)
@@ -33,7 +33,7 @@ public class SoundManager : MonoBehaviour
             print("Audio Source Not Found");
             return;
         }
-        audioSource.volume = SettingsManager.Instance.soundFxVolume;
+        audioSource.volume = SettingsManager.GetInstance().volumeMaster;
         audioSource.pitch = Random.Range(1 - pitchChangeRatio, 1 + pitchChangeRatio);
         audioSource.PlayOneShot(clip);
     }
@@ -42,7 +42,7 @@ public class SoundManager : MonoBehaviour
     {
         if (effectsAudioSource == null) GetComponent<AudioSource>();
 
-        effectsAudioSource.volume = SettingsManager.Instance.soundFxVolume;
+        effectsAudioSource.volume = SettingsManager.GetInstance().volumeMaster;
         effectsAudioSource.pitch = Random.Range(1 - pitchChangeRatio, 1 + pitchChangeRatio);
         effectsAudioSource.PlayOneShot(clip);
     }
