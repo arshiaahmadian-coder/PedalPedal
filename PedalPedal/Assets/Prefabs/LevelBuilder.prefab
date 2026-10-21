@@ -1953,6 +1953,7 @@ GameObject:
   - component: {fileID: 4697556725356323083}
   - component: {fileID: 3769870946719649627}
   - component: {fileID: 5594987699672270637}
+  - component: {fileID: 8392762841271994153}
   m_Layer: 5
   m_Name: Win Dialog
   m_TagString: Untagged
@@ -2047,6 +2048,28 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!95 &8392762841271994153
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3902728337274831022}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 83b9b56bfce203b41b7d40b88cef02db, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4029078024292293588
 GameObject:
   m_ObjectHideFlags: 0
@@ -5076,6 +5099,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 134508708, guid: 898adde5a1c9bae47b79c545ffdb3a51, type: 3}
+    - target: {fileID: 8277044795250541523, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: sceneMane
+      value: StoryLevelMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
       propertyPath: m_Pivot.x
       value: 0

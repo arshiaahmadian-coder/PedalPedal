@@ -1,3 +1,4 @@
+using ArabicTextSupport;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -5,6 +6,18 @@ public class MainMenuModel : MonoBehaviour
 {
     [SerializeField] private GameObject settingsDialog;
     [SerializeField] private Animator modeMenuAnimator;
+    [SerializeField] private ArabicUIText coinText;
+
+    private void Start()
+    {
+        Database playerData = new Database();
+        if (SaveLoadManager.CheckFileExists(SaveLoadManager.GetInstnce().DataFileName))
+            SaveLoadManager.GetInstnce().Load(playerData, SaveLoadManager.GetInstnce().DataFileName);
+        else 
+            SaveLoadManager.GetInstnce().Save(playerData, SaveLoadManager.GetInstnce().DataFileName);
+
+        coinText.Text = playerData.coinAmount.ToString();
+    }
 
     public bool IsSettingDialogActive() => settingsDialog.activeSelf;
 

@@ -168,12 +168,19 @@ public class LevelManager : MonoBehaviour
 
     private void GameOver()
     {
+        // save data
+        Database playerData = new Database();
+        if (SaveLoadManager.CheckFileExists(SaveLoadManager.GetInstnce().DataFileName))
+            SaveLoadManager.GetInstnce().Load(playerData, SaveLoadManager.GetInstnce().DataFileName);
+
         levelTimer.StopTimer();
         winCanv.SetActive(true);
         int starNumber = 1;
         if (levelTimer.seconds <= levelData.threeStarTime) starNumber = 3;
         else if (levelTimer.seconds <= levelData.TwoStarTime) starNumber = 2;
-        int coinCount = 10 * starNumber;
+
+        int coinCount = 10 * (starNumber - playerData.levelData[levelData.levelID]);
+        if (coinCount < 0) coinCount = 0;
 
         // update ui
         letterMesageTxt.Text = levelData.latterMessage;
@@ -183,22 +190,15 @@ public class LevelManager : MonoBehaviour
         if (starNumber >= 2) StarImageList[1].sprite = trueStar;
         if (starNumber == 3) StarImageList[2].sprite = trueStar;
 
-        // save data
-        Database playerData = new Database();
-        if (SaveLoadManager.CheckFileExists(SaveLoadManager.GetInstnce().DataFileName))
-            SaveLoadManager.GetInstnce().Load(playerData, SaveLoadManager.GetInstnce().DataFileName);
+        if (starNumber > playerData.levelData[levelData.levelID])
+            playerData.levelData[levelData.levelID] = starNumber;
+
+        playerData.coinAmount += coinCount;
+        
 
         if (playerData.lastUnlockedLevelID == levelData.levelID) 
             playerData.lastUnlockedLevelID = levelData.levelID + 1; // new level unlocked
-        
-        do
-        {
-            playerData.levelData.Add(0);
-        } while (playerData.levelData.Count < levelData.levelID);
-        
-        playerData.levelData[levelData.levelID] = starNumber;
 
         SaveLoadManager.GetInstnce().Save(playerData, SaveLoadManager.GetInstnce().DataFileName);
     }
-    // back to level menu - restart - nextlevel
 }
