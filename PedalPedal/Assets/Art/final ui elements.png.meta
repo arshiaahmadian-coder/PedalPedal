@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 534724ff27d82384bb8da2ea3e572bff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7411285912400642547
+    second: final ui elements_0
+  - first:
+      213: -5232377973822579622
+    second: final ui elements_1
+  - first:
+      213: -1661368809069220451
+    second: final ui elements_2
+  - first:
+      213: -8822229654106223310
+    second: final ui elements_3
+  - first:
+      213: 806059148086353115
+    second: final ui elements_4
+  - first:
+      213: 2913643760188340558
+    second: final ui elements_5
+  - first:
+      213: -3902118560306756996
+    second: final ui elements_6
+  - first:
+      213: -371038816878555089
+    second: final ui elements_7
+  - first:
+      213: 3225874249529107166
+    second: final ui elements_8
+  - first:
+      213: 4261900625745365030
+    second: final ui elements_9
+  - first:
+      213: 389908036679104963
+    second: final ui elements_10
+  - first:
+      213: 5875869675206480217
+    second: final ui elements_11
+  - first:
+      213: 8153607252979454348
+    second: final ui elements_12
+  - first:
+      213: 8244866850507803828
+    second: final ui elements_13
+  - first:
+      213: 6530909884096499573
+    second: final ui elements_14
+  - first:
+      213: -3260142710986132514
+    second: final ui elements_15
+  - first:
+      213: 5755244888146871632
+    second: final ui elements_16
+  - first:
+      213: 5532781194981406288
+    second: final ui elements_17
+  - first:
+      213: -2295340977046922928
+    second: final ui elements_18
+  - first:
+      213: 3807701450536840353
+    second: final ui elements_19
+  - first:
+      213: -6655618538180101012
+    second: final ui elements_20
+  - first:
+      213: 7653823154102061120
+    second: final ui elements_21
+  - first:
+      213: -8801707747758390544
+    second: final ui elements_22
+  - first:
+      213: -7800689686131708793
+    second: final ui elements_23
+  - first:
+      213: -7804783836994455446
+    second: final ui elements_24
+  - first:
+      213: -6997499172655445400
+    second: final ui elements_25
+  - first:
+      213: 6444654512229935949
+    second: final ui elements_26
+  - first:
+      213: 5729386734827310687
+    second: final ui elements_27
+  - first:
+      213: -6934225576084909087
+    second: final ui elements_28
+  - first:
+      213: -3584841248220684103
+    second: final ui elements_29
+  - first:
+      213: 2893444389362956804
+    second: final ui elements_30
+  - first:
+      213: -4147525848866197535
+    second: final ui elements_31
+  - first:
+      213: -5687556958600013715
+    second: final ui elements_32
+  - first:
+      213: 4340131408121471633
+    second: final ui elements_33
+  - first:
+      213: 981947861934298394
+    second: final ui elements_34
+  - first:
+      213: -2552571750139129079
+    second: final ui elements_35
+  - first:
+      213: 3509209765393770670
+    second: final ui elements_36
+  - first:
+      213: 8779282844326145212
+    second: final ui elements_37
+  - first:
+      213: -2829259193752394891
+    second: final ui elements_38
+  - first:
+      213: -5332991215986671497
+    second: final ui elements_39
+  - first:
+      213: -3653320098620362431
+    second: final ui elements_40
+  - first:
+      213: -3502522334574555314
+    second: final ui elements_41
+  - first:
+      213: -1239746370739259509
+    second: final ui elements_42
+  - first:
+      213: 2470534158803884348
+    second: final ui elements_43
+  - first:
+      213: -5610272932248076413
+    second: final ui elements_44
+  - first:
+      213: -4004924115100293169
+    second: final ui elements_45
+  - first:
+      213: 3757615555008681969
+    second: final ui elements_46
+  - first:
+      213: -5137092405309834727
+    second: final ui elements_47
+  - first:
+      213: 5751989258205861308
+    second: final ui elements_48
+  - first:
+      213: -6269290654671258345
+    second: final ui elements_49
+  - first:
+      213: -1394756955187408535
+    second: final ui elements_50
+  - first:
+      213: -2494455512968318257
+    second: final ui elements_51
+  - first:
+      213: -4843695758802478416
+    second: final ui elements_52
+  - first:
+      213: -8006778587895493844
+    second: final ui elements_53
+  - first:
+      213: -3649658133153880746
+    second: final ui elements_54
+  - first:
+      213: 7733648355431024602
+    second: final ui elements_55
+  - first:
+      213: 114704291051261475
+    second: final ui elements_56
+  - first:
+      213: 9049769964134216301
+    second: final ui elements_57
+  - first:
+      213: 3929900761491302046
+    second: final ui elements_58
+  - first:
+      213: -7325868312869214047
+    second: final ui elements_59
+  - first:
+      213: -3869919716805392959
+    second: final ui elements_60
+  - first:
+      213: -3802791997369208911
+    second: final ui elements_61
+  - first:
+      213: 1977649338806586798
+    second: final ui elements_62
+  - first:
+      213: 3393688570330093957
+    second: final ui elements_63
+  - first:
+      213: -5881639117487532984
+    second: final ui elements_64
+  - first:
+      213: 8778633255627858452
+    second: final ui elements_65
+  - first:
+      213: -5838734417474557535
+    second: final ui elements_66
+  - first:
+      213: -3487076726576277913
+    second: final ui elements_67
+  - first:
+      213: 6771121114599305202
+    second: final ui elements_68
+  - first:
+      213: -7183439802648046505
+    second: final ui elements_69
+  - first:
+      213: 395707791917102247
+    second: final ui elements_70
+  - first:
+      213: -5767461449300114369
+    second: final ui elements_71
+  - first:
+      213: -3626775836102379717
+    second: final ui elements_72
+  - first:
+      213: -7797404886162326338
+    second: final ui elements_73
+  - first:
+      213: 2083776725286522491
+    second: final ui elements_74
+  - first:
+      213: 8577866590252020624
+    second: final ui elements_75
+  - first:
+      213: -5412895555620375650
+    second: final ui elements_76
+  - first:
+      213: 7438324632109682137
+    second: final ui elements_77
+  - first:
+      213: 4271281571604909135
+    second: final ui elements_78
+  - first:
+      213: 7171887852015927305
+    second: final ui elements_79
+  - first:
+      213: -5110898013578650218
+    second: final ui elements_80
+  - first:
+      213: 2595713472324393994
+    second: final ui elements_81
+  - first:
+      213: 2791605621292499144
+    second: final ui elements_82
+  - first:
+      213: -3974484189744914973
+    second: final ui elements_83
+  - first:
+      213: 1189902432057923921
+    second: final ui elements_84
+  - first:
+      213: -6473913226283323938
+    second: final ui elements_85
+  - first:
+      213: 3743480989015188837
+    second: final ui elements_86
+  - first:
+      213: 3748953881598598874
+    second: final ui elements_87
+  - first:
+      213: -613353450749835200
+    second: final ui elements_88
+  - first:
+      213: -7157917912761287124
+    second: final ui elements_89
+  - first:
+      213: -1828632307392876196
+    second: final ui elements_90
+  - first:
+      213: -2787880120604599376
+    second: final ui elements_91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: start btn
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 907
+        width: 183
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0065be7a081f129448b782f6e099c2a7
+      internalID: -1650939590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: story btn
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 747
+        width: 177
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae3c15bb2f9c234daeaa90e717cf6fb
+      internalID: -1898167670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shop btn
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 597
+        width: 179
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c77a837ee4ed694cb512c2d81ed8969
+      internalID: -901513454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin icon
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 902
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43754bb8603b92489486b5b55453514
+      internalID: -860132258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star fill
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 784
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aecd123ce7926e408011d9cab9f0bd8
+      internalID: 16971183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final ui elements_0
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 908
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c897b6f327cce747b05136547db0064
+      internalID: -7411285912400642547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle btn primary
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 124
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186c70255ef973746b2d62d8f85038f7
+      internalID: -776618775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle btn secondary
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 124
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8547e0aa34c329645b6ce4ab7d40c1b1
+      internalID: 1585677973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title rebon
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 604
+        width: 206
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 59, y: 0, z: 60, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37409b36ea036644f96d177f7b3e4d52
+      internalID: -1599947323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amount Container
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 949
+        width: 236
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04adcde4304e92546acf373e74a61b80
+      internalID: -1260267894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sound icon
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 632
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c9a9fb4dcdb4a4ea6697924a9f0f2c
+      internalID: 81586501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level btn
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 902
+        width: 118
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd57b79cb6b2f241940bfc62b238a8c
+      internalID: -875389786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level btn locked
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 770
+        width: 118
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ced355924dd0b4d941a2c71ca93702
+      internalID: -128225138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin get message
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 619
+        width: 204
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0572dc101caa5f4dbc40ba4b4e21f09
+      internalID: 61565385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button primary
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 261
+        width: 201
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45972e9c8c04bed4297ec91a93e7be78
+      internalID: 215960847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button secondary
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 262
+        width: 201
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88f3574725b1e04eb1a715467ca92b3
+      internalID: -29969720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dialog box
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 891
+        width: 262
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2625bee1d3a1fa941b286a1934779ce5
+      internalID: 1796319585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: next prev btn
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 472
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb6efc40768fd540bd67035c4510ebe
+      internalID: -420753266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e4aed28fd16882f48826b4a790db7c3e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Amount Container: -1260267894
+      button primary: 215960847
+      button secondary: -29969720
+      circle btn primary: -5232377973822579622
+      circle btn secondary: 1585677973
+      coin get message: 61565385
+      coin icon: -860132258
+      dialog box: 1796319585
+      final ui elements_0: -7411285912400642547
+      final ui elements_10: 389908036679104963
+      final ui elements_11: 5875869675206480217
+      final ui elements_12: 8153607252979454348
+      final ui elements_13: 8244866850507803828
+      final ui elements_14: 6530909884096499573
+      final ui elements_15: -3260142710986132514
+      final ui elements_16: 5755244888146871632
+      final ui elements_17: 5532781194981406288
+      final ui elements_18: -2295340977046922928
+      final ui elements_19: 3807701450536840353
+      final ui elements_2: -1661368809069220451
+      final ui elements_20: -6655618538180101012
+      final ui elements_21: 7653823154102061120
+      final ui elements_22: -8801707747758390544
+      final ui elements_23: -7800689686131708793
+      final ui elements_24: -7804783836994455446
+      final ui elements_25: -6997499172655445400
+      final ui elements_26: 6444654512229935949
+      final ui elements_27: 5729386734827310687
+      final ui elements_28: -6934225576084909087
+      final ui elements_29: -3584841248220684103
+      final ui elements_3: -8822229654106223310
+      final ui elements_30: 2893444389362956804
+      final ui elements_31: -4147525848866197535
+      final ui elements_32: -5687556958600013715
+      final ui elements_33: 4340131408121471633
+      final ui elements_34: 981947861934298394
+      final ui elements_35: -2552571750139129079
+      final ui elements_36: 3509209765393770670
+      final ui elements_37: 8779282844326145212
+      final ui elements_38: -2829259193752394891
+      final ui elements_39: -5332991215986671497
+      final ui elements_4: 806059148086353115
+      final ui elements_40: -3653320098620362431
+      final ui elements_41: -3502522334574555314
+      final ui elements_42: -1239746370739259509
+      final ui elements_43: 2470534158803884348
+      final ui elements_44: -5610272932248076413
+      final ui elements_45: -4004924115100293169
+      final ui elements_46: 3757615555008681969
+      final ui elements_47: -5137092405309834727
+      final ui elements_48: 5751989258205861308
+      final ui elements_49: -6269290654671258345
+      final ui elements_5: 2913643760188340558
+      final ui elements_50: -1394756955187408535
+      final ui elements_51: -2494455512968318257
+      final ui elements_52: -4843695758802478416
+      final ui elements_53: -8006778587895493844
+      final ui elements_54: -3649658133153880746
+      final ui elements_55: 7733648355431024602
+      final ui elements_56: 114704291051261475
+      final ui elements_57: 9049769964134216301
+      final ui elements_58: 3929900761491302046
+      final ui elements_59: -7325868312869214047
+      final ui elements_6: -3902118560306756996
+      final ui elements_60: -3869919716805392959
+      final ui elements_61: -3802791997369208911
+      final ui elements_62: 1977649338806586798
+      final ui elements_63: 3393688570330093957
+      final ui elements_64: -5881639117487532984
+      final ui elements_65: 8778633255627858452
+      final ui elements_66: -5838734417474557535
+      final ui elements_67: -3487076726576277913
+      final ui elements_68: 6771121114599305202
+      final ui elements_69: -7183439802648046505
+      final ui elements_7: -371038816878555089
+      final ui elements_70: 395707791917102247
+      final ui elements_71: -5767461449300114369
+      final ui elements_72: -3626775836102379717
+      final ui elements_73: -7797404886162326338
+      final ui elements_74: 2083776725286522491
+      final ui elements_75: 8577866590252020624
+      final ui elements_76: -5412895555620375650
+      final ui elements_77: 7438324632109682137
+      final ui elements_78: 4271281571604909135
+      final ui elements_79: 7171887852015927305
+      final ui elements_8: 3225874249529107166
+      final ui elements_80: -5110898013578650218
+      final ui elements_81: 2595713472324393994
+      final ui elements_82: 2791605621292499144
+      final ui elements_83: -3974484189744914973
+      final ui elements_84: 1189902432057923921
+      final ui elements_85: -6473913226283323938
+      final ui elements_86: 3743480989015188837
+      final ui elements_87: 3748953881598598874
+      final ui elements_88: -613353450749835200
+      final ui elements_89: -7157917912761287124
+      final ui elements_9: 4261900625745365030
+      final ui elements_90: -1828632307392876196
+      final ui elements_91: -2787880120604599376
+      level btn: -875389786
+      level btn locked: -128225138
+      next prev btn: -420753266
+      shop btn: -901513454
+      sound icon: 81586501
+      star fill: 16971183
+      start btn: -7411285912400642547
+      story btn: -1898167670
+      title rebon: -1599947323
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
