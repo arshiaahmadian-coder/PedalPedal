@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: ffcb6c0fce76a3046acca5694a4a51ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 806762136249394965
+    second: mode cards_0
+  - first:
+      213: -8901435827085910586
+    second: mode cards_1
+  - first:
+      213: 6541590814306538845
+    second: mode cards_2
+  - first:
+      213: 6441808795262375017
+    second: mode cards_3
+  - first:
+      213: 5246874913766920345
+    second: mode cards_4
+  - first:
+      213: 2087829082794854612
+    second: mode cards_5
+  - first:
+      213: -7867482591607059733
+    second: mode cards_6
+  - first:
+      213: 396540125839326517
+    second: mode cards_7
+  - first:
+      213: 3668370944146463387
+    second: mode cards_8
+  - first:
+      213: 7502968815715168396
+    second: mode cards_9
+  - first:
+      213: -351334639583092590
+    second: mode cards_10
+  - first:
+      213: 1314559369744235574
+    second: mode cards_11
+  - first:
+      213: 4707715308275444588
+    second: mode cards_12
+  - first:
+      213: 7350483318861634198
+    second: mode cards_13
+  - first:
+      213: 3812728219699279822
+    second: mode cards_14
+  - first:
+      213: -4678974899636468427
+    second: mode cards_15
+  - first:
+      213: -393230538084187128
+    second: mode cards_16
+  - first:
+      213: 226362553921901550
+    second: mode cards_17
+  - first:
+      213: -799206214114722073
+    second: mode cards_18
+  - first:
+      213: 6384582287255511840
+    second: mode cards_19
+  - first:
+      213: -1793307302375376270
+    second: mode cards_20
+  - first:
+      213: 4315541110484056504
+    second: mode cards_21
+  - first:
+      213: 3978118072475556107
+    second: mode cards_22
+  - first:
+      213: -6746941091084950023
+    second: mode cards_23
+  - first:
+      213: 435666340252289746
+    second: mode cards_24
+  - first:
+      213: 730543332855042942
+    second: mode cards_25
+  - first:
+      213: -8357405878585229959
+    second: mode cards_26
+  - first:
+      213: 8165826589245397361
+    second: mode cards_27
+  - first:
+      213: -7656796564105301036
+    second: mode cards_28
+  - first:
+      213: 6600547507374495485
+    second: mode cards_29
+  - first:
+      213: -1159814729411138432
+    second: mode cards_30
+  - first:
+      213: -1885402909512808491
+    second: mode cards_31
+  - first:
+      213: 986408252511419104
+    second: mode cards_32
+  - first:
+      213: -445592771197495630
+    second: mode cards_33
+  - first:
+      213: 249725255378496741
+    second: mode cards_34
+  - first:
+      213: -728986795858170237
+    second: mode cards_35
+  - first:
+      213: -5508113651651630664
+    second: mode cards_36
+  - first:
+      213: -8958199375323982269
+    second: mode cards_37
+  - first:
+      213: 141400861661049267
+    second: mode cards_38
+  - first:
+      213: -4510593607131746627
+    second: mode cards_39
+  - first:
+      213: -8158257306239424860
+    second: mode cards_40
+  - first:
+      213: 8576762770175283467
+    second: mode cards_41
+  - first:
+      213: -2200755115265962166
+    second: mode cards_42
+  - first:
+      213: 6677731396356177747
+    second: mode cards_43
+  - first:
+      213: 4470867314837720129
+    second: mode cards_44
+  - first:
+      213: -496455835122391397
+    second: mode cards_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mode cards_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 109
+        width: 560
+        height: 770
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517616573e1323b00800000000000000
+      internalID: 806762136249394965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mode cards_1
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 109
+        width: 560
+        height: 770
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cddb9fe64fb77480800000000000000
+      internalID: -8901435827085910586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7dd057f22d45c9246baa3c27a86fd890
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":750.0,"y":1048.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      mode cards_0: 806762136249394965
+      mode cards_1: -8901435827085910586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

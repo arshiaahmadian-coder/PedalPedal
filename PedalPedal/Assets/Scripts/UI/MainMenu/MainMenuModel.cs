@@ -1,6 +1,5 @@
 using ArabicTextSupport;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MainMenuModel : MonoBehaviour
 {
@@ -89,7 +88,7 @@ public class MainMenuModel : MonoBehaviour
 
     private void OpenNotif()
     {
-        NotificationManager.GetInstance().ShowSmallNotification("شما 100 سکه دریافت کردید");
+        NotificationManager.GetInstance().ShowCoinNotification(100);
     }
 
     public void OtherGames() {

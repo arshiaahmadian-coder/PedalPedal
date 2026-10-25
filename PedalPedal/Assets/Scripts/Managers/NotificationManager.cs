@@ -4,9 +4,13 @@ using UnityEngine;
 public class NotificationManager : MonoBehaviour
 {
     [SerializeField] private GameObject darkBG;
+    [Header("small window")]
     [SerializeField] private GameObject smallNotifWindow;
     [SerializeField] private ArabicUIText messageText;
     [SerializeField] private ArabicUIText buttonText;
+    [Header("coin window")]
+    [SerializeField] private GameObject coinNotifWindow;
+    [SerializeField] private ArabicUIText coinMessageText;
 
     private static NotificationManager instance;
 
@@ -29,5 +33,14 @@ public class NotificationManager : MonoBehaviour
     {
         darkBG.SetActive(false);
         smallNotifWindow.SetActive(false);
+        coinNotifWindow.SetActive(false);
     }
+
+    public void ShowCoinNotification(int amount)
+    {
+        darkBG.SetActive(true);
+        coinNotifWindow.SetActive(true);
+        coinMessageText.Text = amount.ToString();
+    }
+
 }

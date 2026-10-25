@@ -95,6 +95,50 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   multiSpriteImportData: []
   layeredSpriteImportData:
+  - name: Layer 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 828
+      y: 1036
+      width: 240
+      height: 77
+    spriteID: 1de466302c97493449cd7e4d88ad219b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 828, y: 1036}
+    spritePosition: {x: 1141, y: 976}
+  - name: Layer 8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1882
+      height: 1024
+    spriteID: 155d305cdde39a44fb776f0bf2be2626
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 11, y: 56}
   - name: Layer 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -139,28 +183,6 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 602, y: 1036}
     spritePosition: {x: 875, y: 895}
-  - name: Layer 2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 1882
-      height: 1024
-    spriteID: cc40df65c352bc14b84eb9cd29e41efa
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 11, y: 56}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -208,6 +230,36 @@ ScriptedImporter:
   resliceFromLayer: 0
   pSDLayerImportSetting: []
   psdLayers:
+  - name: Hue/Saturation 2
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0e340a4130789da458e207e6b8184f5b
+    layerID: 23
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Layer 9
+    spriteName: Layer 9
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1de466302c97493449cd7e4d88ad219b
+    layerID: 21
+    mosaicPosition: {x: 828, y: 1036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 8
+    spriteName: Layer 8
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 155d305cdde39a44fb776f0bf2be2626
+    layerID: 20
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Hue/Saturation 1
     spriteName: 
     isGroup: 0
@@ -245,16 +297,6 @@ ScriptedImporter:
     spriteID: d29598506b838624cb6dfc530ccfa749
     layerID: 14
     mosaicPosition: {x: 602, y: 1036}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 2
-    spriteName: Layer 2
-    isGroup: 0
-    parentIndex: -1
-    spriteID: cc40df65c352bc14b84eb9cd29e41efa
-    layerID: 7
-    mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
