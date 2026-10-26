@@ -807,6 +807,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: paper window
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 144
+        width: 243
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 25, w: 28}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7875f074cd8fda54aa1f4673f50e9a38
+      internalID: 1380743650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -922,6 +944,7 @@ TextureImporter:
       level btn: -875389786
       level btn locked: -128225138
       next prev btn: -420753266
+      paper window: 1380743650
       shop btn: -901513454
       sound icon: 81586501
       star empty: -7411285912400642547
