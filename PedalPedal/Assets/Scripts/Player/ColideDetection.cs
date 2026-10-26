@@ -24,7 +24,7 @@ public class ColideDetection : MonoBehaviour
     {
         if (other.gameObject.layer == 3 && playerController.canPaddle)
         {
-            OnCollide();
+            if (OnCollide != null) OnCollide();
             playerController.canPaddle = false;
             screenShake.Shake(1.2f, 1.2f, 0.2f);
             SoundManager.GetInstnce().PlaySoundEffect(impactClip, 0);
