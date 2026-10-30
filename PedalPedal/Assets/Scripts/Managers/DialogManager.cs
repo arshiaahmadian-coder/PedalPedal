@@ -31,7 +31,6 @@ public class DialogManager : MonoBehaviour
 
     public void NextDialog()
     {
-        print("next");
         animator.SetTrigger("Next");
         dialogIndex += 1;
     }
