@@ -30,8 +30,11 @@ public class LevelManager : MonoBehaviour
     [SerializeField] DialogManager dialogManager;
 
     [Header("Win Window")]
+    [SerializeField] Animator winWindowAnimator;
     [SerializeField] GameObject winCanv;
     [SerializeField] ArabicUIText letterMesageTxt;
+    [SerializeField] ArabicUIText letterTitleTxt;
+    [SerializeField] ArabicUIText letterSenderTxt;
     [SerializeField] ArabicUIText timerTxt;
     [SerializeField] ArabicUIText coinCountTxt;
     [SerializeField] Image[] StarImageList;
@@ -168,6 +171,7 @@ public class LevelManager : MonoBehaviour
 
     private void GameOver()
     {
+        winWindowAnimator.SetBool("IsUp", true);
         // save data
         Database playerData = new Database();
         if (SaveLoadManager.CheckFileExists(SaveLoadManager.GetInstnce().DataFileName))
@@ -189,6 +193,16 @@ public class LevelManager : MonoBehaviour
         if (starNumber >= 1) StarImageList[0].sprite = trueStar;
         if (starNumber >= 2) StarImageList[1].sprite = trueStar;
         if (starNumber == 3) StarImageList[2].sprite = trueStar;
+
+        if (letterSenderCharacter == Characters.Zaal)
+        {
+            letterTitleTxt.Text = "نامه ای به رودابه";
+            letterSenderTxt.Text = "زال";
+        } else
+        {
+            letterTitleTxt.Text = "نامه ای به رودابه";
+            letterSenderTxt.Text = "زال";
+        }
 
         if (starNumber > playerData.levelData[levelData.levelID])
             playerData.levelData[levelData.levelID] = starNumber;
