@@ -2695,7 +2695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SounEffectPlayer
   audioClips:
-  - {fileID: 8300000, guid: 351fcd9e8a5ed43438349cf5ad5f1069, type: 3}
+  - {fileID: 8300000, guid: 0d3aa4bd3fcd1624593fdedd0bf5ae73, type: 3}
   pitchRatio: 0.1
 --- !u!1 &824738489
 GameObject:
@@ -5423,7 +5423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SounEffectPlayer
   audioClips:
-  - {fileID: 8300000, guid: 351fcd9e8a5ed43438349cf5ad5f1069, type: 3}
+  - {fileID: 8300000, guid: 0d3aa4bd3fcd1624593fdedd0bf5ae73, type: 3}
   pitchRatio: 0.1
 --- !u!1 &1963573055
 GameObject:

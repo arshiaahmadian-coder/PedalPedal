@@ -15,6 +15,9 @@ MonoBehaviour:
   levelID: 19
   threeStarTime: 15
   TwoStarTime: 25
-  latterMessage: level message 19
+  latterMessage: "\u0633\u06CC\u0645\u0631\u063A \u0622\u0645\u062F \u0648 \u0686\u0627\u0631\u0647\u200C\u0627\u06CC
+    \u0628\u0647 \u0645\u0627 \u0622\u0645\u0648\u062E\u062A\u061B \u0622\u0631\u0627\u0645
+    \u0628\u0627\u0634\u060C \u06A9\u0647 \u0627\u06CC\u0646 \u0631\u0646\u062C \u0628\u0647
+    \u067E\u0627\u06CC\u0627\u0646 \u0645\u06CC\u200C\u0631\u0633\u062F"
   hasStartDialog: 0
   dialogData: {fileID: 0}

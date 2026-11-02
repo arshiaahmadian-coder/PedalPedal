@@ -200,8 +200,8 @@ public class LevelManager : MonoBehaviour
             letterSenderTxt.Text = "زال";
         } else
         {
-            letterTitleTxt.Text = "نامه ای به رودابه";
-            letterSenderTxt.Text = "زال";
+            letterTitleTxt.Text = "نامه ای به زال";
+            letterSenderTxt.Text = "رودابه";
         }
 
         if (starNumber > playerData.levelData[levelData.levelID])
