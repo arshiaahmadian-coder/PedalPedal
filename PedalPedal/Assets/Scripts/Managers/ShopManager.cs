@@ -2,15 +2,10 @@ using UnityEngine;
 
 public class ShopManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public PlayerSkinController playerSkinController;
 
-    // Update is called once per frame
-    void Update()
+    public void OnSkinCardClicked(int skinID)
     {
-        
+        playerSkinController.ChangeSkin(skinID);
     }
 }

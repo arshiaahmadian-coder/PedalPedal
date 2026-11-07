@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 5caca03cb90094a4b9de0a2b0af308bb
+guid: 6a84eda4de1f5ad42991587e2e768c08
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2982525091309151923
-    second: skin 0 icon_0
+      213: 215858123328097592
+    second: skin 0_0
+  - first:
+      213: -7039442592358523178
+    second: skin 0_1
+  - first:
+      213: 7767061592820498020
+    second: skin 0_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,13 +145,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: skin 0 icon_0
+      name: skin 0_0
       rect:
         serializedVersion: 2
-        x: 200
-        y: 352
+        x: 400
+        y: 852
         width: 700
-        height: 420
+        height: 412
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +160,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b6eb29b4ce046920800000000000000
-      internalID: 2982525091309151923
+      spriteID: 83d8adac1d1eef200800000000000000
+      internalID: 215858123328097592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 0_1
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 441
+        width: 177
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de17b14240ee4e90800000000000000
+      internalID: -7039442592358523178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 0_2
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 441
+        width: 178
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e35a4fd552acb60800000000000000
+      internalID: 7767061592820498020
       vertices: []
       indices: 
       edges: []
@@ -174,7 +224,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      skin 0 icon_0: 2982525091309151923
+      skin 0_0: 215858123328097592
+      skin 0_1: -7039442592358523178
+      skin 0_2: 7767061592820498020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

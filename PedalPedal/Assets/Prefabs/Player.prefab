@@ -172,7 +172,7 @@ SpriteRenderer:
   m_SortingLayer: -1
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 495844412786284599, guid: eebb69668e5b4464297463c05fccbbb3, type: 3}
+  m_Sprite: {fileID: 7767061592820498020, guid: 6a84eda4de1f5ad42991587e2e768c08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -263,7 +263,7 @@ SpriteRenderer:
   m_SortingLayer: -1
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 495844412786284599, guid: c6156de562308514ebe5e5c73bbde1af, type: 3}
+  m_Sprite: {fileID: 7767061592820498020, guid: 6a84eda4de1f5ad42991587e2e768c08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -387,7 +387,7 @@ SpriteRenderer:
   m_SortingLayer: -1
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 6240084948188001299, guid: c6156de562308514ebe5e5c73bbde1af, type: 3}
+  m_Sprite: {fileID: -7039442592358523178, guid: 6a84eda4de1f5ad42991587e2e768c08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -603,6 +603,7 @@ GameObject:
   - component: {fileID: 4846622423440521827}
   - component: {fileID: 166248318723808642}
   - component: {fileID: 6401353193662847947}
+  - component: {fileID: 6975479508055869454}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -735,7 +736,6 @@ MonoBehaviour:
   screenShake: {fileID: 0}
   impactClip: {fileID: 8300000, guid: 627be42fad0d39541ab2d36528782c4c, type: 3}
   rb: {fileID: 7521224043246217547}
-  cinemachineCamera: {fileID: 0}
   colideAmount: 0
 --- !u!114 &4846622423440521827
 MonoBehaviour:
@@ -876,6 +876,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6975479508055869454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2562789238304645025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71927d9fbe5250c4194a0a22bc282f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSkinController
+  playerSkins: []
+  LeftCharRenderer1: {fileID: 0}
+  LeftCharRenderer2: {fileID: 0}
+  RightCharRenderer1: {fileID: 0}
+  RightCharRenderer2: {fileID: 0}
 --- !u!1 &2735590944308848308
 GameObject:
   m_ObjectHideFlags: 0
@@ -1408,7 +1425,7 @@ SpriteRenderer:
   m_SortingLayer: -1
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 6240084948188001299, guid: eebb69668e5b4464297463c05fccbbb3, type: 3}
+  m_Sprite: {fileID: -7039442592358523178, guid: 6a84eda4de1f5ad42991587e2e768c08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
