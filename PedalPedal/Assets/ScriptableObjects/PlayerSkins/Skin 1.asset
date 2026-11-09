@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb0296b52c921a543842b9a842e72a77, type: 3}
+  m_Name: Skin 1
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSkin
+  ID: 1
+  leftCharacter: {fileID: -6340107781008863396, guid: cdd8d1aaecc90d44abe08d504581d143, type: 3}
+  rightCharacter: {fileID: 1296693804765971489, guid: cdd8d1aaecc90d44abe08d504581d143, type: 3}

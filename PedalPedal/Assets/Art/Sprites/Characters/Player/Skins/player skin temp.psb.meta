@@ -103,8 +103,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 4
-      y: 589
+      x: 549
+      y: 4
       width: 253
       height: 257
     spriteID: f5b9364eac21a614089ec755ecd49548
@@ -115,7 +115,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 589}
+    uvTransform: {x: 549, y: 4}
     spritePosition: {x: 846, y: 853}
   - name: paddle
     originalName: 
@@ -125,8 +125,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 265
-      y: 589
+      x: 549
+      y: 391
       width: 253
       height: 257
     spriteID: e807ba46330b7d74db62c403eb4edd3e
@@ -137,7 +137,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 265, y: 589}
+    uvTransform: {x: 549, y: 391}
     spritePosition: {x: 401, y: 859}
   - name: boat part 1
     originalName: 
@@ -148,7 +148,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 265
+      y: 778
       width: 545
       height: 158
     spriteID: da514138f286a8847a30ac779fb51b8f
@@ -159,9 +159,9 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 265}
+    uvTransform: {x: 4, y: 778}
     spritePosition: {x: 480, y: 931}
-  - name: skin 0
+  - name: skin 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -171,9 +171,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 365
-      height: 253
-    spriteID: dbe4efff8a7eede4781f4f2e7d3d1644
+      width: 537
+      height: 379
+    spriteID: 1a243c19393925249b31fa2b9057d604
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -182,8 +182,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 567, y: 442}
-  - name: skin 0
+    spritePosition: {x: 492, y: 964}
+  - name: skin 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -191,11 +191,11 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 377
-      y: 4
-      width: 365
-      height: 253
-    spriteID: cc1712f521949ea45bdad49316c6a56a
+      x: 4
+      y: 391
+      width: 537
+      height: 379
+    spriteID: 62ea96293a0ea4646a8c4f96fbc37e82
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -203,8 +203,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 377, y: 4}
-    spritePosition: {x: 570, y: 1010}
+    uvTransform: {x: 4, y: 391}
+    spritePosition: {x: 472, y: 387}
   - name: boat part 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -214,7 +214,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 431
+      y: 944
       width: 545
       height: 150
     spriteID: d28f5fc2e2f3c504d84a3c462450ff62
@@ -225,7 +225,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 431}
+    uvTransform: {x: 4, y: 944}
     spritePosition: {x: 480, y: 1035}
   spriteImportData: []
   rigSpriteImportData: []
@@ -280,7 +280,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: f5b9364eac21a614089ec755ecd49548
     layerID: 16
-    mosaicPosition: {x: 4, y: 589}
+    mosaicPosition: {x: 549, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -290,7 +290,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: e807ba46330b7d74db62c403eb4edd3e
     layerID: 4
-    mosaicPosition: {x: 265, y: 589}
+    mosaicPosition: {x: 549, y: 391}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -300,20 +300,30 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: da514138f286a8847a30ac779fb51b8f
     layerID: 5
-    mosaicPosition: {x: 4, y: 265}
+    mosaicPosition: {x: 4, y: 778}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: skin 1
-    spriteName: 
+    spriteName: skin 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1a243c19393925249b31fa2b9057d604
+    layerID: 21
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: skin 1
+    spriteName: skin 1
     isGroup: 0
     parentIndex: -1
     spriteID: 62ea96293a0ea4646a8c4f96fbc37e82
     layerID: 18
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 4, y: 391}
     flatten: 0
-    isImported: 0
-    isVisible: 0
+    isImported: 1
+    isVisible: 1
   - name: skin 0
     spriteName: skin 0
     isGroup: 0
@@ -322,8 +332,8 @@ ScriptedImporter:
     layerID: 17
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: skin 0
     spriteName: skin 0
     isGroup: 0
@@ -332,15 +342,15 @@ ScriptedImporter:
     layerID: 3
     mosaicPosition: {x: 377, y: 4}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: boat part 2
     spriteName: boat part 2
     isGroup: 0
     parentIndex: -1
     spriteID: d28f5fc2e2f3c504d84a3c462450ff62
     layerID: 6
-    mosaicPosition: {x: 4, y: 431}
+    mosaicPosition: {x: 4, y: 944}
     flatten: 0
     isImported: 1
     isVisible: 1

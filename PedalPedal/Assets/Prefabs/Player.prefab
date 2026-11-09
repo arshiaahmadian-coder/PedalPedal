@@ -888,11 +888,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71927d9fbe5250c4194a0a22bc282f22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerSkinController
-  playerSkins: []
-  LeftCharRenderer1: {fileID: 0}
-  LeftCharRenderer2: {fileID: 0}
-  RightCharRenderer1: {fileID: 0}
-  RightCharRenderer2: {fileID: 0}
+  playerSkins:
+  - {fileID: 11400000, guid: d860b5870ebd4224cb877c53998acfb1, type: 2}
+  - {fileID: 11400000, guid: e0d93527d242dae40b5e27c119f545ef, type: 2}
+  LeftCharRenderer1: {fileID: 6518868534714508967}
+  LeftCharRenderer2: {fileID: 7022228489635737603}
+  RightCharRenderer1: {fileID: 9175627745693651224}
+  RightCharRenderer2: {fileID: 4578731689120339821}
 --- !u!1 &2735590944308848308
 GameObject:
   m_ObjectHideFlags: 0

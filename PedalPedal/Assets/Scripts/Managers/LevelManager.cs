@@ -44,7 +44,16 @@ public class LevelManager : MonoBehaviour
     private int gameStage = 0;
     private bool playerHasLatter = false;
     public static LevelManager instance;
-    private void Awake() { instance = this; }
+    private void Awake() { 
+        instance = this; 
+
+        Database playerData = new Database();
+        if (SaveLoadManager.CheckFileExists(SaveLoadManager.GetInstnce().DataFileName))
+            SaveLoadManager.GetInstnce().Load(playerData, SaveLoadManager.GetInstnce().DataFileName);
+        else SaveLoadManager.GetInstnce().Save(playerData, SaveLoadManager.GetInstnce().DataFileName);
+
+        FindFirstObjectByType<PlayerSkinController>().ChangeSkin(playerData.selectedSkinID);
+    }
 
     private void Start()
     {
