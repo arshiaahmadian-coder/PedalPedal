@@ -1,0 +1,1837 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 2
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &21524726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 21524727}
+  - component: {fileID: 21524729}
+  - component: {fileID: 21524728}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &21524727
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21524726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 794805920}
+  - {fileID: 1564749968}
+  m_Father: {fileID: 2075197563}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &21524728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21524726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ContentSizeFitter
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &21524729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21524726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 10
+    m_Bottom: 10
+  m_ChildAlignment: 1
+  m_Spacing: 10
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!1 &168174892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 168174893}
+  - component: {fileID: 168174895}
+  - component: {fileID: 168174894}
+  m_Layer: 0
+  m_Name: Icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &168174893
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168174892}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1642482764}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -20, y: -20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &168174894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168174892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8468268b872d34887943dd5ea5103178, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &168174895
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168174892}
+  m_CullTransparentMesh: 1
+--- !u!1 &270162952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 270162955}
+  - component: {fileID: 270162954}
+  - component: {fileID: 270162953}
+  - component: {fileID: 270162956}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &270162953
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270162952}
+  m_Enabled: 1
+--- !u!20 &270162954
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270162952}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.26274508, g: 0.12549016, b: 0.18039212, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &270162955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270162952}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &270162956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270162952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
+--- !u!1 &329352675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 329352678}
+  - component: {fileID: 329352677}
+  - component: {fileID: 329352676}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &329352676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329352675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &329352677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329352675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &329352678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329352675}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &794805920 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+  m_PrefabInstance: {fileID: 815350614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &815350614
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 21524727}
+    m_Modifications:
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 481.1253
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 93.7674
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031383423810122087, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401297427463211514, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: arabicText
+      value: "\u062F\u0627\u0633\u062A\u0627\u0646 \u0628\u0627\u0632\u06CC \u0632\u0627\u0644
+        \u0648 \u0631\u0648\u062F\u0627\u0628\u0647"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623312532037804204, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_Name
+      value: Title
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105525765899325269, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_Color.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105525765899325269, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_Color.g
+      value: 0.97647053
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105525765899325269, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9921568
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
+--- !u!1001 &1080941208
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 21524727}
+    m_Modifications:
+    - target: {fileID: 1598325758524413089, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_Text
+      value: "\uFEDE\uFB91\uFEB7 \uFEE9\uFEA9\uFE8D\uFEAA\uFEDF\uFEA9 \uFEED\uFEA9
+        \uFEE5\uFE8E\uFBFF\uFEE3 \uFBFC\uFE8D\uFEEA\uFEE7\uFE8E\uFEB4\uFED3\uFE8D
+        \uFBFD\uFED8\uFEB8\uFECB \u060C\uFEE5\uFE8D\uFEAE\uFBFE\uFE8D \uFEAD\uFEED\uFE8E\uFEE8\uFEEC\uFB58
+        \uFEE6\uFBFF\uFEE3\uFEAF\uFEAE\uFEB3 \uFEAD\uFEA9 \u060C\uFEE6\uFEEC\uFB90
+        \uFEE5\uFE8D\uFEAD\uFE8E\uFB94\uFEAF\uFEED\uFEAD \uFEAD\uFEA9\n.\uFEA9\uFE8D\uFEA9
+        \uFEAE\uFBFF\uFBFF\uFED0\uFE97 \uFEEA\uFEB8\uFBFF\uFEE4\uFEEB \uFBFC\uFE8D\uFEAE\uFE91
+        \uFE8D\uFEAD \uFE8E\uFEEB\uFEE5\uFE81 \uFE96\uFEB7\uFEEE\uFEE7\uFEAE\uFEB3
+        \uFEEA\uFB90 \uFBFD\uFED8\uFEB8\uFECB \u061B\uFE96\uFED3\uFEAE\uFB94\n\n\uFEED
+        \uFBFD\uFBFE\uFE8E\uFE92\uFBFE\uFEAF \uFED2\uFEBB\uFEED \uFE8E\uFE91 \uFEDE\uFE91\uFE8E\uFB90
+        \uFEEA\uFE91 \uFBFC\uFEAE\uFED4\uFEB3 \uFEAD\uFEA9 \u060C\uFEE5\uFE8D\uFEAE\uFBFE\uFE8D
+        \uFEAD\uFE8D\uFEAA\uFEE3\uFE8E\uFEE7 \uFEE5\uFE8E\uFEE7\uFE8D\uFEEE\uFEE0\uFEEC\uFB58
+        \uFEAF\uFE8D \uFEED \uFEE1\uFE8E\uFEB3 \uFEAA\uFEE7\uFEAF\uFEAE\uFED3 \u060C\uFEDD\uFE8D\uFEAF\n\uFEE5\uFEAA\uFBFF\uFEE8\uFEB7
+        \uFE8E\uFE91 \uFEB0\uFBFF\uFEE7 \uFEEA\uFE91\uFE8D\uFEA9\uFEED\uFEAD \u060C\uFEAE\uFB95\uFBFE\uFEA9
+        \uFBFC\uFEEE\uFEB3 \uFEAF\uFE8D .\uFEAA\uFEB7 \uFE8E\uFEE8\uFEB7\uFE81 \u060C\uFEE9\uFE8E\uFEB7
+        \uFE8F\uFE8D\uFEAE\uFEEC\uFEE3 \uFEAE\uFE98\uFEA7\uFEA9 \u060C\uFEEA\uFE91\uFE8D\uFEA9\uFEED\uFEAD
+        \uFBFC\uFEAA\uFEE8\uFEE3\uFEA9\uFEAE\uFEA7\n.\uFE96\uFEB4\uFE91 \uFEED\uFE8D
+        \uFEEA\uFE91 \uFEDD\uFEA9 \u060C\uFEDD\uFE8D\uFEAF \uFEB0\uFBFF\uFB95\uFEE7\uFE8D\uFE96\uFED4\uFB95\uFEB7
+        \uFBFC\uFE8E\uFEEB\uFBFD\uFB94\uFB8B\uFBFE\uFEED \uFEED \uFE8E\uFEEB\uFBFC\uFEAD\uFEED\uFEFB\uFEA9
+        \uFEE5\uFE8E\uFE98\uFEB3\uFE8D\uFEA9\n\n\uFBFC\uFE8E\uFEEB\uFBFD\uFEE8\uFEE4\uFEB7\uFEA9
+        \uFEED \uFE8E\uFEEB\uFEE5\uFE8D\uFEAA\uFEE7\uFE8E\uFEA7 \uFE95\uFEED\uFE8E\uFED4\uFE97
+        .\uFEA9\uFEEE\uFE91 \uFEED\uFEAD\uFEEA\uFE91\uFEED\uFEAD \uFBFD\uFB94\uFEAD\uFEB0\uFE91
+        \uFECA\uFEE7\uFE8D\uFEEE\uFEE3 \uFE8E\uFE91 \uFEE5\uFE8D\uFEEE\uFE9F \uFEED\uFEA9
+        \uFEE6\uFBFE\uFE8D \uFED6\uFEB8\uFECB \uFE8E\uFEE3\uFE8D\n\uFE8E\uFE91 \uFEAA\uFEE8\uFE98\uFED3\uFEAE\uFB94
+        \uFEE2\uFBFF\uFEE4\uFEBC\uFE97 \uFEEA\uFE91\uFE8D\uFEA9\uFEED\uFEAD \uFEED
+        \uFEDD\uFE8D\uFEAF \u060C\uFEDD\uFE8E\uFEA3 \uFEE6\uFBFE\uFE8D \uFE8E\uFE91
+        .\uFEA9\uFEAE\uFB90\uFBFD\uFEE3 \uFEAD\uFE8D\uFEEE\uFEB7\uFEA9 \uFE8D\uFEAD
+        \uFE8E\uFEEB\uFEE5\uFE81 \uFEDD\uFE8E\uFEBB\uFEED \u060C\uFEEA\uFEE8\uFBFE\uFEAE\uFBFE\uFEA9\n.\uFEAA\uFEE8\uFEE8\uFB90
+        \uFEB5\uFEFC\uFE97 \uFEAE\uFB95\uFBFE\uFEAA\uFB91\uFBFE \uFEEA\uFE91 \uFEE5\uFEAA\uFBFF\uFEB3\uFEAD
+        \uFBFC\uFE8D\uFEAE\uFE91 \u060C\uFE8E\uFEEB\uFE96\uFED4\uFEDF\uFE8E\uFEA8\uFEE3
+        \uFEE1\uFE8E\uFEE4\uFE97 \uFEA9\uFEEE\uFE9F\uFEED\n\n.\uFEAA\uFEE7\uFEA9\uFEAE\uFB90
+        \uFE8E\uFED4\uFBFE\uFE8D \uFED6\uFEB8\uFECB \uFEE6\uFBFE\uFE8D \uFBFC\uFEAE\uFBFF\uFB94\uFEDE\uFB91\uFEB7
+        \uFEAD\uFEA9 \uFEE2\uFEEC\uFEE3 \uFBFD\uFEB8\uFED8\uFEE7 \uFEEA\uFE91\uFE8D\uFEA9\uFEED\uFEAD
+        \uFEAD\uFE8D\uFEA9\uFE8E\uFED3\uFEED \uFEB0\uFBFF\uFEE8\uFB90 \uFEED\uFEA9
+        \u060C\uFEE5\uFE8E\uFBFF\uFEE3 \uFEE6\uFBFE\uFE8D \uFEAD\uFEA9\n\uFBFC\uFE8E\uFEEB\uFEE1\uFE8E\uFBFF\uFB58
+        \uFEED \uFEAA\uFEE7\uFEAA\uFEB7 \uFEEA\uFE91\uFE8D\uFEA9\uFEED\uFEAD \uFEED
+        \uFEDD\uFE8D\uFEAF \uFEE5\uFE8E\uFBFF\uFEE3 \uFEC1\uFE8E\uFE92\uFE97\uFEAD\uFE8D
+        \uFEEA\uFEC4\uFEB3\uFE8D\uFEED \u060C\uFE96\uFECB\uFE8E\uFEA0\uFEB7 \uFEED
+        \uFBFD\uFB90\uFEAE\uFBFE\uFEAF \uFE8E\uFE91 \uFE8E\uFEEB\uFEE5\uFE81\n.\uFEAA\uFEE7\uFEAA\uFEE7\uFE8E\uFEB3\uFEAD
+        \uFEAE\uFB95\uFBFE\uFEAA\uFB91\uFBFE \uFEEA\uFE91 \uFE8D\uFEAD \uFEE9\uFEA9\uFE8D\uFEAA\uFEDF\uFEA9
+        \uFEED\uFEA9 \uFEE6\uFBFE\uFE8D \uFEEA\uFEE7\uFE8E\uFED8\uFEB7\uFE8E\uFECB\n\n\uFEED
+        \uFEA9\uFEAE\uFBFF\uFB94\uFBFD\uFEE3 \uFEAD\uFE8D\uFEAE\uFED7 \uFEE5\uFE8E\uFEB3\uFEAD\uFEEA\uFEE3\uFE8E\uFEE7
+        \uFEB0\uFBFF\uFEE8\uFB90 \uFEED\uFEA9 \uFEE6\uFBFE\uFE8D \uFEB6\uFED8\uFEE7
+        \uFEAD\uFEA9 \uFEE6\uFB91\uFBFE\uFEAF\uFE8E\uFE91 \u060C\xAB\uFEEA\uFE91\uFE8D\uFEA9\uFEED\uFEAD
+        \uFEED \uFEDD\uFE8D\uFEAF\xBB \uFBFC\uFEAF\uFE8E\uFE91 \uFEAD\uFEA9\n\uFEDE\uFEA3
+        \uFEED \uFECA\uFEE7\uFE8D\uFEEE\uFEE3 \uFEE6\uFE98\uFEB7\uFE8D\uFEAC\uFB94
+        \uFEAE\uFEB3 \uFE96\uFEB8\uFB58 \u060C\uFEE5\uFEEE\uFB94\uFE8E\uFEE7\uFEEE\uFB94
+        \uFBFC\uFE8E\uFEEB\uFEAE\uFBFF\uFEB4\uFEE3 \uFEAF\uFE8D \uFEAD\uFEEE\uFE92\uFECB
+        \uFE8E\uFE91 \uFEA9\uFEAD\uFE8D\uFEA9 \uFEEA\uFED4\uFBFF\uFEC7\uFEED\n.\uFEAA\uFEE7\uFE8E\uFEB3\uFEAE\uFE91
+        \uFEAA\uFEBC\uFED8\uFEE3 \uFEEA\uFE91 \uFE8D\uFEAD \uFEEA\uFE91\uFE8D\uFEA9\uFEED\uFEAD
+        \uFEED \uFEDD\uFE8D\uFEAF \uFBFC\uFE8E\uFEEB\uFEE1\uFE8E\uFBFF\uFB58 \uFEED
+        \uFE8E\uFEEB\uFEEA\uFEE3\uFE8E\uFEE7 \u060C\uFED2\uFEE0\uFE98\uFEA8\uFEE3
+        \uFBFC\uFE8E\uFEEB\uFEB6\uFEDF\uFE8E\uFB7C\n\n\uFEE6\uFBFE\uFE8D \uFE96\uFEB7\uFEEE\uFEE7\uFEAE\uFEB3
+        \uFEED \uFE96\uFEB3\uFE8D \uFEAE\uFB95\uFBFE\uFEAA\uFB91\uFBFE \uFEEA\uFE91
+        \uFED6\uFEB7\uFE8E\uFECB \uFEED\uFEA9 \uFEE6\uFBFE\uFE8D \uFEE5\uFEAA\uFEB7
+        \uFEAE\uFE97\uFB8F\uFBFE\uFEA9\uFEB0\uFEE7 \uFEAD\uFEA9 \uFBFD\uFEE3\uFE8E\uFB94
+        \u060C\uFE96\uFBFE\uFEAD\uFEEE\uFEE3\uFE84\uFEE3 \uFEAE\uFEEB\n.\uFEA9\uFEAD\uFEEE\uFEA7\uFBFD\uFEE3
+        \uFEE9\uFEAE\uFB94 \uFEE6\uFB91\uFBFE\uFEAF\uFE8E\uFE91 \uFEB5\uFEEE\uFEEB
+        \uFEED \uFE96\uFED7\uFEA9 \u060C\uFEB5\uFEFC\uFE97 \uFEEA\uFE91 \uFBFC\uFE8D\uFEEA\uFEE7\uFE8E\uFEB4\uFED3\uFE8D
+        \uFED6\uFEB8\uFECB\n\n\uFBFC\uFEAE\uFBFF\uFB94\uFEDE\uFB91\uFEB7 \uFEAD\uFEA9
+        \uFEED \uFEAA\uFBFF\uFEE7\uFE8E\uFEB3\uFEAE\uFE91 \uFE96\uFEE3\uFEFC\uFEB3
+        \uFEEA\uFE91 \uFE8D\uFEAD \uFEE9\uFEA9\uFE8D\uFEAA\uFEDF\uFEA9 \uFEED\uFEA9
+        \uFEE6\uFBFE\uFE8D \uFBFD\uFEE7\uFE8E\uFEEC\uFEE8\uFB58 \uFBFC\uFE8E\uFEEB\uFEE1\uFE8E\uFBFF\uFB58
+        \uFEAA\uFBFF\uFEE7\uFE8D\uFEEE\uFE97\uFBFD\uFEE3 \uFE8E\uFBFE\uFE81\n\u061F\uFEAA\uFBFF\uFEB7\uFE8E\uFE91
+        \uFEEA\uFE98\uFEB7\uFE8D\uFEA9 \uFEB6\uFED8\uFEE7 \uFEEA\uFEE3\uFE8E\uFEE8\uFEEB\uFE8E\uFEB7
+        \uFEEA\uFEE7\uFE8E\uFED8\uFEB7\uFE8E\uFECB \uFBFC\uFE8E\uFEEB\uFEE5\uFE8E\uFE98\uFEB3\uFE8D\uFEA9
+        \uFEE6\uFBFE\uFEAE\uFE97\uFEAD\uFE8E\uFB94\uFEAA\uFEE7\uFE8E\uFEE3 \uFEAF\uFE8D
+        \uFBFD\uFB91\uFBFE"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598325758524413089, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_Color.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598325758524413089, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_Color.g
+      value: 0.97647053
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598325758524413089, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9921568
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598325758524413089, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598325758524413089, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598325758524413089, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598325758524413089, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598325758524413089, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3431571982779580195, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: arabicText
+      value: "\u062F\u0631 \u0631\u0648\u0632\u06AF\u0627\u0631\u0627\u0646 \u06A9\u0647\u0646\u060C
+        \u062F\u0631 \u0633\u0631\u0632\u0645\u06CC\u0646 \u067E\u0647\u0646\u0627\u0648\u0631
+        \u0627\u06CC\u0631\u0627\u0646\u060C \u0632\u0645\u0627\u0646\u06CC \u06A9\u0647
+        \u067E\u0647\u0644\u0648\u0627\u0646\u0627\u0646 \u0628\u0632\u0631\u06AF
+        \u0648 \u067E\u0627\u062F\u0634\u0627\u0647\u0627\u0646 \u0646\u0627\u0645\u062F\u0627\u0631
+        \u0633\u0631\u0646\u0648\u0634\u062A \u0645\u0631\u062F\u0645\u0627\u0646
+        \u0631\u0627 \u0631\u0642\u0645 \u0645\u06CC\u200C\u0632\u062F\u0646\u062F\u060C
+        \u0639\u0634\u0642\u06CC \u0627\u0641\u0633\u0627\u0646\u0647\u200C\u0627\u06CC
+        \u0645\u06CC\u0627\u0646 \u062F\u0648 \u062C\u0648\u0627\u0646 \u0634\u06A9\u0644
+        \u06AF\u0631\u0641\u062A\u061B \u0639\u0634\u0642\u06CC \u06A9\u0647 \u0628\u0627
+        \u0648\u062C\u0648\u062F \u062F\u0634\u0645\u0646\u06CC \u062E\u0627\u0646\u062F\u0627\u0646\u200C\u0647\u0627\u060C
+        \u0645\u062E\u0627\u0644\u0641\u062A \u0641\u0631\u0645\u0627\u0646\u0631\u0648\u0627\u06CC\u0627\u0646
+        \u0648 \u0645\u0648\u0627\u0646\u0639 \u0641\u0631\u0627\u0648\u0627\u0646\u060C
+        \u0633\u0631\u0627\u0646\u062C\u0627\u0645 \u0628\u0647 \u067E\u06CC\u0648\u0646\u062F\u06CC
+        \u0645\u0627\u0646\u062F\u06AF\u0627\u0631 \u0627\u0646\u062C\u0627\u0645\u06CC\u062F.
+        \u0627\u06CC\u0646 \u062F\u0627\u0633\u062A\u0627\u0646\u060C \u0631\u0648\u0627\u06CC\u062A
+        \u0639\u0627\u0634\u0642\u0627\u0646\u0647 \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647\u060C
+        \u06CC\u06A9\u06CC \u0627\u0632 \u0632\u06CC\u0628\u0627\u062A\u0631\u06CC\u0646
+        \u0648 \u0645\u0634\u0647\u0648\u0631\u062A\u0631\u06CC\u0646 \u062F\u0627\u0633\u062A\u0627\u0646\u200C\u0647\u0627\u06CC
+        \u0634\u0627\u0647\u0646\u0627\u0645\u0647 \u062D\u06A9\u06CC\u0645 \u0627\u0628\u0648\u0627\u0644\u0642\u0627\u0633\u0645
+        \u0641\u0631\u062F\u0648\u0633\u06CC \u0627\u0633\u062A.\n\n\u0645\u0627\u062C\u0631\u0627\u06CC
+        \u062F\u0627\u0633\u062A\u0627\u0646 \u0627\u0632 \u062A\u0648\u0644\u062F
+        \u0632\u0627\u0644\u060C \u0641\u0631\u0632\u0646\u062F \u0633\u0627\u0645
+        \u0646\u0631\u06CC\u0645\u0627\u0646\u060C \u067E\u0647\u0644\u0648\u0627\u0646
+        \u0646\u0627\u0645\u062F\u0627\u0631 \u0627\u06CC\u0631\u0627\u0646\u060C
+        \u0622\u063A\u0627\u0632 \u0645\u06CC\u200C\u0634\u0648\u062F. \u0632\u0627\u0644
+        \u0647\u0646\u06AF\u0627\u0645 \u062A\u0648\u0644\u062F \u0628\u0631\u062E\u0644\u0627\u0641
+        \u062F\u06CC\u06AF\u0631 \u0646\u0648\u0632\u0627\u062F\u0627\u0646\u060C
+        \u0645\u0648\u0647\u0627\u06CC\u06CC \u06A9\u0627\u0645\u0644\u0627\u064B
+        \u0633\u067E\u06CC\u062F \u062F\u0627\u0634\u062A. \u0633\u0627\u0645 \u06A9\u0647
+        \u0627\u0632 \u0638\u0627\u0647\u0631 \u0645\u062A\u0641\u0627\u0648\u062A
+        \u0641\u0631\u0632\u0646\u062F\u0634 \u0634\u06AF\u0641\u062A\u200C\u0632\u062F\u0647
+        \u0648 \u0634\u0631\u0645\u0633\u0627\u0631 \u0634\u062F\u0647 \u0628\u0648\u062F\u060C
+        \u062A\u0635\u0645\u06CC\u0645 \u06AF\u0631\u0641\u062A \u0627\u0648 \u0631\u0627
+        \u0627\u0632 \u062E\u0648\u062F \u062F\u0648\u0631 \u06A9\u0646\u062F. \u0628\u0647
+        \u0641\u0631\u0645\u0627\u0646 \u0627\u0648\u060C \u0646\u0648\u0632\u0627\u062F
+        \u0631\u0627 \u0628\u0647 \u06A9\u0648\u0647 \u0627\u0644\u0628\u0631\u0632
+        \u0628\u0631\u062F\u0646\u062F \u0648 \u062F\u0631 \u0622\u0646\u062C\u0627
+        \u0631\u0647\u0627 \u06A9\u0631\u062F\u0646\u062F. \u0627\u0645\u0627 \u0633\u0631\u0646\u0648\u0634\u062A
+        \u0628\u0631\u0627\u06CC \u0632\u0627\u0644 \u0622\u06CC\u0646\u062F\u0647
+        \u062F\u06CC\u06AF\u0631\u06CC \u0631\u0642\u0645 \u0632\u062F\u0647 \u0628\u0648\u062F.\n\n\u0633\u06CC\u0645\u0631\u063A\u060C
+        \u067E\u0631\u0646\u062F\u0647\u200C\u0627\u06CC \u0627\u0641\u0633\u0627\u0646\u0647\u200C\u0627\u06CC
+        \u0648 \u062E\u0631\u062F\u0645\u0646\u062F \u06A9\u0647 \u0628\u0631 \u0641\u0631\u0627\u0632
+        \u06A9\u0648\u0647 \u0627\u0644\u0628\u0631\u0632 \u0632\u0646\u062F\u06AF\u06CC
+        \u0645\u06CC\u200C\u06A9\u0631\u062F\u060C \u0646\u0648\u0632\u0627\u062F
+        \u0631\u0627 \u06CC\u0627\u0641\u062A \u0648 \u0628\u0647 \u0622\u0634\u06CC\u0627\u0646\u0647
+        \u062E\u0648\u062F \u0628\u0631\u062F. \u0627\u0648 \u0632\u0627\u0644 \u0631\u0627
+        \u062F\u0631 \u06A9\u0646\u0627\u0631 \u062C\u0648\u062C\u0647\u200C\u0647\u0627\u06CC
+        \u062E\u0648\u06CC\u0634 \u067E\u0631\u0648\u0631\u0634 \u062F\u0627\u062F
+        \u0648 \u0633\u0627\u0644\u200C\u0647\u0627 \u0627\u0632 \u0627\u0648 \u0645\u0631\u0627\u0642\u0628\u062A
+        \u06A9\u0631\u062F. \u0632\u0627\u0644 \u062F\u0631 \u062F\u0627\u0645\u0627\u0646
+        \u0633\u06CC\u0645\u0631\u063A \u0628\u0632\u0631\u06AF \u0634\u062F \u0648
+        \u0628\u0647 \u062C\u0648\u0627\u0646\u06CC \u0646\u06CC\u0631\u0648\u0645\u0646\u062F
+        \u0648 \u062F\u0627\u0646\u0627 \u062A\u0628\u062F\u06CC\u0644 \u06AF\u0631\u062F\u06CC\u062F.
+        \u0633\u0627\u0644\u200C\u0647\u0627 \u0628\u0639\u062F\u060C \u0633\u0627\u0645
+        \u06A9\u0647 \u0627\u0632 \u0631\u0647\u0627 \u06A9\u0631\u062F\u0646 \u0641\u0631\u0632\u0646\u062F\u0634
+        \u0633\u062E\u062A \u067E\u0634\u06CC\u0645\u0627\u0646 \u0634\u062F\u0647
+        \u0628\u0648\u062F\u060C \u0628\u0647 \u062C\u0633\u062A\u200C\u0648\u062C\u0648\u06CC
+        \u0627\u0648 \u0631\u0641\u062A \u0648 \u0633\u0631\u0627\u0646\u062C\u0627\u0645
+        \u062A\u0648\u0627\u0646\u0633\u062A \u0641\u0631\u0632\u0646\u062F\u0634
+        \u0631\u0627 \u0628\u0627\u0632\u06CC\u0627\u0628\u062F. \u0633\u06CC\u0645\u0631\u063A
+        \u0647\u0646\u06AF\u0627\u0645 \u062C\u062F\u0627\u06CC\u06CC\u060C \u067E\u0631\u06CC
+        \u0627\u0632 \u0628\u0627\u0644 \u062E\u0648\u062F \u0628\u0647 \u0632\u0627\u0644
+        \u0628\u062E\u0634\u06CC\u062F \u062A\u0627 \u0647\u0631 \u0632\u0645\u0627\u0646
+        \u06A9\u0647 \u0628\u0647 \u06A9\u0645\u06A9 \u0646\u06CC\u0627\u0632 \u062F\u0627\u0634\u062A\u060C
+        \u0628\u0627 \u0633\u0648\u0632\u0627\u0646\u062F\u0646 \u0622\u0646 \u067E\u0631\u060C
+        \u0633\u06CC\u0645\u0631\u063A \u0631\u0627 \u0641\u0631\u0627 \u0628\u062E\u0648\u0627\u0646\u062F.\n\n\u0632\u0627\u0644
+        \u067E\u0633 \u0627\u0632 \u0628\u0627\u0632\u06AF\u0634\u062A \u0628\u0647
+        \u0646\u0632\u062F \u067E\u062F\u0631\u060C \u062C\u0627\u06CC\u06AF\u0627\u0647
+        \u0634\u0627\u06CC\u0633\u062A\u0647 \u062E\u0648\u062F \u0631\u0627 \u062F\u0631
+        \u0645\u06CC\u0627\u0646 \u067E\u0647\u0644\u0648\u0627\u0646\u0627\u0646
+        \u0627\u06CC\u0631\u0627\u0646 \u0628\u0647 \u062F\u0633\u062A \u0622\u0648\u0631\u062F.
+        \u0627\u0648 \u0628\u0627 \u06AF\u0630\u0634\u062A \u0632\u0645\u0627\u0646
+        \u0628\u0647 \u062C\u0648\u0627\u0646\u06CC \u062F\u0644\u0627\u0648\u0631\u060C
+        \u062E\u0631\u062F\u0645\u0646\u062F \u0648 \u062E\u0648\u0634\u200C\u0646\u0627\u0645
+        \u062A\u0628\u062F\u06CC\u0644 \u0634\u062F \u0648 \u0622\u0648\u0627\u0632\u0647
+        \u062A\u0648\u0627\u0646\u0627\u06CC\u06CC\u200C\u0647\u0627\u06CC\u0634
+        \u0628\u0647 \u0633\u0631\u0632\u0645\u06CC\u0646\u200C\u0647\u0627\u06CC
+        \u062F\u0648\u0631 \u0631\u0633\u06CC\u062F. \u0633\u0627\u0645 \u0646\u06CC\u0632
+        \u06A9\u0647 \u0628\u0647 \u0634\u0627\u06CC\u0633\u062A\u06AF\u06CC \u0641\u0631\u0632\u0646\u062F\u0634
+        \u067E\u06CC \u0628\u0631\u062F\u0647 \u0628\u0648\u062F\u060C \u0641\u0631\u0645\u0627\u0646\u0631\u0648\u0627\u06CC\u06CC
+        \u0632\u0627\u0628\u0644\u0633\u062A\u0627\u0646 \u0631\u0627 \u0628\u0647
+        \u0627\u0648 \u0633\u067E\u0631\u062F.\n\n\u0631\u0648\u0632\u06CC \u0632\u0627\u0644
+        \u062F\u0631 \u062C\u0631\u06CC\u0627\u0646 \u0633\u0641\u0631\u0647\u0627\u06CC
+        \u062E\u0648\u062F \u0628\u0647 \u0633\u0631\u0632\u0645\u06CC\u0646 \u06A9\u0627\u0628\u0644
+        \u0631\u0633\u06CC\u062F\u061B \u062C\u0627\u06CC\u06CC \u06A9\u0647 \u0645\u0647\u0631\u0627\u0628
+        \u0634\u0627\u0647 \u0628\u0631 \u0622\u0646 \u0641\u0631\u0645\u0627\u0646\u0631\u0648\u0627\u06CC\u06CC
+        \u0645\u06CC\u200C\u06A9\u0631\u062F. \u0645\u0647\u0631\u0627\u0628 \u062F\u062E\u062A\u0631\u06CC
+        \u0628\u0647 \u0646\u0627\u0645 \u0631\u0648\u062F\u0627\u0628\u0647 \u062F\u0627\u0634\u062A\u061B
+        \u0634\u0627\u0647\u0632\u0627\u062F\u0647\u200C\u0627\u06CC \u0632\u06CC\u0628\u0627\u0631\u0648\u060C
+        \u062E\u0631\u062F\u0645\u0646\u062F \u0648 \u0628\u0644\u0646\u062F\u0645\u0631\u062A\u0628\u0647
+        \u06A9\u0647 \u0622\u0648\u0627\u0632\u0647 \u0632\u06CC\u0628\u0627\u06CC\u06CC
+        \u0648 \u0646\u06CC\u06A9\u200C\u062E\u0648\u06CC\u06CC \u0627\u0648 \u062F\u0631
+        \u0633\u0631\u0632\u0645\u06CC\u0646\u200C\u0647\u0627\u06CC \u0627\u0637\u0631\u0627\u0641
+        \u067E\u06CC\u0686\u06CC\u062F\u0647 \u0628\u0648\u062F. \u0632\u0627\u0644
+        \u0628\u0627 \u0634\u0646\u06CC\u062F\u0646 \u0648\u0635\u0641 \u0631\u0648\u062F\u0627\u0628\u0647\u060C
+        \u0634\u06CC\u0641\u062A\u0647 \u0627\u0648 \u0634\u062F \u0648 \u0622\u0631\u0632\u0648
+        \u06A9\u0631\u062F \u0631\u0648\u0632\u06CC \u0627\u06CC\u0646 \u0634\u0627\u0647\u0632\u0627\u062F\u0647
+        \u0631\u0627 \u0627\u0632 \u0646\u0632\u062F\u06CC\u06A9 \u0628\u0628\u06CC\u0646\u062F.\n\n\u0627\u0632
+        \u0633\u0648\u06CC \u062F\u06CC\u06AF\u0631\u060C \u0631\u0648\u062F\u0627\u0628\u0647
+        \u0646\u06CC\u0632 \u062F\u0627\u0633\u062A\u0627\u0646 \u0632\u0646\u062F\u06AF\u06CC
+        \u0634\u06AF\u0641\u062A\u200C\u0627\u0646\u06AF\u06CC\u0632 \u0632\u0627\u0644\u060C
+        \u062F\u0644\u0627\u0648\u0631\u06CC\u200C\u0647\u0627\u060C \u062E\u0631\u062F\u0645\u0646\u062F\u06CC
+        \u0648 \u0648\u06CC\u0698\u06AF\u06CC\u200C\u0647\u0627\u06CC \u0645\u0646\u062D\u0635\u0631\u0628\u0647\u200C\u0641\u0631\u062F
+        \u0627\u0648 \u0631\u0627 \u0634\u0646\u06CC\u062F\u0647 \u0628\u0648\u062F.
+        \u0627\u0648 \u0628\u0627 \u0648\u062C\u0648\u062F \u0622\u0646\u06A9\u0647
+        \u0647\u0646\u0648\u0632 \u0632\u0627\u0644 \u0631\u0627 \u0646\u062F\u06CC\u062F\u0647
+        \u0628\u0648\u062F\u060C \u0628\u0647 \u0627\u0648 \u0639\u0644\u0627\u0642\u0647\u200C\u0645\u0646\u062F
+        \u0634\u062F \u0648 \u0622\u0631\u0632\u0648\u06CC \u062F\u06CC\u062F\u0627\u0631\u0634
+        \u0631\u0627 \u062F\u0631 \u062F\u0644 \u067E\u0631\u0648\u0631\u0627\u0646\u062F.
+        \u0628\u0647 \u0627\u06CC\u0646 \u062A\u0631\u062A\u06CC\u0628\u060C \u0639\u0634\u0642
+        \u0645\u06CC\u0627\u0646 \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647
+        \u067E\u06CC\u0634 \u0627\u0632 \u0646\u062E\u0633\u062A\u06CC\u0646 \u0645\u0644\u0627\u0642\u0627\u062A\u0634\u0627\u0646
+        \u0634\u06A9\u0644 \u06AF\u0631\u0641\u062A\u061B \u0639\u0634\u0642\u06CC
+        \u06A9\u0647 \u0642\u0631\u0627\u0631 \u0628\u0648\u062F \u0633\u0631\u0646\u0648\u0634\u062A
+        \u0647\u0631 \u062F\u0648\u06CC \u0622\u0646\u200C\u0647\u0627 \u0631\u0627
+        \u062A\u063A\u06CC\u06CC\u0631 \u062F\u0647\u062F.\n\n\u0627\u0645\u0627
+        \u0627\u06CC\u0646 \u062F\u0644\u062F\u0627\u062F\u06AF\u06CC \u0628\u0627
+        \u0645\u0627\u0646\u0639\u06CC \u0628\u0632\u0631\u06AF \u0631\u0648\u0628\u0647\u200C\u0631\u0648
+        \u0628\u0648\u062F. \u0632\u0627\u0644 \u0627\u0632 \u062E\u0627\u0646\u062F\u0627\u0646
+        \u067E\u0647\u0644\u0648\u0627\u0646\u0627\u0646 \u0628\u0632\u0631\u06AF
+        \u0627\u06CC\u0631\u0627\u0646 \u0628\u0647 \u0634\u0645\u0627\u0631 \u0645\u06CC\u200C\u0631\u0641\u062A\u060C
+        \u062F\u0631\u062D\u0627\u0644\u06CC\u200C\u06A9\u0647 \u0631\u0648\u062F\u0627\u0628\u0647
+        \u0627\u0632 \u0646\u0633\u0644 \u0636\u062D\u0627\u06A9\u060C \u067E\u0627\u062F\u0634\u0627\u0647
+        \u0633\u062A\u0645\u06AF\u0631 \u0648 \u062F\u0634\u0645\u0646 \u062F\u06CC\u0631\u06CC\u0646\u0647
+        \u0627\u06CC\u0631\u0627\u0646\u06CC\u0627\u0646 \u0628\u0648\u062F. \u062E\u0627\u0646\u062F\u0627\u0646
+        \u0632\u0627\u0644 \u0648 \u0641\u0631\u0645\u0627\u0646\u0631\u0648\u0627\u06CC\u0627\u0646
+        \u0627\u06CC\u0631\u0627\u0646 \u0646\u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u0633\u062A\u0646\u062F
+        \u0628\u0647\u200C\u0622\u0633\u0627\u0646\u06CC \u067E\u06CC\u0648\u0646\u062F
+        \u0645\u06CC\u0627\u0646 \u0627\u06CC\u0646 \u062F\u0648 \u062E\u0627\u0646\u062F\u0627\u0646
+        \u0631\u0627 \u0628\u067E\u0630\u06CC\u0631\u0646\u062F. \u0627\u06CC\u0646
+        \u0645\u0648\u0636\u0648\u0639 \u0628\u0627\u0639\u062B \u0645\u06CC\u200C\u0634\u062F
+        \u0631\u0627\u0628\u0637\u0647 \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647
+        \u0628\u0627 \u062E\u0637\u0631 \u0645\u062E\u0627\u0644\u0641\u062A \u0628\u0632\u0631\u06AF\u0627\u0646
+        \u0648 \u062D\u062A\u06CC \u0628\u0631\u0648\u0632 \u062C\u0646\u06AF \u0645\u06CC\u0627\u0646
+        \u062F\u0648 \u0633\u0631\u0632\u0645\u06CC\u0646 \u0631\u0648\u0628\u0647\u200C\u0631\u0648
+        \u0628\u0627\u0634\u062F.\n\n\u0631\u0648\u062F\u0627\u0628\u0647 \u06A9\u0647
+        \u0646\u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u0633\u062A \u0627\u062D\u0633\u0627\u0633\u0627\u062A
+        \u062E\u0648\u062F \u0631\u0627 \u067E\u0646\u0647\u0627\u0646 \u06A9\u0646\u062F\u060C
+        \u0631\u0627\u0632 \u062F\u0644\u062F\u0627\u062F\u06AF\u06CC\u200C\u0627\u0634
+        \u0631\u0627 \u0628\u0627 \u0686\u0646\u062F \u062A\u0646 \u0627\u0632 \u0647\u0645\u0631\u0627\u0647\u0627\u0646
+        \u0645\u0648\u0631\u062F \u0627\u0639\u062A\u0645\u0627\u062F \u062E\u0648\u062F
+        \u062F\u0631 \u0645\u06CC\u0627\u0646 \u06AF\u0630\u0627\u0634\u062A. \u0622\u0646\u200C\u0647\u0627
+        \u06A9\u0647 \u0628\u0647 \u0631\u0648\u062F\u0627\u0628\u0647 \u0648\u0641\u0627\u062F\u0627\u0631
+        \u0628\u0648\u062F\u0646\u062F \u0648 \u0622\u0631\u0632\u0648\u06CC \u062E\u0648\u0634\u0628\u062E\u062A\u06CC
+        \u0627\u0648 \u0631\u0627 \u062F\u0627\u0634\u062A\u0646\u062F\u060C \u062A\u0635\u0645\u06CC\u0645
+        \u06AF\u0631\u0641\u062A\u0646\u062F \u0631\u0627\u0647\u06CC \u0628\u0631\u0627\u06CC
+        \u0622\u0634\u0646\u0627\u06CC\u06CC \u0648 \u0627\u0631\u062A\u0628\u0627\u0637
+        \u0645\u06CC\u0627\u0646 \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647
+        \u067E\u06CC\u062F\u0627 \u06A9\u0646\u0646\u062F. \u0628\u0647 \u0647\u0645\u06CC\u0646
+        \u0645\u0646\u0638\u0648\u0631\u060C \u0627\u0632 \u06A9\u0627\u062E \u062E\u0627\u0631\u062C
+        \u0634\u062F\u0646\u062F \u0648 \u0628\u0647 \u0628\u0647\u0627\u0646\u0647
+        \u06AF\u0631\u062F\u0634 \u0648 \u06AF\u0644\u200C\u0686\u06CC\u0646\u06CC\u060C
+        \u062E\u0648\u062F \u0631\u0627 \u0628\u0647 \u0646\u0632\u062F\u06CC\u06A9\u06CC
+        \u0645\u062D\u0644 \u0627\u0642\u0627\u0645\u062A \u0632\u0627\u0644 \u0631\u0633\u0627\u0646\u062F\u0646\u062F.
+        \u0622\u0646\u200C\u0647\u0627 \u062A\u0648\u0627\u0646\u0633\u062A\u0646\u062F
+        \u0628\u0627 \u0632\u0627\u0644 \u062F\u06CC\u062F\u0627\u0631 \u06A9\u0646\u0646\u062F\u060C
+        \u0627\u0632 \u0639\u0644\u0627\u0642\u0647 \u0627\u0648 \u0628\u0647 \u0631\u0648\u062F\u0627\u0628\u0647
+        \u0622\u06AF\u0627\u0647 \u0634\u0648\u0646\u062F \u0648 \u067E\u06CC\u0627\u0645\u200C\u0647\u0627\u06CC
+        \u0645\u062D\u0628\u062A\u200C\u0622\u0645\u06CC\u0632 \u0627\u06CC\u0646
+        \u062F\u0648 \u062F\u0644\u062F\u0627\u062F\u0647 \u0631\u0627 \u0628\u0647
+        \u06CC\u06A9\u062F\u06CC\u06AF\u0631 \u0628\u0631\u0633\u0627\u0646\u0646\u062F.\n\n\u0628\u0627\u0632\u06CC
+        \xAB\u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647\xBB \u0628\u0627\u0632\u06CC\u06A9\u0646
+        \u0631\u0627 \u062F\u0631 \u0642\u0644\u0628 \u0647\u0645\u06CC\u0646 \u0645\u0627\u062C\u0631\u0627\u06CC
+        \u0639\u0627\u0634\u0642\u0627\u0646\u0647 \u0642\u0631\u0627\u0631 \u0645\u06CC\u200C\u062F\u0647\u062F.
+        \u062F\u0631 \u0627\u06CC\u0646 \u0628\u0627\u0632\u06CC\u060C \u0628\u0627\u0632\u06CC\u06A9\u0646
+        \u0646\u0642\u0634 \u0646\u0627\u0645\u0647\u200C\u0631\u0633\u0627\u0646
+        \u0645\u06CC\u0627\u0646 \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647
+        \u0631\u0627 \u0628\u0631 \u0639\u0647\u062F\u0647 \u062F\u0627\u0631\u062F\u061B
+        \u0634\u062E\u0635\u06CC\u062A\u06CC \u06A9\u0647 \u0648\u0638\u06CC\u0641\u0647
+        \u062F\u0627\u0631\u062F \u067E\u06CC\u0627\u0645\u200C\u0647\u0627 \u0648
+        \u0646\u0627\u0645\u0647\u200C\u0647\u0627\u06CC \u0627\u06CC\u0646 \u062F\u0648
+        \u062F\u0644\u062F\u0627\u062F\u0647 \u0631\u0627 \u0628\u0647 \u06CC\u06A9\u062F\u06CC\u06AF\u0631
+        \u0628\u0631\u0633\u0627\u0646\u062F \u0648 \u0628\u0647 \u0622\u0646\u200C\u0647\u0627
+        \u06A9\u0645\u06A9 \u06A9\u0646\u062F \u062A\u0627 \u0628\u0627 \u0648\u062C\u0648\u062F
+        \u0641\u0627\u0635\u0644\u0647\u200C\u0647\u0627\u060C \u0645\u0648\u0627\u0646\u0639
+        \u0648 \u0645\u062E\u0627\u0644\u0641\u062A\u200C\u0647\u0627\u060C \u0627\u0631\u062A\u0628\u0627\u0637
+        \u062E\u0648\u062F \u0631\u0627 \u062D\u0641\u0638 \u06A9\u0646\u0646\u062F.\n\n\u0628\u0627\u0632\u06CC\u06A9\u0646
+        \u062F\u0631 \u0637\u0648\u0644 \u0628\u0627\u0632\u06CC \u0628\u0627 \u0627\u0646\u062C\u0627\u0645
+        \u0645\u0623\u0645\u0648\u0631\u06CC\u062A\u200C\u0647\u0627\u06CC \u0645\u062E\u062A\u0644\u0641\u060C
+        \u0639\u0628\u0648\u0631 \u0627\u0632 \u0645\u0633\u06CC\u0631\u0647\u0627\u06CC
+        \u06AF\u0648\u0646\u0627\u06AF\u0648\u0646 \u0648 \u067E\u0634\u062A \u0633\u0631
+        \u06AF\u0630\u0627\u0634\u062A\u0646 \u0686\u0627\u0644\u0634\u200C\u0647\u0627\u06CC
+        \u0645\u062A\u0646\u0648\u0639\u060C \u0628\u0647 \u067E\u06CC\u0634\u0631\u0641\u062A
+        \u062F\u0627\u0633\u062A\u0627\u0646 \u06A9\u0645\u06A9 \u0645\u06CC\u200C\u06A9\u0646\u062F.
+        \u0647\u0631 \u0646\u0627\u0645\u0647\u200C\u0627\u06CC \u06A9\u0647 \u0628\u0647
+        \u0645\u0642\u0635\u062F \u0645\u06CC\u200C\u0631\u0633\u062F\u060C \u06AF\u0627\u0645\u06CC
+        \u062F\u0631 \u0646\u0632\u062F\u06CC\u06A9\u200C\u062A\u0631 \u0634\u062F\u0646
+        \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647 \u0628\u0647
+        \u06CC\u06A9\u062F\u06CC\u06AF\u0631 \u0627\u0633\u062A. \u062F\u0631 \u062C\u0647\u0627\u0646\u06CC
+        \u06A9\u0647 \u0622\u0634\u06A9\u0627\u0631 \u0634\u062F\u0646 \u06CC\u06A9
+        \u0631\u0627\u0632 \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u062F \u0633\u0631\u0646\u0648\u0634\u062A
+        \u062F\u0648 \u062E\u0627\u0646\u062F\u0627\u0646 \u0631\u0627 \u062A\u063A\u06CC\u06CC\u0631
+        \u062F\u0647\u062F\u060C \u0648\u0638\u06CC\u0641\u0647 \u0646\u0627\u0645\u0647\u200C\u0631\u0633\u0627\u0646
+        \u0627\u0647\u0645\u06CC\u062A \u0648\u06CC\u0698\u0647\u200C\u0627\u06CC
+        \u067E\u06CC\u062F\u0627 \u0645\u06CC\u200C\u06A9\u0646\u062F. \u0628\u0627\u0632\u06CC\u06A9\u0646
+        \u0628\u0627 \u067E\u06CC\u0634\u0631\u0648\u06CC \u062F\u0631 \u0628\u0627\u0632\u06CC\u060C
+        \u0628\u0647\u200C\u062A\u062F\u0631\u06CC\u062C \u0628\u0627 \u0634\u062E\u0635\u06CC\u062A\u200C\u0647\u0627\u060C
+        \u0627\u062D\u0633\u0627\u0633\u0627\u062A \u0648 \u0627\u062A\u0641\u0627\u0642\u0627\u062A
+        \u062F\u0627\u0633\u062A\u0627\u0646 \u0622\u0634\u0646\u0627 \u0645\u06CC\u200C\u0634\u0648\u062F
+        \u0648 \u0627\u0632 \u0646\u0632\u062F\u06CC\u06A9 \u062F\u0631 \u062C\u0631\u06CC\u0627\u0646
+        \u0634\u06A9\u0644\u200C\u06AF\u06CC\u0631\u06CC \u0627\u06CC\u0646 \u0639\u0634\u0642
+        \u0627\u0641\u0633\u0627\u0646\u0647\u200C\u0627\u06CC \u0642\u0631\u0627\u0631
+        \u0645\u06CC\u200C\u06AF\u06CC\u0631\u062F.\n\n\u067E\u0633 \u0627\u0632
+        \u0622\u0646\u06A9\u0647 \u067E\u06CC\u0627\u0645\u200C\u0647\u0627\u06CC
+        \u0627\u0648\u0644\u06CC\u0647 \u0645\u06CC\u0627\u0646 \u0632\u0627\u0644
+        \u0648 \u0631\u0648\u062F\u0627\u0628\u0647 \u0631\u062F\u0648\u0628\u062F\u0644
+        \u0634\u062F\u060C \u0639\u0644\u0627\u0642\u0647 \u0622\u0646\u200C\u0647\u0627
+        \u0628\u0647 \u06CC\u06A9\u062F\u06CC\u06AF\u0631 \u0628\u06CC\u0634\u062A\u0631
+        \u0634\u062F \u0648 \u0633\u0631\u0627\u0646\u062C\u0627\u0645 \u062A\u0635\u0645\u06CC\u0645
+        \u06AF\u0631\u0641\u062A\u0646\u062F \u0645\u062E\u0641\u06CC\u0627\u0646\u0647
+        \u0645\u0644\u0627\u0642\u0627\u062A \u06A9\u0646\u0646\u062F. \u0631\u0648\u062F\u0627\u0628\u0647
+        \u0645\u0642\u062F\u0645\u0627\u062A \u0627\u06CC\u0646 \u062F\u06CC\u062F\u0627\u0631
+        \u0631\u0627 \u062F\u0631 \u06A9\u0627\u062E \u062E\u0648\u062F \u0641\u0631\u0627\u0647\u0645
+        \u06A9\u0631\u062F \u0648 \u0632\u0627\u0644 \u0646\u06CC\u0632 \u062F\u0631
+        \u0634\u0628\u06CC \u062A\u0627\u0631\u06CC\u06A9\u060C \u062F\u0648\u0631
+        \u0627\u0632 \u0686\u0634\u0645 \u062F\u06CC\u06AF\u0631\u0627\u0646\u060C
+        \u0628\u0647 \u0633\u0648\u06CC \u06A9\u0627\u062E \u0627\u0648 \u0631\u0641\u062A.\n\n\u0647\u0646\u06AF\u0627\u0645\u06CC
+        \u06A9\u0647 \u0632\u0627\u0644 \u0628\u0647 \u067E\u0627\u06CC \u062F\u06CC\u0648\u0627\u0631
+        \u0628\u0644\u0646\u062F \u06A9\u0627\u062E \u0631\u0633\u06CC\u062F\u060C
+        \u0631\u0648\u062F\u0627\u0628\u0647 \u0627\u0632 \u0628\u0627\u0644\u0627\u06CC
+        \u06A9\u0627\u062E \u0638\u0627\u0647\u0631 \u0634\u062F. \u0627\u0648 \u06AF\u06CC\u0633\u0648\u0627\u0646
+        \u0628\u0644\u0646\u062F \u0648 \u0633\u06CC\u0627\u0647 \u062E\u0648\u062F
+        \u0631\u0627 \u0627\u0632 \u0641\u0631\u0627\u0632 \u062F\u06CC\u0648\u0627\u0631
+        \u067E\u0627\u06CC\u06CC\u0646 \u0627\u0646\u062F\u0627\u062E\u062A \u062A\u0627
+        \u0632\u0627\u0644 \u0628\u0627 \u06AF\u0631\u0641\u062A\u0646 \u0622\u0646\u200C\u0647\u0627
+        \u0628\u0647 \u0628\u0627\u0644\u0627\u06CC \u06A9\u0627\u062E \u0628\u0631\u0648\u062F.
+        \u0627\u0645\u0627 \u0632\u0627\u0644 \u06A9\u0647 \u0646\u0645\u06CC\u200C\u062E\u0648\u0627\u0633\u062A
+        \u0628\u0647 \u06AF\u06CC\u0633\u0648\u0627\u0646 \u0645\u062D\u0628\u0648\u0628\u0634
+        \u0622\u0633\u06CC\u0628\u06CC \u0628\u0631\u0633\u062F\u060C \u0627\u0632
+        \u06A9\u0645\u0646\u062F \u062E\u0648\u062F \u0627\u0633\u062A\u0641\u0627\u062F\u0647
+        \u06A9\u0631\u062F \u0648 \u0627\u0632 \u062F\u06CC\u0648\u0627\u0631 \u0628\u0627\u0644\u0627
+        \u0631\u0641\u062A.\n\n\u0633\u0631\u0627\u0646\u062C\u0627\u0645 \u062F\u0648
+        \u062F\u0644\u062F\u0627\u062F\u0647 \u0628\u0631\u0627\u06CC \u0646\u062E\u0633\u062A\u06CC\u0646
+        \u0628\u0627\u0631 \u06CC\u06A9\u062F\u06CC\u06AF\u0631 \u0631\u0627 \u0627\u0632
+        \u0646\u0632\u062F\u06CC\u06A9 \u062F\u06CC\u062F\u0646\u062F. \u0622\u0646
+        \u0634\u0628\u060C \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647
+        \u0633\u0627\u0639\u062A\u200C\u0647\u0627 \u062F\u0631 \u06A9\u0646\u0627\u0631
+        \u0647\u0645 \u0646\u0634\u0633\u062A\u0646\u062F \u0648 \u0627\u0632 \u0639\u0634\u0642\u060C
+        \u0622\u0631\u0632\u0648\u0647\u0627 \u0648 \u0646\u06AF\u0631\u0627\u0646\u06CC\u200C\u0647\u0627\u06CC\u0634\u0627\u0646
+        \u0633\u062E\u0646 \u06AF\u0641\u062A\u0646\u062F. \u0647\u0631 \u062F\u0648
+        \u0645\u06CC\u200C\u062F\u0627\u0646\u0633\u062A\u0646\u062F \u06A9\u0647
+        \u062E\u0627\u0646\u0648\u0627\u062F\u0647\u200C\u0647\u0627 \u0648 \u0628\u0632\u0631\u06AF\u0627\u0646
+        \u0645\u0645\u06A9\u0646 \u0627\u0633\u062A \u0628\u0627 \u067E\u06CC\u0648\u0646\u062F\u0634\u0627\u0646
+        \u0645\u062E\u0627\u0644\u0641\u062A \u06A9\u0646\u0646\u062F\u060C \u0627\u0645\u0627
+        \u062A\u0635\u0645\u06CC\u0645 \u06AF\u0631\u0641\u062A\u0646\u062F \u062F\u0631
+        \u0628\u0631\u0627\u0628\u0631 \u062F\u0634\u0648\u0627\u0631\u06CC\u200C\u0647\u0627
+        \u0627\u06CC\u0633\u062A\u0627\u062F\u06AF\u06CC \u06A9\u0646\u0646\u062F
+        \u0648 \u0628\u0631\u0627\u06CC \u0631\u0633\u06CC\u062F\u0646 \u0628\u0647
+        \u06CC\u06A9\u062F\u06CC\u06AF\u0631 \u062A\u0644\u0627\u0634 \u06A9\u0646\u0646\u062F.
+        \u0622\u0646\u200C\u0647\u0627 \u067E\u06CC\u0645\u0627\u0646 \u0628\u0633\u062A\u0646\u062F
+        \u06A9\u0647 \u0628\u0647 \u0639\u0634\u0642 \u062E\u0648\u062F \u0648\u0641\u0627\u062F\u0627\u0631
+        \u0628\u0645\u0627\u0646\u0646\u062F \u0648 \u0631\u0627\u0647\u06CC \u0628\u0631\u0627\u06CC
+        \u0627\u0632\u062F\u0648\u0627\u062C \u067E\u06CC\u062F\u0627 \u06A9\u0646\u0646\u062F.\n\n\u067E\u0633
+        \u0627\u0632 \u0627\u06CC\u0646 \u062F\u06CC\u062F\u0627\u0631\u060C \u0632\u0627\u0644
+        \u062A\u0635\u0645\u06CC\u0645 \u06AF\u0631\u0641\u062A \u0645\u0648\u0636\u0648\u0639
+        \u0631\u0627 \u0628\u0627 \u067E\u062F\u0631\u0634 \u062F\u0631 \u0645\u06CC\u0627\u0646
+        \u0628\u06AF\u0630\u0627\u0631\u062F. \u0627\u0648 \u0646\u0627\u0645\u0647\u200C\u0627\u06CC
+        \u0628\u0631\u0627\u06CC \u0633\u0627\u0645 \u0646\u0648\u0634\u062A \u0648
+        \u062F\u0631 \u0622\u0646 \u0627\u0632 \u0639\u0644\u0627\u0642\u0647 \u0639\u0645\u06CC\u0642
+        \u062E\u0648\u062F \u0628\u0647 \u0631\u0648\u062F\u0627\u0628\u0647 \u0633\u062E\u0646
+        \u06AF\u0641\u062A. \u0632\u0627\u0644 \u0627\u0632 \u067E\u062F\u0631\u0634
+        \u062E\u0648\u0627\u0633\u062A \u06A9\u0647 \u0628\u0627 \u0627\u06CC\u0646
+        \u0627\u0632\u062F\u0648\u0627\u062C \u0645\u0648\u0627\u0641\u0642\u062A
+        \u06A9\u0646\u062F \u0648 \u0628\u0647 \u0627\u0648 \u0627\u062C\u0627\u0632\u0647
+        \u062F\u0647\u062F \u0628\u0627 \u062F\u062E\u062A\u0631 \u0645\u0647\u0631\u0627\u0628
+        \u0634\u0627\u0647 \u067E\u06CC\u0648\u0646\u062F \u0628\u0628\u0646\u062F\u062F.\n\n\u0627\u0645\u0627
+        \u0633\u0627\u0645 \u067E\u0633 \u0627\u0632 \u062E\u0648\u0627\u0646\u062F\u0646
+        \u0646\u0627\u0645\u0647\u060C \u0633\u062E\u062A \u0646\u06AF\u0631\u0627\u0646
+        \u0634\u062F. \u0627\u0648 \u0627\u0632 \u06CC\u06A9 \u0633\u0648 \u0641\u0631\u0632\u0646\u062F\u0634
+        \u0631\u0627 \u062F\u0648\u0633\u062A \u062F\u0627\u0634\u062A \u0648 \u0645\u06CC\u200C\u062E\u0648\u0627\u0633\u062A
+        \u0622\u0631\u0632\u0648\u06CC \u0627\u0648 \u0631\u0627 \u0628\u0631\u0622\u0648\u0631\u062F\u0647
+        \u06A9\u0646\u062F\u060C \u0627\u0645\u0627 \u0627\u0632 \u0633\u0648\u06CC
+        \u062F\u06CC\u06AF\u0631 \u0645\u06CC\u200C\u062F\u0627\u0646\u0633\u062A
+        \u06A9\u0647 \u0631\u0648\u062F\u0627\u0628\u0647 \u0627\u0632 \u0646\u0633\u0644
+        \u0636\u062D\u0627\u06A9 \u0627\u0633\u062A \u0648 \u0686\u0646\u06CC\u0646
+        \u067E\u06CC\u0648\u0646\u062F\u06CC \u0645\u0645\u06A9\u0646 \u0627\u0633\u062A
+        \u062E\u0634\u0645 \u0645\u0646\u0648\u0686\u0647\u0631\u060C \u067E\u0627\u062F\u0634\u0627\u0647
+        \u0627\u06CC\u0631\u0627\u0646\u060C \u0631\u0627 \u0628\u0631\u0627\u0646\u06AF\u06CC\u0632\u062F.
+        \u0633\u0627\u0645 \u0628\u0631\u0627\u06CC \u06CC\u0627\u0641\u062A\u0646
+        \u0631\u0627\u0647\u200C\u062D\u0644 \u0628\u0627 \u0645\u0648\u0628\u062F\u0627\u0646
+        \u0648 \u062E\u0631\u062F\u0645\u0646\u062F\u0627\u0646 \u0645\u0634\u0648\u0631\u062A
+        \u06A9\u0631\u062F. \u0622\u0646\u0627\u0646 \u0628\u0627 \u0628\u0631\u0631\u0633\u06CC
+        \u0633\u0631\u0646\u0648\u0634\u062A \u0627\u06CC\u0646 \u067E\u06CC\u0648\u0646\u062F\u060C
+        \u062E\u0628\u0631 \u062F\u0627\u062F\u0646\u062F \u06A9\u0647 \u0627\u0632
+        \u0627\u0632\u062F\u0648\u0627\u062C \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647
+        \u0641\u0631\u0632\u0646\u062F\u06CC \u0628\u0632\u0631\u06AF \u0648 \u0646\u06CC\u0631\u0648\u0645\u0646\u062F
+        \u0628\u0647 \u062F\u0646\u06CC\u0627 \u062E\u0648\u0627\u0647\u062F \u0622\u0645\u062F
+        \u06A9\u0647 \u062F\u0631 \u0622\u06CC\u0646\u062F\u0647 \u0628\u0647 \u067E\u0647\u0644\u0648\u0627\u0646\u06CC
+        \u0646\u0627\u0645\u062F\u0627\u0631 \u062A\u0628\u062F\u06CC\u0644 \u0645\u06CC\u200C\u0634\u0648\u062F
+        \u0648 \u0627\u0632 \u0627\u06CC\u0631\u0627\u0646 \u062F\u0631 \u0628\u0631\u0627\u0628\u0631
+        \u062F\u0634\u0645\u0646\u0627\u0646 \u062F\u0641\u0627\u0639 \u062E\u0648\u0627\u0647\u062F
+        \u06A9\u0631\u062F.\n\n\u062F\u0631 \u0647\u0645\u06CC\u0646 \u0632\u0645\u0627\u0646\u060C
+        \u062E\u0628\u0631 \u062F\u0644\u062F\u0627\u062F\u06AF\u06CC \u0632\u0627\u0644
+        \u0648 \u0631\u0648\u062F\u0627\u0628\u0647 \u0628\u0647 \u06AF\u0648\u0634
+        \u0633\u06CC\u0646\u062F\u062E\u062A\u060C \u0645\u0627\u062F\u0631 \u0631\u0648\u062F\u0627\u0628\u0647\u060C
+        \u0631\u0633\u06CC\u062F. \u0633\u06CC\u0646\u062F\u062E\u062A \u06A9\u0647
+        \u0632\u0646\u06CC \u062E\u0631\u062F\u0645\u0646\u062F \u0648 \u062F\u0648\u0631\u0627\u0646\u062F\u06CC\u0634
+        \u0628\u0648\u062F\u060C \u0627\u0628\u062A\u062F\u0627 \u0627\u0632 \u0634\u0646\u06CC\u062F\u0646
+        \u0627\u06CC\u0646 \u062E\u0628\u0631 \u0646\u06AF\u0631\u0627\u0646 \u0634\u062F\u061B
+        \u0632\u06CC\u0631\u0627 \u0628\u0647\u200C\u062E\u0648\u0628\u06CC \u0645\u06CC\u200C\u062F\u0627\u0646\u0633\u062A
+        \u06A9\u0647 \u0622\u0634\u06A9\u0627\u0631 \u0634\u062F\u0646 \u0627\u06CC\u0646
+        \u0631\u0627\u0628\u0637\u0647 \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u062F
+        \u062E\u0634\u0645 \u0645\u0647\u0631\u0627\u0628 \u0648 \u0641\u0631\u0645\u0627\u0646\u0631\u0648\u0627\u06CC\u0627\u0646
+        \u0627\u06CC\u0631\u0627\u0646 \u0631\u0627 \u0628\u0631\u0627\u0646\u06AF\u06CC\u0632\u062F.
+        \u0633\u0631\u0627\u0646\u062C\u0627\u0645 \u0645\u0647\u0631\u0627\u0628
+        \u0646\u06CC\u0632 \u0627\u0632 \u0645\u0627\u062C\u0631\u0627 \u0622\u06AF\u0627\u0647
+        \u0634\u062F \u0648 \u0627\u0632 \u062A\u0631\u0633 \u067E\u06CC\u0627\u0645\u062F\u0647\u0627\u06CC
+        \u0627\u06CC\u0646 \u0627\u0632\u062F\u0648\u0627\u062C \u0628\u0647\u200C\u0634\u062F\u062A
+        \u062E\u0634\u0645\u06AF\u06CC\u0646 \u06AF\u0631\u062F\u06CC\u062F.\n\n\u0627\u0632
+        \u0633\u0648\u06CC \u062F\u06CC\u06AF\u0631\u060C \u062E\u0628\u0631 \u067E\u06CC\u0648\u0646\u062F
+        \u0627\u062D\u062A\u0645\u0627\u0644\u06CC \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647
+        \u0628\u0647 \u0645\u0646\u0648\u0686\u0647\u0631 \u0634\u0627\u0647 \u0631\u0633\u06CC\u062F.
+        \u0645\u0646\u0648\u0686\u0647\u0631 \u06A9\u0647 \u062E\u0627\u0646\u062F\u0627\u0646
+        \u0636\u062D\u0627\u06A9 \u0631\u0627 \u062F\u0634\u0645\u0646 \u0627\u06CC\u0631\u0627\u0646
+        \u0645\u06CC\u200C\u062F\u0627\u0646\u0633\u062A\u060C \u0627\u0632 \u0627\u06CC\u0646
+        \u0627\u062A\u0641\u0627\u0642 \u0646\u0627\u062E\u0634\u0646\u0648\u062F
+        \u0634\u062F \u0648 \u0628\u06CC\u0645 \u062F\u0627\u0634\u062A \u06A9\u0647
+        \u0627\u0632\u062F\u0648\u0627\u062C \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647
+        \u0628\u0627\u0639\u062B \u0642\u062F\u0631\u062A \u06AF\u0631\u0641\u062A\u0646
+        \u062F\u0648\u0628\u0627\u0631\u0647 \u0646\u0633\u0644 \u0636\u062D\u0627\u06A9
+        \u0634\u0648\u062F. \u0628\u0647 \u0647\u0645\u06CC\u0646 \u062F\u0644\u06CC\u0644\u060C
+        \u0641\u0631\u0645\u0627\u0646 \u062F\u0627\u062F \u0633\u0627\u0645 \u0628\u0631\u0627\u06CC
+        \u0645\u0642\u0627\u0628\u0644\u0647 \u0628\u0627 \u0645\u0647\u0631\u0627\u0628
+        \u0648 \u0633\u0631\u0632\u0645\u06CC\u0646 \u06A9\u0627\u0628\u0644 \u0622\u0645\u0627\u062F\u0647
+        \u0634\u0648\u062F.\n\n\u0628\u0627 \u0646\u0632\u062F\u06CC\u06A9 \u0634\u062F\u0646
+        \u062E\u0637\u0631 \u062C\u0646\u06AF\u060C \u0648\u0636\u0639\u06CC\u062A
+        \u0628\u0631\u0627\u06CC \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647
+        \u062F\u0634\u0648\u0627\u0631\u062A\u0631 \u0634\u062F. \u0639\u0634\u0642\u06CC
+        \u06A9\u0647 \u0628\u0627 \u0634\u0646\u06CC\u062F\u0646 \u0648\u0635\u0641
+        \u06CC\u06A9\u062F\u06CC\u06AF\u0631 \u0622\u063A\u0627\u0632 \u0634\u062F\u0647
+        \u0628\u0648\u062F\u060C \u0627\u06A9\u0646\u0648\u0646 \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u0633\u062A
+        \u0628\u0627\u0639\u062B \u062F\u0631\u06AF\u06CC\u0631\u06CC \u0648 \u062E\u0648\u0646\u0631\u06CC\u0632\u06CC
+        \u0645\u06CC\u0627\u0646 \u062F\u0648 \u0633\u0631\u0632\u0645\u06CC\u0646
+        \u0634\u0648\u062F.\n\n\u062F\u0631 \u0627\u06CC\u0646 \u0634\u0631\u0627\u06CC\u0637\u060C
+        \u0633\u06CC\u0646\u062F\u062E\u062A \u062A\u0635\u0645\u06CC\u0645 \u06AF\u0631\u0641\u062A
+        \u0628\u0631\u0627\u06CC \u062C\u0644\u0648\u06AF\u06CC\u0631\u06CC \u0627\u0632
+        \u062C\u0646\u06AF \u0648\u0627\u0631\u062F \u0639\u0645\u0644 \u0634\u0648\u062F.
+        \u0627\u0648 \u0628\u0627 \u0634\u062C\u0627\u0639\u062A \u0648 \u062A\u062F\u0628\u06CC\u0631\u060C
+        \u0645\u0647\u0631\u0627\u0628 \u0631\u0627 \u0645\u062A\u0642\u0627\u0639\u062F
+        \u06A9\u0631\u062F \u06A9\u0647 \u0627\u062C\u0627\u0632\u0647 \u062F\u0647\u062F
+        \u0628\u0647 \u062F\u06CC\u062F\u0627\u0631 \u0633\u0627\u0645 \u0628\u0631\u0648\u062F.
+        \u0633\u067E\u0633 \u0628\u0627 \u0647\u062F\u0627\u06CC\u0627\u06CC\u06CC
+        \u0627\u0631\u0632\u0634\u0645\u0646\u062F \u0631\u0627\u0647\u06CC \u0646\u0632\u062F
+        \u0633\u0627\u0645 \u0634\u062F \u0648 \u062A\u0644\u0627\u0634 \u06A9\u0631\u062F
+        \u0628\u0627 \u06AF\u0641\u062A\u200C\u0648\u06AF\u0648 \u0648 \u062E\u0631\u062F\u0645\u0646\u062F\u06CC\u060C
+        \u0627\u0648 \u0631\u0627 \u0627\u0632 \u062D\u0645\u0644\u0647 \u0628\u0647
+        \u06A9\u0627\u0628\u0644 \u0645\u0646\u0635\u0631\u0641 \u06A9\u0646\u062F.\n\n\u0633\u06CC\u0646\u062F\u062E\u062A
+        \u062F\u0631 \u062F\u06CC\u062F\u0627\u0631 \u0628\u0627 \u0633\u0627\u0645
+        \u0627\u0632 \u0628\u0632\u0631\u06AF\u06CC \u0648 \u0634\u0627\u06CC\u0633\u062A\u06AF\u06CC
+        \u062E\u0627\u0646\u062F\u0627\u0646 \u062E\u0648\u062F \u0633\u062E\u0646
+        \u06AF\u0641\u062A \u0648 \u0627\u0632 \u0627\u0648 \u062E\u0648\u0627\u0633\u062A
+        \u06A9\u0647 \u0645\u0631\u062F\u0645 \u0628\u06CC\u200C\u06AF\u0646\u0627\u0647
+        \u06A9\u0627\u0628\u0644 \u0631\u0627 \u06AF\u0631\u0641\u062A\u0627\u0631
+        \u062C\u0646\u06AF \u0646\u06A9\u0646\u062F. \u0633\u0627\u0645 \u062A\u062D\u062A
+        \u062A\u0623\u062B\u06CC\u0631 \u0633\u062E\u0646\u0627\u0646 \u062E\u0631\u062F\u0645\u0646\u062F\u0627\u0646\u0647
+        \u0627\u0648 \u0642\u0631\u0627\u0631 \u06AF\u0631\u0641\u062A \u0648 \u0628\u0647
+        \u0627\u06CC\u0646 \u0646\u062A\u06CC\u062C\u0647 \u0631\u0633\u06CC\u062F
+        \u06A9\u0647 \u0628\u0647\u062A\u0631 \u0627\u0633\u062A \u0627\u062E\u062A\u0644\u0627\u0641\u0627\u062A
+        \u0627\u0632 \u0631\u0627\u0647 \u06AF\u0641\u062A\u200C\u0648\u06AF\u0648
+        \u062D\u0644 \u0634\u0648\u0646\u062F. \u062A\u0644\u0627\u0634\u200C\u0647\u0627\u06CC
+        \u0633\u06CC\u0646\u062F\u062E\u062A \u0646\u0642\u0634 \u0645\u0647\u0645\u06CC
+        \u062F\u0631 \u06A9\u0627\u0647\u0634 \u062A\u0646\u0634\u200C\u0647\u0627
+        \u0648 \u062C\u0644\u0648\u06AF\u06CC\u0631\u06CC \u0627\u0632 \u062C\u0646\u06AF
+        \u062F\u0627\u0634\u062A.\n\n\u062F\u0631 \u0647\u0645\u06CC\u0646 \u0647\u0646\u06AF\u0627\u0645\u060C
+        \u0632\u0627\u0644 \u0646\u06CC\u0632 \u0628\u0631\u0627\u06CC \u0628\u0647
+        \u062F\u0633\u062A \u0622\u0648\u0631\u062F\u0646 \u0631\u0636\u0627\u06CC\u062A
+        \u0645\u0646\u0648\u0686\u0647\u0631 \u0634\u0627\u0647 \u062A\u0644\u0627\u0634
+        \u0645\u06CC\u200C\u06A9\u0631\u062F. \u0633\u0627\u0645 \u0646\u0627\u0645\u0647\u200C\u0627\u06CC
+        \u0628\u0647 \u067E\u0627\u062F\u0634\u0627\u0647 \u0646\u0648\u0634\u062A
+        \u0648 \u062F\u0631 \u0622\u0646 \u0627\u0632 \u062E\u062F\u0645\u0627\u062A
+        \u0648 \u0648\u0641\u0627\u062F\u0627\u0631\u06CC \u062E\u0648\u062F \u0628\u0647
+        \u0627\u06CC\u0631\u0627\u0646 \u06CC\u0627\u062F \u06A9\u0631\u062F \u0648
+        \u0627\u0632 \u0627\u0648 \u062E\u0648\u0627\u0633\u062A \u0628\u0627 \u0627\u0632\u062F\u0648\u0627\u062C
+        \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647 \u0645\u0648\u0627\u0641\u0642\u062A
+        \u06A9\u0646\u062F. \u0632\u0627\u0644 \u0627\u06CC\u0646 \u0646\u0627\u0645\u0647
+        \u0631\u0627 \u0628\u0647 \u062F\u0631\u0628\u0627\u0631 \u0645\u0646\u0648\u0686\u0647\u0631
+        \u0628\u0631\u062F \u0648 \u0627\u0645\u06CC\u062F\u0648\u0627\u0631 \u0628\u0648\u062F
+        \u06A9\u0647 \u0628\u062A\u0648\u0627\u0646\u062F \u0646\u0638\u0631 \u067E\u0627\u062F\u0634\u0627\u0647
+        \u0631\u0627 \u062A\u063A\u06CC\u06CC\u0631 \u062F\u0647\u062F.\n\n\u0645\u0646\u0648\u0686\u0647\u0631
+        \u067E\u0633 \u0627\u0632 \u0634\u0646\u06CC\u062F\u0646 \u0633\u062E\u0646\u0627\u0646
+        \u0632\u0627\u0644 \u0648 \u062E\u0648\u0627\u0646\u062F\u0646 \u0646\u0627\u0645\u0647
+        \u0633\u0627\u0645\u060C \u062A\u0635\u0645\u06CC\u0645 \u06AF\u0631\u0641\u062A
+        \u067E\u06CC\u0634 \u0627\u0632 \u0627\u0639\u0644\u0627\u0645 \u0646\u0638\u0631
+        \u0646\u0647\u0627\u06CC\u06CC\u060C \u0628\u0627 \u0645\u0648\u0628\u062F\u0627\u0646
+        \u0648 \u0633\u062A\u0627\u0631\u0647\u200C\u0634\u0646\u0627\u0633\u0627\u0646
+        \u0645\u0634\u0648\u0631\u062A \u06A9\u0646\u062F. \u0622\u0646\u0627\u0646
+        \u0628\u0627 \u0628\u0631\u0631\u0633\u06CC \u0633\u0631\u0646\u0648\u0634\u062A
+        \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647\u060C \u067E\u06CC\u0634\u06AF\u0648\u06CC\u06CC
+        \u06A9\u0631\u062F\u0646\u062F \u06A9\u0647 \u0641\u0631\u0632\u0646\u062F
+        \u0627\u06CC\u0646 \u062F\u0648 \u0628\u0647 \u067E\u0647\u0644\u0648\u0627\u0646\u06CC
+        \u0628\u0632\u0631\u06AF \u062A\u0628\u062F\u06CC\u0644 \u062E\u0648\u0627\u0647\u062F
+        \u0634\u062F \u0648 \u062F\u0631 \u0622\u06CC\u0646\u062F\u0647 \u0646\u0642\u0634\u06CC
+        \u0645\u0647\u0645 \u062F\u0631 \u067E\u0627\u0633\u062F\u0627\u0631\u06CC
+        \u0627\u0632 \u0627\u06CC\u0631\u0627\u0646 \u062E\u0648\u0627\u0647\u062F
+        \u062F\u0627\u0634\u062A.\n\n\u0628\u0627 \u0627\u06CC\u0646 \u062D\u0627\u0644\u060C
+        \u0645\u0646\u0648\u0686\u0647\u0631 \u0628\u0631\u0627\u06CC \u0627\u0637\u0645\u06CC\u0646\u0627\u0646
+        \u0627\u0632 \u0634\u0627\u06CC\u0633\u062A\u06AF\u06CC \u0632\u0627\u0644\u060C
+        \u062A\u0635\u0645\u06CC\u0645 \u06AF\u0631\u0641\u062A \u0627\u0648 \u0631\u0627
+        \u0628\u06CC\u0627\u0632\u0645\u0627\u06CC\u062F. \u0645\u0648\u0628\u062F\u0627\u0646
+        \u062F\u0631\u0628\u0627\u0631 \u067E\u0631\u0633\u0634\u200C\u0647\u0627
+        \u0648 \u0645\u0639\u0645\u0627\u0647\u0627\u06CC \u062F\u0634\u0648\u0627\u0631\u06CC
+        \u0627\u0632 \u0632\u0627\u0644 \u0645\u0637\u0631\u062D \u06A9\u0631\u062F\u0646\u062F
+        \u062A\u0627 \u0645\u06CC\u0632\u0627\u0646 \u062E\u0631\u062F \u0648 \u062F\u0627\u0646\u0634
+        \u0627\u0648 \u0631\u0627 \u0628\u0633\u0646\u062C\u0646\u062F. \u0632\u0627\u0644
+        \u0628\u0627 \u0647\u0648\u0634\u0645\u0646\u062F\u06CC \u0628\u0647 \u062A\u0645\u0627\u0645
+        \u067E\u0631\u0633\u0634\u200C\u0647\u0627 \u067E\u0627\u0633\u062E \u062F\u0627\u062F
+        \u0648 \u062A\u0648\u0627\u0646\u0633\u062A \u062A\u062D\u0633\u06CC\u0646
+        \u062D\u0627\u0636\u0631\u0627\u0646 \u0631\u0627 \u0628\u0631\u0627\u0646\u06AF\u06CC\u0632\u062F.
+        \u067E\u0633 \u0627\u0632 \u0622\u0646 \u0646\u06CC\u0632 \u062F\u0631 \u0645\u06CC\u062F\u0627\u0646\u060C
+        \u062A\u0648\u0627\u0646\u0627\u06CC\u06CC\u200C\u0647\u0627\u06CC \u067E\u0647\u0644\u0648\u0627\u0646\u06CC
+        \u0648 \u0645\u0647\u0627\u0631\u062A \u062E\u0648\u062F \u0631\u0627 \u0628\u0647
+        \u0646\u0645\u0627\u06CC\u0634 \u06AF\u0630\u0627\u0634\u062A \u0648 \u062B\u0627\u0628\u062A
+        \u06A9\u0631\u062F \u06A9\u0647 \u0646\u0647\u200C\u062A\u0646\u0647\u0627
+        \u062C\u0648\u0627\u0646\u06CC \u0639\u0627\u0634\u0642\u060C \u0628\u0644\u06A9\u0647
+        \u067E\u0647\u0644\u0648\u0627\u0646\u06CC \u062E\u0631\u062F\u0645\u0646\u062F\u060C
+        \u0646\u06CC\u0631\u0648\u0645\u0646\u062F \u0648 \u0634\u0627\u06CC\u0633\u062A\u0647
+        \u0627\u0633\u062A.\n\n\u0633\u0631\u0627\u0646\u062C\u0627\u0645 \u0645\u0646\u0648\u0686\u0647\u0631
+        \u0634\u0627\u0647 \u0628\u0627 \u062F\u06CC\u062F\u0646 \u062E\u0631\u062F\u0645\u0646\u062F\u06CC
+        \u0648 \u062A\u0648\u0627\u0646\u0627\u06CC\u06CC\u200C\u0647\u0627\u06CC
+        \u0632\u0627\u0644 \u0648 \u0634\u0646\u06CC\u062F\u0646 \u067E\u06CC\u0634\u06AF\u0648\u06CC\u06CC
+        \u0645\u0648\u0628\u062F\u0627\u0646\u060C \u0628\u0627 \u0627\u0632\u062F\u0648\u0627\u062C
+        \u0627\u0648 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647 \u0645\u0648\u0627\u0641\u0642\u062A
+        \u06A9\u0631\u062F. \u0627\u0648 \u0646\u0627\u0645\u0647\u200C\u0627\u06CC
+        \u0628\u0631\u0627\u06CC \u0633\u0627\u0645 \u0646\u0648\u0634\u062A \u0648
+        \u0631\u0636\u0627\u06CC\u062A \u062E\u0648\u062F \u0631\u0627 \u0627\u0632
+        \u0627\u06CC\u0646 \u067E\u06CC\u0648\u0646\u062F \u0627\u0639\u0644\u0627\u0645
+        \u06A9\u0631\u062F. \u0628\u062F\u06CC\u0646 \u062A\u0631\u062A\u06CC\u0628\u060C
+        \u06CC\u06A9\u06CC \u0627\u0632 \u0628\u0632\u0631\u06AF\u200C\u062A\u0631\u06CC\u0646
+        \u0645\u0648\u0627\u0646\u0639 \u067E\u06CC\u0634 \u0631\u0648\u06CC \u062F\u0648
+        \u062F\u0644\u062F\u0627\u062F\u0647 \u0627\u0632 \u0645\u06CC\u0627\u0646
+        \u0628\u0631\u062F\u0627\u0634\u062A\u0647 \u0634\u062F.\n\n\u0632\u0627\u0644
+        \u0628\u0627 \u062E\u0648\u0634\u062D\u0627\u0644\u06CC \u0627\u0632 \u062F\u0631\u0628\u0627\u0631
+        \u0645\u0646\u0648\u0686\u0647\u0631 \u0628\u0627\u0632\u06AF\u0634\u062A
+        \u0648 \u062E\u0628\u0631 \u0645\u0648\u0627\u0641\u0642\u062A \u067E\u0627\u062F\u0634\u0627\u0647
+        \u0631\u0627 \u0628\u0647 \u067E\u062F\u0631\u0634 \u0631\u0633\u0627\u0646\u062F.
+        \u0633\u0627\u0645 \u0646\u06CC\u0632 \u06A9\u0647 \u0627\u06A9\u0646\u0648\u0646
+        \u0645\u0627\u0646\u0639\u06CC \u0628\u0631\u0627\u06CC \u0627\u0632\u062F\u0648\u0627\u062C
+        \u0641\u0631\u0632\u0646\u062F\u0634 \u0646\u0645\u06CC\u200C\u062F\u06CC\u062F\u060C
+        \u0628\u0627 \u062E\u0631\u0633\u0646\u062F\u06CC \u067E\u0630\u06CC\u0631\u0641\u062A
+        \u06A9\u0647 \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647
+        \u0628\u0627 \u06CC\u06A9\u062F\u06CC\u06AF\u0631 \u067E\u06CC\u0648\u0646\u062F
+        \u0628\u0628\u0646\u062F\u0646\u062F.\n\n\u067E\u0633 \u0627\u0632 \u0622\u0646\u060C
+        \u0645\u0642\u062F\u0645\u0627\u062A \u062C\u0634\u0646 \u0627\u0632\u062F\u0648\u0627\u062C
+        \u0641\u0631\u0627\u0647\u0645 \u0634\u062F. \u0633\u0627\u0645 \u0648 \u0632\u0627\u0644
+        \u0628\u0647 \u0633\u0648\u06CC \u06A9\u0627\u0628\u0644 \u062D\u0631\u06A9\u062A
+        \u06A9\u0631\u062F\u0646\u062F \u0648 \u0645\u0647\u0631\u0627\u0628 \u0634\u0627\u0647
+        \u0648 \u0633\u06CC\u0646\u062F\u062E\u062A \u0646\u06CC\u0632 \u0628\u0627
+        \u0634\u0627\u062F\u06CC \u0648 \u0627\u062D\u062A\u0631\u0627\u0645 \u0628\u0647
+        \u0627\u0633\u062A\u0642\u0628\u0627\u0644 \u0622\u0646\u0627\u0646 \u0631\u0641\u062A\u0646\u062F.
+        \u0634\u0647\u0631\u06CC \u06A9\u0647 \u062A\u0627 \u0686\u0646\u062F\u06CC
+        \u067E\u06CC\u0634 \u062F\u0631 \u0622\u0633\u062A\u0627\u0646\u0647 \u062C\u0646\u06AF
+        \u0642\u0631\u0627\u0631 \u062F\u0627\u0634\u062A\u060C \u0627\u06A9\u0646\u0648\u0646
+        \u0628\u0631\u0627\u06CC \u0628\u0631\u06AF\u0632\u0627\u0631\u06CC \u062C\u0634\u0646\u06CC
+        \u0628\u0632\u0631\u06AF \u0622\u0645\u0627\u062F\u0647 \u0645\u06CC\u200C\u0634\u062F.\n\n\u0633\u0631\u0627\u0646\u062C\u0627\u0645
+        \u067E\u0633 \u0627\u0632 \u067E\u0634\u062A \u0633\u0631 \u06AF\u0630\u0627\u0634\u062A\u0646
+        \u062F\u0634\u0648\u0627\u0631\u06CC\u200C\u0647\u0627\u06CC \u0641\u0631\u0627\u0648\u0627\u0646\u060C
+        \u0645\u062E\u0627\u0644\u0641\u062A \u062E\u0627\u0646\u0648\u0627\u062F\u0647\u200C\u0647\u0627\u060C
+        \u0646\u06AF\u0631\u0627\u0646\u06CC \u0641\u0631\u0645\u0627\u0646\u0631\u0648\u0627\u06CC\u0627\u0646
+        \u0648 \u062E\u0637\u0631 \u062C\u0646\u06AF\u060C \u0632\u0627\u0644 \u0648
+        \u0631\u0648\u062F\u0627\u0628\u0647 \u0628\u0647 \u0622\u0631\u0632\u0648\u06CC
+        \u062F\u06CC\u0631\u06CC\u0646\u0647 \u062E\u0648\u062F \u0631\u0633\u06CC\u062F\u0646\u062F.
+        \u0645\u0631\u0627\u0633\u0645 \u0627\u0632\u062F\u0648\u0627\u062C \u0622\u0646\u200C\u0647\u0627
+        \u0628\u0627 \u0634\u06A9\u0648\u0647 \u0641\u0631\u0627\u0648\u0627\u0646
+        \u0628\u0631\u06AF\u0632\u0627\u0631 \u0634\u062F \u0648 \u062F\u0648 \u062F\u0644\u062F\u0627\u062F\u0647\u200C\u0627\u06CC
+        \u06A9\u0647 \u0631\u0648\u0632\u06AF\u0627\u0631\u06CC \u062A\u0646\u0647\u0627
+        \u0627\u0632 \u0631\u0627\u0647 \u067E\u06CC\u0627\u0645\u200C\u0647\u0627\u06CC
+        \u067E\u0646\u0647\u0627\u0646\u06CC \u0648 \u062F\u06CC\u062F\u0627\u0631\u0647\u0627\u06CC
+        \u062F\u0648\u0631 \u0627\u0632 \u0686\u0634\u0645 \u062F\u06CC\u06AF\u0631\u0627\u0646
+        \u0628\u0627 \u06CC\u06A9\u062F\u06CC\u06AF\u0631 \u0627\u0631\u062A\u0628\u0627\u0637
+        \u062F\u0627\u0634\u062A\u0646\u062F\u060C \u0627\u06A9\u0646\u0648\u0646
+        \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u0633\u062A\u0646\u062F \u0622\u0634\u06A9\u0627\u0631\u0627
+        \u062F\u0631 \u06A9\u0646\u0627\u0631 \u06CC\u06A9\u062F\u06CC\u06AF\u0631
+        \u0632\u0646\u062F\u06AF\u06CC \u06A9\u0646\u0646\u062F.\n\n\u067E\u06CC\u0648\u0646\u062F
+        \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647 \u0646\u0647\u200C\u062A\u0646\u0647\u0627
+        \u067E\u0627\u06CC\u0627\u0646 \u06CC\u06A9 \u062F\u0648\u0631\u0627\u0646
+        \u062F\u0634\u0648\u0627\u0631\u060C \u0628\u0644\u06A9\u0647 \u0646\u0645\u0627\u062F\u06CC
+        \u0627\u0632 \u067E\u06CC\u0631\u0648\u0632\u06CC \u0639\u0634\u0642\u060C
+        \u062E\u0631\u062F\u0645\u0646\u062F\u06CC \u0648 \u0648\u0641\u0627\u062F\u0627\u0631\u06CC
+        \u0628\u0631 \u062F\u0634\u0645\u0646\u06CC\u200C\u0647\u0627 \u0648 \u0627\u062E\u062A\u0644\u0627\u0641\u0627\u062A
+        \u0628\u0648\u062F. \u0639\u0634\u0642\u06CC \u06A9\u0647 \u062F\u0631 \u0622\u063A\u0627\u0632
+        \u0646\u0627\u0645\u0645\u06A9\u0646 \u0628\u0647 \u0646\u0638\u0631 \u0645\u06CC\u200C\u0631\u0633\u06CC\u062F\u060C
+        \u0628\u0627 \u0634\u062C\u0627\u0639\u062A \u0648 \u067E\u0627\u06CC\u062F\u0627\u0631\u06CC
+        \u062F\u0648 \u062F\u0644\u062F\u0627\u062F\u0647 \u0648 \u062A\u0644\u0627\u0634
+        \u0627\u0641\u0631\u0627\u062F\u06CC \u06A9\u0647 \u0628\u0647 \u0622\u0646\u200C\u0647\u0627
+        \u06CC\u0627\u0631\u06CC \u0631\u0633\u0627\u0646\u062F\u0646\u062F\u060C
+        \u0633\u0631\u0627\u0646\u062C\u0627\u0645 \u0628\u0647 \u062D\u0642\u06CC\u0642\u062A
+        \u067E\u06CC\u0648\u0633\u062A.\n\n\u0628\u0627\u0632\u06CC \xAB\u0632\u0627\u0644
+        \u0648 \u0631\u0648\u062F\u0627\u0628\u0647\xBB \u0628\u0627 \u0627\u0644\u0647\u0627\u0645
+        \u0627\u0632 \u0627\u06CC\u0646 \u0631\u0648\u0627\u06CC\u062A \u0645\u0627\u0646\u062F\u06AF\u0627\u0631
+        \u0634\u0627\u0647\u0646\u0627\u0645\u0647\u060C \u0641\u0631\u0635\u062A\u06CC
+        \u0641\u0631\u0627\u0647\u0645 \u0645\u06CC\u200C\u06A9\u0646\u062F \u062A\u0627
+        \u0628\u0627\u0632\u06CC\u06A9\u0646 \u0627\u0632 \u0632\u0627\u0648\u06CC\u0647\u200C\u0627\u06CC
+        \u0645\u062A\u0641\u0627\u0648\u062A \u0648\u0627\u0631\u062F \u062C\u0647\u0627\u0646
+        \u062F\u0627\u0633\u062A\u0627\u0646 \u0634\u0648\u062F. \u062F\u0631 \u0627\u06CC\u0646
+        \u0628\u0627\u0632\u06CC\u060C \u0628\u0627\u0632\u06CC\u06A9\u0646 \u0628\u0647\u200C\u062C\u0627\u06CC
+        \u0622\u0646\u06A9\u0647 \u062F\u0631 \u0646\u0642\u0634 \u0632\u0627\u0644
+        \u06CC\u0627 \u0631\u0648\u062F\u0627\u0628\u0647 \u0642\u0631\u0627\u0631
+        \u0628\u06AF\u06CC\u0631\u062F\u060C \u0645\u0633\u0626\u0648\u0644\u06CC\u062A
+        \u0646\u0627\u0645\u0647\u200C\u0631\u0633\u0627\u0646\u06CC \u0645\u06CC\u0627\u0646
+        \u0622\u0646 \u062F\u0648 \u0631\u0627 \u0628\u0631 \u0639\u0647\u062F\u0647
+        \u062F\u0627\u0631\u062F \u0648 \u0628\u0627 \u0627\u0646\u062C\u0627\u0645
+        \u0645\u0623\u0645\u0648\u0631\u06CC\u062A\u200C\u0647\u0627 \u0648 \u067E\u0634\u062A
+        \u0633\u0631 \u06AF\u0630\u0627\u0634\u062A\u0646 \u0686\u0627\u0644\u0634\u200C\u0647\u0627\u06CC
+        \u06AF\u0648\u0646\u0627\u06AF\u0648\u0646\u060C \u062F\u0631 \u0645\u0633\u06CC\u0631
+        \u0634\u06A9\u0644\u200C\u06AF\u06CC\u0631\u06CC \u0627\u0631\u062A\u0628\u0627\u0637
+        \u0648 \u0631\u0633\u06CC\u062F\u0646 \u0622\u0646\u200C\u0647\u0627 \u0628\u0647
+        \u06CC\u06A9\u062F\u06CC\u06AF\u0631 \u0645\u0634\u0627\u0631\u06A9\u062A
+        \u0645\u06CC\u200C\u06A9\u0646\u062F.\n\n\u0627\u06CC\u0646 \u0628\u0627\u0632\u06CC
+        \u062A\u0644\u0627\u0634 \u0645\u06CC\u200C\u06A9\u0646\u062F \u0628\u0627
+        \u062A\u0631\u06A9\u06CC\u0628 \u062F\u0627\u0633\u062A\u0627\u0646\u200C\u06AF\u0648\u06CC\u06CC\u060C
+        \u0645\u0627\u062C\u0631\u0627\u062C\u0648\u06CC\u06CC \u0648 \u06AF\u06CC\u0645\u200C\u067E\u0644\u06CC
+        \u062A\u0639\u0627\u0645\u0644\u06CC\u060C \u06CC\u06A9\u06CC \u0627\u0632
+        \u0632\u06CC\u0628\u0627\u062A\u0631\u06CC\u0646 \u062F\u0627\u0633\u062A\u0627\u0646\u200C\u0647\u0627\u06CC
+        \u0627\u062F\u0628\u06CC\u0627\u062A \u0641\u0627\u0631\u0633\u06CC \u0631\u0627
+        \u0628\u0647 \u0634\u06A9\u0644\u06CC \u062A\u0627\u0632\u0647 \u0628\u0631\u0627\u06CC
+        \u0645\u062E\u0627\u0637\u0628\u0627\u0646 \u0631\u0648\u0627\u06CC\u062A
+        \u06A9\u0646\u062F. \u0628\u0627\u0632\u06CC\u06A9\u0646 \u062F\u0631 \u0637\u0648\u0644
+        \u0627\u06CC\u0646 \u062A\u062C\u0631\u0628\u0647\u060C \u0639\u0644\u0627\u0648\u0647
+        \u0628\u0631 \u0622\u0634\u0646\u0627\u06CC\u06CC \u0628\u0627 \u0634\u062E\u0635\u06CC\u062A\u200C\u0647\u0627
+        \u0648 \u0631\u0648\u06CC\u062F\u0627\u062F\u0647\u0627\u06CC \u0634\u0627\u0647\u0646\u0627\u0645\u0647\u060C
+        \u0627\u0647\u0645\u06CC\u062A \u0648\u0641\u0627\u062F\u0627\u0631\u06CC\u060C
+        \u0634\u062C\u0627\u0639\u062A\u060C \u062A\u0644\u0627\u0634 \u0648 \u0627\u0645\u06CC\u062F
+        \u0631\u0627 \u0646\u06CC\u0632 \u062F\u0631 \u062C\u0631\u06CC\u0627\u0646
+        \u062F\u0627\u0633\u062A\u0627\u0646 \u0644\u0645\u0633 \u062E\u0648\u0627\u0647\u062F
+        \u06A9\u0631\u062F.\n\n\u062F\u0631 \u062F\u0627\u0633\u062A\u0627\u0646
+        \u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647\u060C \u0642\u0647\u0631\u0645\u0627\u0646\u06CC
+        \u0647\u0645\u06CC\u0634\u0647 \u0628\u0647 \u0645\u0639\u0646\u0627\u06CC
+        \u062C\u0646\u06AF\u06CC\u062F\u0646 \u0628\u0627 \u062F\u0634\u0645\u0646\u0627\u0646
+        \u0646\u06CC\u0633\u062A\u061B \u06AF\u0627\u0647\u06CC \u0631\u0633\u0627\u0646\u062F\u0646
+        \u06CC\u06A9 \u067E\u06CC\u0627\u0645\u060C \u062D\u0641\u0638 \u06CC\u06A9
+        \u0631\u0627\u0632 \u0648 \u06A9\u0645\u06A9 \u0628\u0647 \u062F\u0648 \u0627\u0646\u0633\u0627\u0646
+        \u0628\u0631\u0627\u06CC \u0631\u0633\u06CC\u062F\u0646 \u0628\u0647 \u06CC\u06A9\u062F\u06CC\u06AF\u0631
+        \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u062F \u0628\u0647\u200C\u0627\u0646\u062F\u0627\u0632\u0647
+        \u0628\u0632\u0631\u06AF\u200C\u062A\u0631\u06CC\u0646 \u062F\u0644\u0627\u0648\u0631\u06CC\u200C\u0647\u0627
+        \u0627\u0647\u0645\u06CC\u062A \u062F\u0627\u0634\u062A\u0647 \u0628\u0627\u0634\u062F.\n\n\u0648
+        \u0627\u06CC\u0646 \u0628\u0627\u0631\u060C \u062F\u0631 \u0628\u0627\u0632\u06CC
+        \xAB\u0632\u0627\u0644 \u0648 \u0631\u0648\u062F\u0627\u0628\u0647\xBB\u060C
+        \u0628\u0627\u0632\u06CC\u06A9\u0646 \u0647\u0645\u0627\u0646 \u0646\u0627\u0645\u0647\u200C\u0631\u0633\u0627\u0646\u06CC
+        \u0627\u0633\u062A \u06A9\u0647 \u062F\u0631 \u0645\u0633\u06CC\u0631 \u067E\u06CC\u0648\u0646\u062F
+        \u0627\u06CC\u0646 \u062F\u0648 \u062F\u0644\u062F\u0627\u062F\u0647 \u0646\u0642\u0634\u200C\u0622\u0641\u0631\u06CC\u0646\u06CC
+        \u0645\u06CC\u200C\u06A9\u0646\u062F \u0648 \u062F\u0627\u0633\u062A\u0627\u0646
+        \u0631\u0627 \u0627\u0632 \u0646\u062E\u0633\u062A\u06CC\u0646 \u067E\u06CC\u0627\u0645\u200C\u0647\u0627\u06CC
+        \u0639\u0627\u0634\u0642\u0627\u0646\u0647 \u062A\u0627 \u062C\u0634\u0646
+        \u0627\u0632\u062F\u0648\u0627\u062C \u0622\u0646\u200C\u0647\u0627 \u062A\u062C\u0631\u0628\u0647
+        \u062E\u0648\u0627\u0647\u062F \u06A9\u0631\u062F."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500029579976567315, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_Name
+      value: Description
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 814.5743
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 7232.044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+--- !u!1001 &1303754179
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4642038931288661719, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_Name
+      value: Navigation Animator Canv
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532417457459877890, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77bb2446974d4fa4d8b3f6cbf2a2a379, type: 3}
+--- !u!1 &1436490889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1436490893}
+  - component: {fileID: 1436490892}
+  - component: {fileID: 1436490891}
+  - component: {fileID: 1436490890}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1436490890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436490889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1436490891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436490889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1436490892
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436490889}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1436490893
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436490889}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1891095387}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!224 &1564749968 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6790723524061935285, guid: d4e7ea3abb1a8c542a1e27a0a3aed9aa, type: 3}
+  m_PrefabInstance: {fileID: 1080941208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1642482763
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1891095387}
+    m_Modifications:
+    - target: {fileID: 1271652245467899298, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_Name
+      value: Back Btn
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593194696679603533, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -776618775, guid: 534724ff27d82384bb8da2ea3e572bff, type: 3}
+    - target: {fileID: 4613220489032777353, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613220489032777353, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613220489032777353, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1642482765}
+    - target: {fileID: 4613220489032777353, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613220489032777353, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySoundEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613220489032777353, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: SounEffectPlayer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613220489032777353, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 34.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 168174893}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+--- !u!224 &1642482764 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8370008806359062813, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+  m_PrefabInstance: {fileID: 1642482763}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1642482765 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5623996209458255939, guid: d66d08a4fa543d64faf337a8e3fc983f, type: 3}
+  m_PrefabInstance: {fileID: 1642482763}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8416ba49c3ca5274fadac7cc160dba02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SounEffectPlayer
+--- !u!1 &1891095386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1891095387}
+  m_Layer: 5
+  m_Name: Safe Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1891095387
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891095386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1642482764}
+  - {fileID: 2075197563}
+  m_Father: {fileID: 1436490893}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -50, y: -30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2075197562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2075197563}
+  - component: {fileID: 2075197565}
+  - component: {fileID: 2075197564}
+  m_Layer: 5
+  m_Name: Skins Scroll Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2075197563
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075197562}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 21524727}
+  m_Father: {fileID: 1891095387}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2075197564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075197562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RectMask2D
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
+--- !u!114 &2075197565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075197562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ScrollRect
+  m_Content: {fileID: 21524727}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 0}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 270162955}
+  - {fileID: 1436490893}
+  - {fileID: 329352678}
+  - {fileID: 1303754179}

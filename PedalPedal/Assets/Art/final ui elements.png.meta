@@ -829,6 +829,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: button_outline
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 118
+        width: 201
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 30, z: 30, w: 30}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ab3f2ede0760040ad4d27df870e443
+      internalID: 444640881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -846,6 +868,7 @@ TextureImporter:
       Amount Container: -1260267894
       button primary: 215960847
       button secondary: -29969720
+      button_outline: 444640881
       circle btn primary: -5232377973822579622
       circle btn secondary: 1585677973
       coin get message: 61565385

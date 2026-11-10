@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using ArabicTextSupport;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class ShopManager : MonoBehaviour
@@ -10,6 +11,10 @@ public class ShopManager : MonoBehaviour
     public PlayerSkinController playerSkinController;
 
     public event Action OnDataChanged;
+
+    public UnityEvent onBuy;
+    public UnityEvent onSelect;
+    public UnityEvent onCantBuy;
 
     public List<int> skinPrices = new List<int>();
 
@@ -45,8 +50,7 @@ public class ShopManager : MonoBehaviour
         playerSkinController.ChangeSkin(skinID);
         selectedSkinID = skinID;
 
-        if (OnDataChanged != null)
-            OnDataChanged();
+        OnDataChanged?.Invoke();
 
         UpdateActionButton();
     }
@@ -104,7 +108,7 @@ public class ShopManager : MonoBehaviour
         OnDataChanged?.Invoke();
         UpdateActionButton();
 
-        // play purchase sound
+        onBuy?.Invoke();
     }
 
     private void SelectSkin(int skinID)
@@ -114,16 +118,23 @@ public class ShopManager : MonoBehaviour
         SaveData();
         OnDataChanged?.Invoke();
         UpdateActionButton();
+
+        onSelect?.Invoke();
     }
 
     private void CantBuySkin()
     {
-        // play error sound
+        onCantBuy?.Invoke();
     }
 
     private void UpdateCoinAmount()
     {
         coinAmountText.Text = playerData.coinAmount.ToString();
+    }
+
+    public bool HasThisSkin(int _skinID)
+    {
+        return playerData.ownedSkins.Contains(_skinID);
     }
 
     private void SaveData()
