@@ -5286,7 +5286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4401297427463211514, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
       propertyPath: arabicText
-      value: "\u062F\u0627\u0633\u062A\u0627\u0646"
+      value: "\u0642\u0635\u0647\u200C\u0646\u0627\u0645\u0647"
       objectReference: {fileID: 0}
     - target: {fileID: 6623312532037804204, guid: 6c4cd69858129b24d88da9c9b54853cf, type: 3}
       propertyPath: m_Name
