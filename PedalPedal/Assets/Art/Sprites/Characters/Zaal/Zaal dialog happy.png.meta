@@ -142,12 +142,12 @@ TextureImporter:
       name: Zaal dialog happy_0
       rect:
         serializedVersion: 2
-        x: 63
-        y: 137
-        width: 1246
-        height: 1225
+        x: 38
+        y: 110
+        width: 1116
+        height: 1074
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -164,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a56316b8c9256364e8f6f4e97c4abace
     internalID: 0
     vertices: []
     indices: 
