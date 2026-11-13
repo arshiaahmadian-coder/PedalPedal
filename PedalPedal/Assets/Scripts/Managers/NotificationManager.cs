@@ -1,14 +1,17 @@
 using ArabicTextSupport;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class NotificationManager : MonoBehaviour
 {
+    public UnityEvent onWindowClosed;
     [SerializeField] private GameObject darkBG;
     [Header("small window")]
     [SerializeField] private GameObject smallNotifWindow;
     [SerializeField] private ArabicUIText messageText;
     [SerializeField] private ArabicUIText buttonText;
     [Header("coin window")]
+    public UnityEvent onCoinWindowOpend;
     [SerializeField] private GameObject coinNotifWindow;
     [SerializeField] private ArabicUIText coinMessageText;
 
@@ -31,6 +34,7 @@ public class NotificationManager : MonoBehaviour
 
     public void CloseWindw()
     {
+        onWindowClosed?.Invoke();
         darkBG.SetActive(false);
         smallNotifWindow.SetActive(false);
         coinNotifWindow.SetActive(false);
@@ -41,6 +45,6 @@ public class NotificationManager : MonoBehaviour
         darkBG.SetActive(true);
         coinNotifWindow.SetActive(true);
         coinMessageText.Text = amount.ToString();
+        onCoinWindowOpend?.Invoke();
     }
-
 }

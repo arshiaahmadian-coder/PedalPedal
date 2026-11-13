@@ -41,6 +41,9 @@ public class LevelManager : MonoBehaviour
     [SerializeField] Sprite falseStar;
     [SerializeField] Sprite trueStar;
 
+    [Header("Stop Menu")]
+    [SerializeField] Animator StopMenuAnimator;
+
     private int gameStage = 0;
     private bool playerHasLatter = false;
     public static LevelManager instance;
@@ -223,5 +226,15 @@ public class LevelManager : MonoBehaviour
             playerData.lastUnlockedLevelID = levelData.levelID + 1; // new level unlocked
 
         SaveLoadManager.GetInstnce().Save(playerData, SaveLoadManager.GetInstnce().DataFileName);
+    }
+
+    public void StopGame()
+    {
+        StopMenuAnimator.SetBool("IsOpen", true);
+    }
+
+    public void ResumGame()
+    {
+        StopMenuAnimator.SetBool("IsOpen", false);
     }
 }

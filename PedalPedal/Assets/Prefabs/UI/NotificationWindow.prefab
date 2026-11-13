@@ -118,6 +118,7 @@ GameObject:
   - component: {fileID: 3701130158837157843}
   - component: {fileID: 8121253435642210355}
   - component: {fileID: 4536083967504971780}
+  - component: {fileID: 6211163268188008631}
   m_Layer: 5
   m_Name: NotificationWindow
   m_TagString: Untagged
@@ -222,12 +223,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f2a9d8eea66b414795e37342f739ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NotificationManager
+  onWindowClosed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6211163268188008631}
+        m_TargetAssemblyTypeName: SounEffectPlayer, Assembly-CSharp
+        m_MethodName: PlaySoundEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   darkBG: {fileID: 289515762986749648}
   smallNotifWindow: {fileID: 5960031083302843803}
   messageText: {fileID: 9176420278527811182}
   buttonText: {fileID: 5058830540963370249}
+  onCoinWindowOpend:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 995492744300050477}
+        m_TargetAssemblyTypeName: SounEffectPlayer, Assembly-CSharp
+        m_MethodName: PlaySoundEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   coinNotifWindow: {fileID: 6622315620330776283}
   coinMessageText: {fileID: 2981487979397267654}
+--- !u!114 &6211163268188008631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4877069234624830370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8416ba49c3ca5274fadac7cc160dba02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SounEffectPlayer
+  audioClips:
+  - {fileID: 8300000, guid: 0d3aa4bd3fcd1624593fdedd0bf5ae73, type: 3}
+  pitchRatio: 0.05
 --- !u!1 &5960031083302843803
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,6 +321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2723750742845282360}
+  - component: {fileID: 995492744300050477}
   m_Layer: 5
   m_Name: coin popup
   m_TagString: Untagged
@@ -303,6 +350,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -14.7909}
   m_SizeDelta: {x: 308.0778, y: 121.4644}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &995492744300050477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6622315620330776283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8416ba49c3ca5274fadac7cc160dba02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SounEffectPlayer
+  audioClips:
+  - {fileID: 8300000, guid: c22869a558ce1cb488dad2436403c41e, type: 3}
+  pitchRatio: 0
 --- !u!1 &7768901820382457415
 GameObject:
   m_ObjectHideFlags: 0

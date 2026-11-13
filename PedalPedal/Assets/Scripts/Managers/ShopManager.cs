@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using ArabicTextSupport;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class ShopManager : MonoBehaviour
@@ -12,9 +11,8 @@ public class ShopManager : MonoBehaviour
 
     public event Action OnDataChanged;
 
-    public UnityEvent onBuy;
-    public UnityEvent onSelect;
-    public UnityEvent onCantBuy;
+    [SerializeField] private AudioClip[] audioClips;
+    [SerializeField] private float pitchRatio;
 
     public List<int> skinPrices = new List<int>();
 
@@ -108,7 +106,7 @@ public class ShopManager : MonoBehaviour
         OnDataChanged?.Invoke();
         UpdateActionButton();
 
-        onBuy?.Invoke();
+        SoundManager.GetInstnce().PlaySoundEffect(audioClips[0], pitchRatio);
     }
 
     private void SelectSkin(int skinID)
@@ -119,12 +117,12 @@ public class ShopManager : MonoBehaviour
         OnDataChanged?.Invoke();
         UpdateActionButton();
 
-        onSelect?.Invoke();
+        SoundManager.GetInstnce().PlaySoundEffect(audioClips[1], pitchRatio);
     }
 
     private void CantBuySkin()
     {
-        onCantBuy?.Invoke();
+        SoundManager.GetInstnce().PlaySoundEffect(audioClips[2], pitchRatio);
     }
 
     private void UpdateCoinAmount()
